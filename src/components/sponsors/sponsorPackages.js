@@ -176,7 +176,6 @@ export default function SponsorPackages() {
         </section>
 
         {/* InfoZone Partner 
-        {/* InfoZone Partner 
         <section className="mb-16">
           <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
             <div>
@@ -259,7 +258,7 @@ export default function SponsorPackages() {
               </div>
             </div>
           </div>
-        </section>
+        </section>*/}
 
         {/* Interface Journal Add-On */}
         <section className="mt-16 mb-32">
