@@ -16,26 +16,37 @@ const IconLinksRT = () => {
     return ['bg-wri-green', 'bg-wri-blue'];
   }, [router.pathname]);
 
+  const getRestingBackgroundColor = useMemo(() => {
+    if (router.pathname.includes('principles-course')) {
+      return ['bg-wri-green', 'bg-wri-neutral'];
+    } else if (router.pathname.includes('rail-transit-seminar')) {
+      return ['bg-wri-neutral', 'bg-wri-blue'];
+    }
+
+    return ['bg-wri-green', 'bg-wri-blue'];
+  }, [router.pathname]);
+
   const icons = useMemo(
-    () => [
-      {
-        src: '/principles-icon.svg',
-        title: 'Principles Course',
-        date: 'August 26, 2025',
-        restingBgColor: 'bg-wri-green',
-      },
-      {
-        href: 'rail-transit-seminar',
-        src: '/rail-transit.svg',
-        title: 'Rail Transit Seminar',
-        date: 'August 27-28, 2025',
-        restingBgColor: 'bg-wri-blue',
-        hoverBorderColor: 'hover:border-wri-green',
-        hoverBgColor: 'hover:bg-wri-blue',
-      },
-    ],
-    [],
-  );
+  () => [
+    {
+      href: 'principles-course',
+      src: '/principles-icon.svg',
+      title: 'Principles Course',
+      date: 'August 26, 2025',
+      hoverBorderColor: 'hover:border-wri-yellow',
+      hoverBgColor: 'hover:bg-wri-green',
+    },
+    {
+      href: 'rail-transit-seminar',
+      src: '/rail-transit.svg',
+      title: 'Rail Transit Seminar',
+      date: 'August 27-28, 2025',
+      hoverBorderColor: 'hover:border-wri-green',
+      hoverBgColor: 'hover:bg-wri-blue',
+    },
+  ],
+  [],
+);
 
   return (
     <div className="btn_wrapper" data-aos="fade-up" id="icons">
