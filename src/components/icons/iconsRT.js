@@ -6,48 +6,47 @@ import { useMemo } from 'react';
 const IconLinksRT = () => {
   const router = useRouter();
 
+  const getRestingBackgroundColor = useMemo(() => {
+    if (router.pathname.includes('principles-course')) {
+      return ['bg-wri-green', 'bg-wri-neutral'];
+    } else if (router.pathname.includes('rail-transit-seminar')) {
+      return ['bg-wri-neutral', 'bg-wri-blue'];
+    }
+
+    return ['bg-wri-green', 'bg-wri-blue'];
+  }, [router.pathname]);
+
   const icons = useMemo(
     () => [
       {
-        href: '#',
         src: '/principles-icon.svg',
         title: 'Principles Course',
         date: 'August 26, 2025',
-        hoverBorderColor: 'hover:border-wri-yellow',
-        hoverBgColor: 'hover:bg-wri-green',
+        restingBgColor: 'bg-wri-green',
       },
       {
-        href: '#',
+        href: 'rail-transit-seminar',
         src: '/rail-transit.svg',
         title: 'Rail Transit Seminar',
         date: 'August 27-28, 2025',
-        hoverBorderColor: 'hover:border-wri-red',
+        restingBgColor: 'bg-wri-blue',
+        hoverBorderColor: 'hover:border-wri-green',
         hoverBgColor: 'hover:bg-wri-blue',
       },
     ],
     [],
   );
 
-  const getRestingBackgroundColor = useMemo(() => {
-    const backgrounds = ['bg-wri-green', 'bg-wri-blue', 'bg-wri-red'];
-    if (router.pathname.includes('rail-transit')) {
-      backgrounds[1] = backgrounds[2] = 'bg-wri-neutral';
-    } else if (router.pathname.includes('principles-course')) {
-      backgrounds[0] = backgrounds[2] = 'bg-wri-neutral';
-    } else if (router.pathname.includes('heavy-haul')) {
-      backgrounds[0] = backgrounds[1] = 'bg-wri-neutral';
-    }
-    return backgrounds;
-  }, [router.pathname]);
-
   return (
     <div className="btn_wrapper" data-aos="fade-up" id="icons">
       <div className="container">
         <ul className="flex flex-wrap">
-          {icons.map((icon, index) => (
-            <Link href={icon.href} key={icon.href}>
+          {icons.map((icon, index) => {
+            const content = (
               <li
-                className={`border-2 border-white shadow-lg ${getRestingBackgroundColor[index]} ${icon.hoverBorderColor} ${icon.hoverBgColor}`}
+                className={`border-2 border-white shadow-lg ${icon.restingBgColor} ${
+                  icon.hoverBorderColor || ''
+                } ${icon.hoverBgColor || ''}`}
               >
                 <figure>
                   <Image
@@ -59,14 +58,20 @@ const IconLinksRT = () => {
                   />
                 </figure>
                 <div className="text">
-                  <h4 className="text-2xl font-bold text-white">
-                    {icon.title}
-                  </h4>
+                  <h4 className="text-2xl font-bold text-white">{icon.title}</h4>
                   <p className="text-2xl font-normal text-white">{icon.date}</p>
                 </div>
               </li>
-            </Link>
-          ))}
+            );
+
+            return icon.href ? (
+              <Link href={icon.href} key={icon.title}>
+                {content}
+              </Link>
+            ) : (
+              <div key={icon.title}>{content}</div>
+            );
+          })}
         </ul>
       </div>
     </div>

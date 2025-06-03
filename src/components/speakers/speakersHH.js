@@ -6,7 +6,7 @@ import StoryblokClient from 'storyblok-js-client';
 // Initialize Storyblok client
 const Storyblok = new StoryblokClient({
   accessToken: process.env.NEXT_PUBLIC_STORYBLOK_PREVIEW_TOKEN,
-  region: "us",
+  region: 'us',
 });
 
 const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
@@ -81,7 +81,7 @@ const SpeakersHH = () => {
       try {
         const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || 'published'; // Fallback to 'published' if the variable is not set
         const response = await Storyblok.get('cdn/stories', {
-          starts_with: 'wri-conferences/speaker-cards-hh/',
+          starts_with: 'wri-2025-rt/speaker-cards-hh/',
           version: version,
         });
 
@@ -97,7 +97,6 @@ const SpeakersHH = () => {
   return (
     <section className="mb-20 bg-white">
       <div className="container">
-
         <div className="container p-4 mx-auto">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {speakers.map(speaker => (

@@ -1,23 +1,23 @@
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import StoryblokClient from "storyblok-js-client";
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import StoryblokClient from 'storyblok-js-client';
 
 // Initialize Storyblok client
 const Storyblok = new StoryblokClient({
   accessToken: process.env.NEXT_PUBLIC_STORYBLOK_PREVIEW_TOKEN,
-  region: "us",
+  region: 'us',
 });
 
-const generateSlug = (fullName) => {
-  if (typeof fullName !== "string" || fullName.trim().length === 0) {
-    console.warn("generateSlug was called without a valid name");
-    return "";
+const generateSlug = fullName => {
+  if (typeof fullName !== 'string' || fullName.trim().length === 0) {
+    console.warn('generateSlug was called without a valid name');
+    return '';
   }
 
   // Split the name into parts and then take the first letter of the first name
   const parts = fullName.trim().split(/\s+/); // Split on any whitespace
   const firstNameInitial = parts[0][0]; // Get the first character of the first name
-  const lastName = parts.length > 1 ? parts[parts.length - 1] : ""; // Safely get the last name
+  const lastName = parts.length > 1 ? parts[parts.length - 1] : ''; // Safely get the last name
 
   // Combine the first name initial with the last name, both in lowercase
   const slug = `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
@@ -69,16 +69,16 @@ const AbstractSection = ({ topic, abstract1, abstract2 }) => {
     <div className="flex flex-col lg:flex-row lg:items-start mt-16">
       <div className="flex w-full md:w-1/5 lg:mx-24 mb-8 lg:mt-20 justify-center">
         <div classname="flex">
-        <figure>
-          <Image
-            src="/rail-transit-icon-blue.svg"
-            width={360}
-            height={200}
-            alt="Principles icon"
-            className="w-full text-wri-blue fill-current"
-          />
-        </figure>
-        <h2 className="text-2xl text-wri-blue mt-4">ABSTRACT</h2>
+          <figure>
+            <Image
+              src="/rail-transit-icon-blue.svg"
+              width={360}
+              height={200}
+              alt="Principles icon"
+              className="w-full text-wri-blue fill-current"
+            />
+          </figure>
+          <h2 className="text-2xl text-wri-blue mt-4">ABSTRACT</h2>
         </div>
       </div>
       <div className="w-full md:w-4/5 bg-wri-blue/20 p-8">
@@ -88,7 +88,7 @@ const AbstractSection = ({ topic, abstract1, abstract2 }) => {
             <p>{abstract1}</p>
           </div>
           <div className="flex-1">
-            {abstract2 && <p>{abstract2}</p>}{" "}
+            {abstract2 && <p>{abstract2}</p>}{' '}
             {/* Conditional rendering for abstract2 */}
           </div>
         </div>
@@ -101,7 +101,7 @@ const AbstractSection = ({ topic, abstract1, abstract2 }) => {
 const TopicLayout = ({ speakers, topic, abstract1, abstract2 }) => {
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden mb-8">
-      {speakers.map((speaker) => (
+      {speakers.map(speaker => (
         <SpeakerCard key={generateSlug(speaker.name)} {...speaker} />
       ))}
       <AbstractSection
@@ -123,53 +123,53 @@ const BiosAbstractsRT = () => {
     const fetchTopics = async () => {
       try {
         const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || 'published'; // Fallback to 'published' if not set
-        const response = await Storyblok.get("cdn/stories", {
-          starts_with: "wri-conferences/bios-abstract-rt",
+        const response = await Storyblok.get('cdn/stories', {
+          starts_with: 'wri-2025-rt/bios-abstract-rt',
           version: version,
         });
 
-            // Process fetched topics to group by shared topics
-            let topicsByTitle = {};
-            response.data.stories.forEach((story) => {
-              let speakerData = {
-                name: story.content.name,
-                company: story.content.company,
-                imageSrc: story.content.imageSrc,
-                title: story.content.title,
-                bio1: story.content.bio1,
-                bio2: story.content.bio2,
-              };
+        // Process fetched topics to group by shared topics
+        let topicsByTitle = {};
+        response.data.stories.forEach(story => {
+          let speakerData = {
+            name: story.content.name,
+            company: story.content.company,
+            imageSrc: story.content.imageSrc,
+            title: story.content.title,
+            bio1: story.content.bio1,
+            bio2: story.content.bio2,
+          };
 
-              // Group speakers by topic
-              if (topicsByTitle[story.content.topic]) {
-                topicsByTitle[story.content.topic].speakers.push(speakerData);
-              } else {
-                topicsByTitle[story.content.topic] = {
-                  topic: story.content.topic,
-                  content1: story.content.abstract1,
-                  content2: story.content.abstract2,
-                  speakers: [speakerData],
-                };
-              }
-            });
-
-            setGroupedTopics(Object.values(topicsByTitle));
-            setLoading(false);
-          } catch (error) {
-            console.error("Error fetching topics:", error);
-            setLoading(false);
+          // Group speakers by topic
+          if (topicsByTitle[story.content.topic]) {
+            topicsByTitle[story.content.topic].speakers.push(speakerData);
+          } else {
+            topicsByTitle[story.content.topic] = {
+              topic: story.content.topic,
+              content1: story.content.abstract1,
+              content2: story.content.abstract2,
+              speakers: [speakerData],
+            };
           }
-        };
+        });
 
-        fetchTopics();
-      }, []);
+        setGroupedTopics(Object.values(topicsByTitle));
+        setLoading(false);
+      } catch (error) {
+        console.error('Error fetching topics:', error);
+        setLoading(false);
+      }
+    };
+
+    fetchTopics();
+  }, []);
 
   // Scroll to the element after it has been loaded because it's not in place in time for the browser to scroll down on first page load
   useEffect(() => {
     if (!loading) {
       const hash = window.location.hash;
       if (hash) {
-        const id = hash.replace("#", "");
+        const id = hash.replace('#', '');
         const element = document.getElementById(id);
         if (element) {
           setTimeout(() => {
@@ -189,7 +189,7 @@ const BiosAbstractsRT = () => {
       <h2 className="text-center text-5xl font-normal pb-11 leading-normal">
         <span className="text-wri-blue">
           <b>Rail Transit Seminar</b>
-        </span>{" "}
+        </span>{' '}
         2024 Speaker Bios/Abstracts
       </h2>
       {groupedTopics.length > 0 ? (

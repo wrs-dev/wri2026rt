@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import { ChevronDoubleRightIcon } from "@heroicons/react/16/solid";
-import StoryblokClient from "storyblok-js-client";
+import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { ChevronDoubleRightIcon } from '@heroicons/react/16/solid';
+import StoryblokClient from 'storyblok-js-client';
 
 // Initialize Storyblok client
 const Storyblok = new StoryblokClient({
   accessToken: process.env.NEXT_PUBLIC_STORYBLOK_PREVIEW_TOKEN,
-  region: "us",
+  region: 'us',
 });
 
 const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
@@ -52,16 +52,16 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
   );
 };
 
-const generateSlug = (fullName) => {
-  if (typeof fullName !== "string" || fullName.trim().length === 0) {
-    console.warn("generateSlug was called without a valid name");
-    return "";
+const generateSlug = fullName => {
+  if (typeof fullName !== 'string' || fullName.trim().length === 0) {
+    console.warn('generateSlug was called without a valid name');
+    return '';
   }
 
   // Split the name into parts and then take the first letter of the first name
   const parts = fullName.trim().split(/\s+/); // Split on any whitespace
   const firstNameInitial = parts[0][0]; // Get the first character of the first name
-  const lastName = parts.length > 1 ? parts[parts.length - 1] : ""; // Safely get the last name
+  const lastName = parts.length > 1 ? parts[parts.length - 1] : ''; // Safely get the last name
 
   // Combine the first name initial with the last name, both in lowercase
   const slug = `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
@@ -75,15 +75,15 @@ const SpeakersRT = () => {
   useEffect(() => {
     const fetchSpeakerCards = async () => {
       try {
-        const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || "published"; // Fallback to 'published' if the variable is not set
-        const response = await Storyblok.get("cdn/stories", {
-          starts_with: "wri-conferences/speaker-cards-rt/",
+        const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || 'published'; // Fallback to 'published' if the variable is not set
+        const response = await Storyblok.get('cdn/stories', {
+          starts_with: 'wri-2025-rt/speaker-cards-rt/',
           version: version,
         });
 
-        setSpeakers(response.data.stories.map((story) => story.content));
+        setSpeakers(response.data.stories.map(story => story.content));
       } catch (error) {
-        console.error("Error fetching speaker cards:", error);
+        console.error('Error fetching speaker cards:', error);
       }
     };
 
@@ -91,7 +91,7 @@ const SpeakersRT = () => {
       /*const fetchSpeakerCards = async () => {
         try {
           const response = await Storyblok.get("cdn/stories", {
-            starts_with: "wri-conferences/speaker-cards-rt/",
+            starts_with: "wri-2025-rt/speaker-cards-rt/",
             version: "published",
           });
 
@@ -109,20 +109,20 @@ const SpeakersRT = () => {
     <section className="bg-white mb-20">
       <div className="container">
         <h2 className="text-center text-5xl font-normal pb-11">
-          Meet the{" "}
+          Meet the{' '}
           <span className="text-wri-blue">
             <b>2024 Rail Transit Seminar</b>
-          </span>{" "}
+          </span>{' '}
           Speakers
         </h2>
         <div className="container mx-auto p-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
-            {speakers.map((speaker) => (
+            {speakers.map(speaker => (
               <SpeakerCard
                 key={speaker.name}
                 {...speaker}
                 bioLink={`/rail-transit-seminar-bios-abstracts#bio-${generateSlug(
-                  speaker.name
+                  speaker.name,
                 )}`}
               />
             ))}

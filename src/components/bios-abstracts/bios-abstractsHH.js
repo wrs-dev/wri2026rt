@@ -121,9 +121,9 @@ const BiosAbstractsHH = () => {
   useEffect(() => {
     const fetchTopics = async () => {
       try {
-        const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || "published"; // Fallback to 'published' if not set
-        const response = await Storyblok.get("cdn/stories", {
-          starts_with: "wri-conferences/bios-abstract-hh",
+        const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || 'published'; // Fallback to 'published' if not set
+        const response = await Storyblok.get('cdn/stories', {
+          starts_with: 'wri-2025-rt/bios-abstract-hh',
           version: version,
         });
 

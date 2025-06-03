@@ -1,6 +1,6 @@
 import Navigation from '@/components/navigation';
 import Banner25RT30th from '@/components/banner/wri25RT-30th';
-import IconsRT from '@/components/icons/iconsRT-nolink';
+import IconsRT from '@/components/icons/iconsRT';
 import Intro from '@/components/intro';
 {/* import CallForPapers from '@/components/call-for-papers'; */}
 import Registration from '@/components/registration';
@@ -29,7 +29,7 @@ export default function Home() {
       <Navigation />
       <Banner25RT30th />
       <h3 className="mt-12 mb-6 text-xl font-light text-center sm:text-4xl font-wri">
-      Speakers and agenda to be announced soon!
+      Principles Course Speakers to be Announced Soon
         </h3>
       <IconsRT />
 
