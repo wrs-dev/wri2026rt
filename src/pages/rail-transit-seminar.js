@@ -4,24 +4,19 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Banner25RT30th from '@/components/banner/wri25RT-30th';
 import IconLinks from '@/components/icons/iconsRT';
-import Banner25RT30th from '@/components/banner/wri25RT-30th';
-import IconLinks from '@/components/icons/iconsRT';
 import Navigation from '@/components/navigation';
 // import FeatureSpeaker from '@/components/speakers/featureSpeaker';
 // import FocusTopicRT from '@/components/speakers/focusTopicRT';
 import SpeakersRT from '@/components/speakers/speakersRT';
 import Registration from '@/components/registration';
-import SponsorsCloud from '@/components/sponsors';
+// import SponsorsCloud from '@/components/sponsors';
 
 export async function getStaticProps() {
   return {
     props: {
       title: "WRI 2025 | Rail Transit Seminar Speakers",
       description: "Speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)",
-      socialImage: "/wri2025-social.png" 
-      title: "WRI 2025 | Rail Transit Seminar Speakers",
-      description: "Speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)",
-      socialImage: "/wri2025-social.png" 
+      socialImage: "/wri2025-social.png"
     }
   };
 }
@@ -33,7 +28,7 @@ const RailTransitSeminarPage = () => {
       <Banner25RT30th />
       <IconLinks />
 
-      {/* Moved Seminar Info Block Here */}
+      {/* Seminar Info Block */}
       <div className="flex flex-wrap justify-center">
         <div className="w-full px-4 mx-auto mb-24 max-w-7xl">
           <div className="flex flex-wrap -mx-4">
@@ -47,21 +42,17 @@ const RailTransitSeminarPage = () => {
                 August 27-28, 2025
               </h3>
               <p className="pt-2 pb-6">
-                <span className="font-bold text-wri-blue">
-                  The Rail Transit Seminar
-                </span>{' '}
+                <span className="font-bold text-wri-blue">The Rail Transit Seminar</span>{' '}
                 is devoted to examining wheel/rail and vehicle/track
                 interaction on light rail and subway operations.
               </p>
               <p>
-                Some examples of Cross-disciplinary sessions that have been
-                covered in the past include vehicle/track dynamics, noise &
-                vibration, wheel/rail profile design & maintenance, and
-                friction management. Join transit professionals, government
-                regulators, researchers, suppliers and consultants for
-                presentations and discussions in order to gain a better
-                understanding of the complex interaction unique to the rail
-                transit wheel/rail interface.
+                Some examples of cross-disciplinary sessions that have been
+                covered in the past include vehicle/track dynamics, noise & vibration,
+                wheel/rail profile design & maintenance, and friction management.
+                Join transit professionals, government regulators, researchers, suppliers,
+                and consultants for presentations and discussions in order to gain a better
+                understanding of the complex interaction unique to the rail transit wheel/rail interface.
               </p>
               <h2 className="mt-16 seminar-discount-header">
                 WRI 2025 Discount Programs:
@@ -77,12 +68,12 @@ const RailTransitSeminarPage = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {' '}
                   Attendees praise the high-quality presenters & topics, and
                   inclusive approach to dining and networking.
                 </a>
               </p>
             </div>
+
             <div className="w-full p-8 border-l-2 lg:w-2/6 bg-wri-blue/20 border-wri-blue">
               <h2 className="pt-0 pb-4 seminar-header text-wri-blue/90">
                 YOUR REGISTRATION INCLUDES:
@@ -95,8 +86,7 @@ const RailTransitSeminarPage = () => {
                 <li>Afternoon Coffee and Refreshment Break</li>
                 <li>Reception following the Seminar</li>
                 <li>
-                  Exclusive Presentation Download Page access following the
-                  event
+                  Exclusive Presentation Download Page access following the event
                 </li>
               </ul>
 
@@ -104,35 +94,7 @@ const RailTransitSeminarPage = () => {
                 Attendees are also eligible to receive:
               </h2>
               <ul className="pl-5 list-disc seminar-list">
-                <li>
-                  Continuing education/professional development credits
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Speakers Section */}
-      <div className="section">
-        <div className="mx-auto">
-          <h2 className="text-5xl font-normal text-center pb-11">
-            Meet the{' '}
-            <span className="text-wri-blue">
-              <b>2025 Rail Transit Seminar</b>
-            </span>{' '}
-            Speakers
-          </h2>
-          {/* <FeatureSpeaker /> */}
-          {/* <FocusTopicRT /> */}
-          <SpeakersRT />
-              <h2 className="pt-6 pb-4 leading-tight seminar-header text-wri-blue/90">
-                Attendees are also eligible to receive:
-              </h2>
-              <ul className="pl-5 list-disc seminar-list">
-                <li>
-                  Continuing education/professional development credits
-                </li>
+                <li>Continuing education/professional development credits</li>
               </ul>
             </div>
           </div>
@@ -156,7 +118,6 @@ const RailTransitSeminarPage = () => {
       </div>
 
       <Registration />
-      {/* <SponsorsCloud /> */}
       {/* <SponsorsCloud /> */}
     </main>
   );

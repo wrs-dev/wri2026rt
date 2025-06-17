@@ -16,16 +16,6 @@ const IconLinksRT = () => {
     return ['bg-wri-green', 'bg-wri-blue'];
   }, [router.pathname]);
 
-  const getRestingBackgroundColor = useMemo(() => {
-    if (router.pathname.includes('principles-course')) {
-      return ['bg-wri-green', 'bg-wri-neutral'];
-    } else if (router.pathname.includes('rail-transit-seminar')) {
-      return ['bg-wri-neutral', 'bg-wri-blue'];
-    }
-
-    return ['bg-wri-green', 'bg-wri-blue'];
-  }, [router.pathname]);
-
   const icons = useMemo(
     () => [
       {
