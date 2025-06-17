@@ -10,16 +10,16 @@ const Header = () => {
         {/* 1) Desktop/Tablet layout (≥ sm): single row, hidden on mobile */}
         <div className="items-end justify-between hidden sm:flex">
           
-          {/* Left sponsor: NURail */}
+          {/* Left sponsor: Mass Transit */}
           <div className="flex items-end">
             <a
-              href="https://nurailcoe.railtec.illinois.edu/"
+              href="https://www.masstransitmag.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="/NuRail_Presenting_Sponsor_2025.png"
-                alt="NURail Logo"
+                src="/mass-transit-presenting-sponsor.webp"
+                alt="Mass Transit Logo"
                 style={{ display: 'block' }}
                 className="
                   h-auto
@@ -36,23 +36,18 @@ const Header = () => {
             <Animation />
           </div>
 
-          {/* Right sponsor: MassTransit */}
+          {/* Right sponsor: Sound Transit */}
           <div className="flex items-end">
             <a
-              href="https://www.masstransitmag.com/"
+              href="https://www.soundtransit.org/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="/mass-transit-presenting-sponsor.webp"
-                alt="Mass Transit Logo"
+                src="/sound-transit-local-host.png"
+                alt="Sound Transit Logo"
                 style={{ display: 'block' }}
-                className="
-                  h-auto
-                  sm:w-[140px]
-                  md:w-[150px]
-                  lg:w-[217px]
-                "
+                className="w-[280px] h-auto"
               />
             </a>
           </div>
@@ -68,28 +63,28 @@ const Header = () => {
           {/* Two logos side by side, bottom-aligned */}
           <div className="flex items-end justify-around w-full mt-4">
             <a
-              href="https://nurailcoe.railtec.illinois.edu/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/NuRail_Presenting_Sponsor_2025.png"
-                alt="NURail Logo"
-                style={{ display: 'block' }}
-                className="w-[140px] h-auto"
-              />
-            </a>
-            <a
               href="https://www.masstransitmag.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative top-[-1px]"
             >
               <img
                 src="/mass-transit-presenting-sponsor.webp"
                 alt="Mass Transit Logo"
                 style={{ display: 'block' }}
-                className="w-[115px] h-auto"
+                className="w-[140px] h-auto"
+              />
+            </a>
+            <a
+              href="https://www.soundtransit.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative top-[-1px]"
+            >
+              <img
+                src="/sound-transit-local-host.png"
+                alt="Sound Transit Logo"
+                style={{ display: 'block' }}
+                className="w-[140px] h-auto"
               />
             </a>
           </div>
