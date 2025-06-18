@@ -44,7 +44,7 @@ const Header = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/sound-transit-local-host.png"
+                src="/sound-transit-local-host.webp"
                 alt="Sound Transit Logo"
                 style={{ display: 'block' }}
                 className="w-[280px] h-auto"
