@@ -4,7 +4,7 @@ import Banner25RT30th from '@/components/banner/wri25RT-30th';
 import IconLinks from '@/components/icons/iconsRT';
 import SpeakersPC from '@/components/speakers/speakersPC';
 import Registration from '@/components/registration';
-import SponsorsCloud from '@/components/sponsors';
+//import SponsorsCloud from '@/components/sponsors';
 import Head from 'next/head';
 
 export async function getStaticProps() {
@@ -25,34 +25,21 @@ const PrinciplesCoursePage = () => {
       <Navigation />
       <Banner25RT30th />
       <IconLinks />
+
       <div className="section">
         <div className="mx-auto">
-          <h2 className="text-5xl font-normal text-center pb-11">
-            Meet the{' '}
-            <span className="text-wri-green">
-              <b>2025 Principles Course</b>
-            </span>{' '}
-            Speakers
-          </h2>
-          <SpeakersPC />
-
+          {/* Intro Content */}
           <div className="flex flex-wrap justify-center">
             <div className="w-full px-4 mx-auto mb-24 max-w-7xl">
               <div className="flex flex-wrap -mx-4">
                 <div className="w-full px-4 mb-6 lg:w-4/6 lg:pr-24">
-                  <h2 className="text-5xl font-normal leading-normal text-center">
-                    <span className="text-wri-green">
-                      <b>2025 Principles Course</b>
-                    </span>
-                  </h2>
-                  <h3 className="text-3xl font-normal leading-normal text-center pb-11">
+                  <h2 className="text-3xl font-normal leading-normal text-center pb-11">
                     August 26, 2025
-                  </h3>
+                  </h2>
                   <p className="pt-2 pb-6">
-                    Designed for both Rail Transit and Heavy Haul professionals,
-                    the{' '}
+                    Designed for both Rail Transit and Heavy Haul professionals,{' '}
                     <span className="font-bold text-wri-green">
-                      Principles of Wheel/Rail Interaction
+                      the Principles of Wheel/Rail Interaction
                     </span>{' '}
                     is an intensive, full-day course providing in-depth
                     examination of the primary aspects of wheel/rail and
@@ -79,7 +66,6 @@ const PrinciplesCoursePage = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {' '}
                       Attendees praise the high-quality presenters & topics, and
                       inclusive approach to dining and networking.
                     </a>
@@ -105,7 +91,6 @@ const PrinciplesCoursePage = () => {
                       event
                     </li>
                   </ul>
-
                   <h2 className="pt-6 pb-4 leading-tight seminar-header text-wri-green/90">
                     Attendees are also eligible to receive:
                   </h2>
@@ -117,15 +102,22 @@ const PrinciplesCoursePage = () => {
                 </div>
               </div>
             </div>
-
-            <div className="col"></div>
           </div>
-          
-          
+
+          {/* Speakers Section */}
+          <h2 className="text-5xl font-normal text-center pb-11">
+            Meet the{' '}
+            <span className="text-wri-green">
+              <b>2025 Principles Course</b>
+            </span>{' '}
+            Speakers
+          </h2>
+          <SpeakersPC />
         </div>
       </div>
+
       <Registration />
-      <SponsorsCloud />
+      {/*<SponsorsCloud />*/}
     </main>
   );
 };

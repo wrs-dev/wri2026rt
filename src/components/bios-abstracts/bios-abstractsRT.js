@@ -33,19 +33,19 @@ const SpeakerCard = ({ name, company, imageSrc, title, bio1, bio2 }) => {
   return (
     <div
       id={`bio-${slug}`} // The id is 'bios-firstname-lastname'
-      className="flex flex-col lg:flex-row lg:items-start mt-16 mb-0 xl:my-16"
+      className="flex flex-col mt-16 mb-0 lg:flex-row lg:items-start xl:my-16"
     >
-      <div className="w-full md:w-2/5 xl:w-1/6 xl:mx-24 mb-20 lg:mb-8">
+      <div className="w-full mb-20 md:w-2/5 xl:w-1/6 xl:mx-24 lg:mb-8">
         <div className="relative">
-          <div className="aspect-w-2 aspect-h-1 xl:w-full overflow-hidden border-t-4 border-wri-blue">
+          <div className="overflow-hidden border-t-4 aspect-w-2 aspect-h-1 xl:w-full border-wri-blue">
             <img
               src={imageSrc}
               alt={name}
-              className="w-full h-full object-cover"
+              className="object-cover w-full h-full"
             />
           </div>
-          <div className="absolute -bottom-5 xl:w-5/6 bg-white shadow-md xl:mx-auto left-0 right-0 transform translate-y-1/2 rounded">
-            <div className="text-center p-4">
+          <div className="absolute left-0 right-0 transform translate-y-1/2 bg-white rounded shadow-md -bottom-5 xl:w-5/6 xl:mx-auto">
+            <div className="p-4 text-center">
               <p className="font-bold text-wri-dark-blue lg:text-2xl">{name}</p>
               <p className="text-gray-600">{company}</p>
             </div>
@@ -53,7 +53,7 @@ const SpeakerCard = ({ name, company, imageSrc, title, bio1, bio2 }) => {
         </div>
       </div>
       <div className="w-full md:w-3/5 md:mx-12 xl:mt-8">
-        <h3 className="font-bold text-xl mb-2">{title}</h3>
+        <h3 className="mb-2 text-xl font-bold">{title}</h3>
         <div className="flex flex-col gap-8 lg:mr-20">
           <p>{bio1}</p>
           <p>{bio2}</p>
@@ -66,8 +66,8 @@ const SpeakerCard = ({ name, company, imageSrc, title, bio1, bio2 }) => {
 // AbstractSection component
 const AbstractSection = ({ topic, abstract1, abstract2 }) => {
   return (
-    <div className="flex flex-col lg:flex-row lg:items-start mt-16">
-      <div className="flex w-full md:w-1/5 lg:mx-24 mb-8 lg:mt-20 justify-center">
+    <div className="flex flex-col mt-16 lg:flex-row lg:items-start">
+      <div className="flex justify-center w-full mb-8 md:w-1/5 lg:mx-24 lg:mt-20">
         <div classname="flex">
           <figure>
             <Image
@@ -75,15 +75,15 @@ const AbstractSection = ({ topic, abstract1, abstract2 }) => {
               width={360}
               height={200}
               alt="Principles icon"
-              className="w-full text-wri-blue fill-current"
+              className="w-full fill-current text-wri-blue"
             />
           </figure>
-          <h2 className="text-2xl text-wri-blue mt-4">ABSTRACT</h2>
+          <h2 className="mt-4 text-2xl text-wri-blue">ABSTRACT</h2>
         </div>
       </div>
-      <div className="w-full md:w-4/5 bg-wri-blue/20 p-8">
-        <h2 className="font-bold text-wri-blue text-2xl mb-6">{topic}</h2>
-        <div className="flex flex-col xl:flex-row gap-8 pb-24">
+      <div className="w-full p-8 md:w-4/5 bg-wri-blue/20">
+        <h2 className="mb-6 text-2xl font-bold text-wri-blue">{topic}</h2>
+        <div className="flex flex-col gap-8 pb-24 xl:flex-row">
           <div className="flex-1">
             <p>{abstract1}</p>
           </div>
@@ -100,7 +100,7 @@ const AbstractSection = ({ topic, abstract1, abstract2 }) => {
 // TopicLayout that dynamically renders the SpeakerCards and AbstractSection
 const TopicLayout = ({ speakers, topic, abstract1, abstract2 }) => {
   return (
-    <div className="bg-white shadow-md rounded-lg overflow-hidden mb-8">
+    <div className="mb-8 overflow-hidden bg-white rounded-lg shadow-md">
       {speakers.map(speaker => (
         <SpeakerCard key={generateSlug(speaker.name)} {...speaker} />
       ))}
@@ -185,12 +185,12 @@ const BiosAbstractsRT = () => {
   }
 
   return (
-    <section className="container mx-auto p-4">
-      <h2 className="text-center text-5xl font-normal pb-11 leading-normal">
+    <section className="container p-4 mx-auto">
+      <h2 className="text-5xl font-normal leading-normal text-center pb-11">
         <span className="text-wri-blue">
           <b>Rail Transit Seminar</b>
         </span>{' '}
-        2024 Speaker Bios/Abstracts
+        2025 Speaker Bios/Abstracts
       </h2>
       {groupedTopics.length > 0 ? (
         groupedTopics.map((topicGroup, index) => (
