@@ -24,21 +24,22 @@ const PrinciplesCoursePage = () => {
       <Banner25RT30th />
       <IconLinks />
 
+      {/* Moved heading OUTSIDE the section */}
+      <h2 className="text-5xl font-normal leading-normal text-center">
+        <span className="text-wri-green">
+          <b>2025 Principles Course</b>
+        </span>
+      </h2>
+      <h3 className="text-3xl font-normal leading-normal text-center pb-11">
+        June 10, 2025
+      </h3>
+
       <div className="section">
         <div className="mx-auto">
           <div className="flex flex-wrap justify-center">
             <div className="w-full px-4 mx-auto mb-24 max-w-7xl">
               <div className="flex flex-wrap -mx-4">
                 <div className="w-full px-4 mb-6 lg:w-4/6 lg:pr-24">
-                  <h2 className="text-5xl font-normal leading-normal text-center">
-                    <span className="text-wri-green">
-                      <b>2025 Principles Course</b>
-                    </span>
-                  </h2>
-                  <h3 className="text-3xl font-normal leading-normal text-center pb-11">
-                    June 10, 2025
-                  </h3>
-
                   <p className="pt-2 pb-6">
                     <span className="font-bold text-wri-green">
                       The Principles of Wheel/Rail Interaction course
