@@ -11,7 +11,8 @@ export async function getStaticProps() {
   return {
     props: {
       title: 'WRI 2025 | Principles Course Speakers',
-      description: 'Speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)',
+      description:
+        'Speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)',
       socialImage: '/wri2025-social.png',
     },
   };
@@ -41,58 +42,21 @@ const PrinciplesCoursePage = () => {
               <div className="flex flex-wrap -mx-4">
                 <div className="w-full px-4 mb-6 lg:w-4/6 lg:pr-24">
                   <p className="pt-2 pb-6">
+                    Designed for both Rail Transit and Heavy Haul professionals,{' '}
                     <span className="font-bold text-wri-green">
-                      The Principles of Wheel/Rail Interaction course
+                      the Principles of Wheel/Rail Interaction
                     </span>{' '}
-                    has been revitalized and reimagined with a tighter focus on
-                    the practical aspects of wheel/rail and vehicle/track
-                    interaction for 2025. The course will begin with a case
-                    study — an examination of an actual wheel/rail
-                    interaction-related derailment. Presenters will cover the
-                    fundamental aspects of track, vehicle suspension systems,
-                    damage mechanisms, measurements systems — all the topics we
-                    have traditionally covered — but will also connect the dots
-                    between theory and what actually happens in the field. A
-                    wrap-up session will review the causes attributed to the
-                    case study derailment in light of the Principles examined
-                    throughout the course. We’ll also look at approaches that
-                    can be taken to mitigate wheel/rail- and
-                    vehicle/track-related derailments in the future.
+                    is an intensive, full-day course providing in-depth
+                    examination of the primary aspects of wheel/rail and
+                    vehicle/track interaction, drawing from both theory and
+                    practical application. Past courses have covered topics such
+                    as wheel truing strategy, rail metallurgy, ultrasonic
+                    testing, thermal rail stresses, vehicle-track measurement
+                    technologies and much more. The Course offers a
+                    cross-disciplinary perspective on the fundamentals
+                    recommended for both industry veterans and novice
+                    railroaders.
                   </p>
-
-                  <p className="pt-2 pb-4">
-                    Wheel Rail Seminars is proud to announce that the FRA-funded
-                    National University Rail Center for Excellence (NURail CoE)
-                    is the Presenting Sponsor for the 2025 Principles of
-                    Wheel/Rail Interaction Course. You can find more information
-                    on the NURail CoE's mission to develop solutions that will
-                    lead to a safer, more efficient, sustainable, equitable, and
-                    reliable rail transportation system in the United States by{' '}
-                    <a
-                      href="https://nurailcoe.railtec.illinois.edu/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 underline"
-                    >
-                      clicking here
-                    </a>
-                    .
-                  </p>
-
-                  <div className="flex justify-center mb-6">
-                    <a
-                      href="https://nurailcoe.railtec.illinois.edu/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img
-                        src="/NuRail_Presenting_Sponsor_2025.png"
-                        alt="NURail CoE Presenting Sponsor 2025"
-                        width={500}
-                        height={120}
-                      />
-                    </a>
-                  </div>
 
                   <h2 className="mt-16 seminar-discount-header">
                     WRI 2025 Discount Programs:
