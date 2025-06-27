@@ -9,28 +9,21 @@ export default function WRIAnnouncements() {
       </div>
       <div className="p-8">
         <h1 className="mb-1 text-2xl font-bold text-wri-dark-blue">
-          WRI 2025 Highlighted in RT&amp;S
+          Mike Roney Receives 2025 Worth Award
         </h1>
-        <Link href="https://www.rtands.com/technology/wheel-rail-interface-conference-2025-to-be-held-in-kansas-city-mo/" passHref legacyBehavior>
-          <a target="_blank" rel="noopener noreferrer">
-            <Image
-              src="/rtands-article.png"
-              alt="WRI 2025 RT&S Article"
-              width={776}
-              height={612}
-              className="mb-4"
-              style={{ width: "100%", height: "auto", maxWidth: "776px" }}
-            />
-          </a>
-        </Link>
+        <Image
+          src="/mike-roney-worth-award.jpeg"
+          alt="Mike Roney receives the Worth Award at WRI 2025"
+          width={776}
+          height={582}
+          className="mb-4"
+          style={{ width: "100%", height: "auto", maxWidth: "776px" }}
+        />
         <p>
-          Railway Track &amp; Structures (RT&amp;S) has published an article announcing
-          the upcoming Wheel Rail Interface 2025 Heavy Haul Conference, to be held in Kansas City, Missouri.{" "}
-          <Link href="https://www.rtands.com/technology/wheel-rail-interface-conference-2025-to-be-held-in-kansas-city-mo/" passHref legacyBehavior>
-            <a target="_blank" rel="noopener noreferrer" className="text-wri-red">
-              Read the full article...
-            </a>
-          </Link>
+          Congratulations to Mike Roney on receiving this year’s Worth Award at the WRI Heavy Haul Conference—an honor named after the legendary Art Worth and awarded to one individual each year in recognition of lifetime achievement and extraordinary contributions to the rail industry.
+        </p>
+        <p className="mt-4">
+          Michael’s dedication, leadership, and impact over the years make him more than deserving of this highly coveted recognition. Well done! 👏
         </p>
       </div>
     </div>
