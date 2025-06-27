@@ -4,22 +4,20 @@ import Banner25RT30th from '@/components/banner/wri25RT-30th';
 import IconLinks from '@/components/icons/iconsRT';
 import SpeakersPC from '@/components/speakers/speakersPC';
 import Registration from '@/components/registration';
-//import SponsorsCloud from '@/components/sponsors';
+// import SponsorsCloud from '@/components/sponsors';
 import Head from 'next/head';
 
 export async function getStaticProps() {
   return {
     props: {
-      title: "WRI 2025 | Principles Course Speakers",
-      description: "Speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)",
-      socialImage: "/wri2025-social.png"
-    }
+      title: 'WRI 2025 | Principles Course Speakers',
+      description: 'Speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)',
+      socialImage: '/wri2025-social.png',
+    },
   };
 }
 
 const PrinciplesCoursePage = () => {
-  const currentYear = new Date().getFullYear();
-
   return (
     <main className="bg-white">
       <Navigation />
@@ -28,14 +26,21 @@ const PrinciplesCoursePage = () => {
 
       <div className="section">
         <div className="mx-auto">
+          {/* Intro Header */}
+          <h2 className="pt-8 text-5xl font-normal text-center">
+            <span className="text-wri-green">
+              <b>2025 Principles Course</b>
+            </span>
+          </h2>
+          <h3 className="text-3xl font-normal text-center pb-11">
+            June 10, 2025
+          </h3>
+
           {/* Intro Content */}
           <div className="flex flex-wrap justify-center">
             <div className="w-full px-4 mx-auto mb-24 max-w-7xl">
               <div className="flex flex-wrap -mx-4">
                 <div className="w-full px-4 mb-6 lg:w-4/6 lg:pr-24">
-                  <h2 className="text-3xl font-normal leading-normal text-center pb-11">
-                    August 26, 2025
-                  </h2>
                   <p className="pt-2 pb-6">
                     Designed for both Rail Transit and Heavy Haul professionals,{' '}
                     <span className="font-bold text-wri-green">
@@ -117,7 +122,7 @@ const PrinciplesCoursePage = () => {
       </div>
 
       <Registration />
-      {/*<SponsorsCloud />*/}
+      {/* <SponsorsCloud /> */}
     </main>
   );
 };
