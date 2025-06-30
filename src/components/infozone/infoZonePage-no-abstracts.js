@@ -15,11 +15,11 @@ const infoZoneSponsors = [
     imagePath: '/silver-railroad-software.png',
     url: '',
     },
-  {
-    name: 'Plasser American',
+    {
+    name: 'Hexagon | NEXTSENSE',
     description: '',
-    imagePath: '/platinum-plasser-american.svg',
-    url: 'https://www.plasseramerican.com/en/home/start',
+    imagePath: '/hexagon.png',
+    url: '',
   },
   {
     name: 'Loram',
@@ -27,12 +27,13 @@ const infoZoneSponsors = [
     imagePath: '/platinum-loram.svg',
     url: 'https://loram.com/',
   },
-  {
-    name: 'Hexagon | NEXTSENSE',
+    {
+    name: 'Plasser American',
     description: '',
-    imagePath: '/hexagon.png',
-    url: '',
+    imagePath: '/platinum-plasser-american.svg',
+    url: 'https://www.plasseramerican.com/en/home/start',
   },
+  
 ];
 
 export default function InfoZonePage() {
