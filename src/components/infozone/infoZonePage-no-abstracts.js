@@ -19,7 +19,7 @@ const infoZoneSponsors = [
     name: 'Hexagon | NEXTSENSE',
     description: '',
     imagePath: '/hexagon.png',
-    url: 'https://hexagon.com',
+    url: 'https://hexagon.com/industries/transportation/rail-transit',
   },
   {
     name: 'Loram',
@@ -84,50 +84,80 @@ export default function InfoZonePage() {
       {/* Sponsors Section */}
       <section>
         <div className="px-6 mx-auto mb-48 max-w-7xl lg:px-8">
-          {/* First row: 2 sponsors */}
+          {/* Row 1: Linsinger and Railroad Software */}
           <div className="grid grid-cols-2 gap-12 mb-12 justify-items-center">
-            {infoZoneSponsors.slice(0, 2).map((sponsor) => (
-              <a
-                key={sponsor.name}
-                href={sponsor.url || '#'}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-full h-32"
-              >
-                {sponsor.imagePath ? (
-                  <img
-                    src={sponsor.imagePath}
-                    alt={`${sponsor.name} logo`}
-                    className={`object-contain ${sponsor.name === 'Linsinger' ? 'h-28' : 'h-20'}`}
-                  />
-                ) : (
-                  <span className="text-sm text-center text-gray-500">Logo coming soon</span>
-                )}
-              </a>
-            ))}
+            {/* Linsinger */}
+            <a
+              href={infoZoneSponsors[0].url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-full h-32"
+            >
+              <img
+                src={infoZoneSponsors[0].imagePath}
+                alt={`${infoZoneSponsors[0].name} logo`}
+                className="object-contain h-28"
+              />
+            </a>
+            {/* Railroad Software */}
+            <a
+              href={infoZoneSponsors[1].url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-full h-32"
+            >
+              <img
+                src={infoZoneSponsors[1].imagePath}
+                alt={`${infoZoneSponsors[1].name} logo`}
+                className="object-contain h-20"
+              />
+            </a>
           </div>
 
-          {/* Second row: 3 sponsors */}
-          <div className="grid grid-cols-3 gap-12 justify-items-center">
-            {infoZoneSponsors.slice(2).map((sponsor) => (
-              <a
-                key={sponsor.name}
-                href={sponsor.url || '#'}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-full h-32"
-              >
-                {sponsor.imagePath ? (
-                  <img
-                    src={sponsor.imagePath}
-                    alt={`${sponsor.name} logo`}
-                    className={`object-contain ${sponsor.name === 'Linsinger' ? 'h-48' : 'h-16'}`}
-                  />
-                ) : (
-                  <span className="text-sm text-center text-gray-500">Logo coming soon</span>
-                )}
-              </a>
-            ))}
+          {/* Row 2: Hexagon and Loram */}
+          <div className="grid grid-cols-2 gap-12 mb-12 justify-items-center">
+            {/* Hexagon */}
+            <a
+              href={infoZoneSponsors[2].url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-full h-32"
+            >
+              <img
+                src={infoZoneSponsors[2].imagePath}
+                alt={`${infoZoneSponsors[2].name} logo`}
+                className="object-contain h-20"
+              />
+            </a>
+            {/* Loram */}
+            <a
+              href={infoZoneSponsors[3].url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-full h-32"
+            >
+              <img
+                src={infoZoneSponsors[3].imagePath}
+                alt={`${infoZoneSponsors[3].name} logo`}
+                className="object-contain h-20"
+              />
+            </a>
+          </div>
+
+          {/* Row 3: Plasser American perfectly centered */}
+          <div className="flex justify-center mb-12">
+            <a
+              href={infoZoneSponsors[4].url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-full h-32"
+            >
+              <img
+                src={infoZoneSponsors[4].imagePath}
+                alt={`${infoZoneSponsors[4].name} logo`}
+                className="object-contain h-16"
+              />
+            </a>
           </div>
         </div>
       </section>
