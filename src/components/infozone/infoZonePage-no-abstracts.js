@@ -30,7 +30,7 @@ const infoZoneSponsors = [
   {
     name: 'Hexagon | NEXTSENSE',
     description: '',
-    imagePath: '', // Placeholder
+    imagePath: '/hexagon.png',
     url: '',
   },
 ];

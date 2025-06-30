@@ -212,6 +212,14 @@ export default function Navigation() {
             FAQ
           </a>
           <a
+            href="/infozone#icons"
+            className={`text-sm leading-6 nav-link lg:text-xl ${
+              isActive('/infozone') ? 'text-wri-red' : 'text-wri-blue'
+            }`}
+          >
+            InfoZone
+          </a>
+          <a
             href="http://wheel-rail-seminars.com/"
             target="_blank"
             className="text-sm leading-6 nav-link lg:text-xl text-wri-blue"
@@ -287,6 +295,12 @@ export default function Navigation() {
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     WRI Seminar Archives
+                  </a>
+                  <a
+                    href="/infozone#icons"
+                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    InfoZone
                   </a>
                   <a
                     href="http://wheel-rail-seminars.com/"
