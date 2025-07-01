@@ -186,7 +186,7 @@ export default function Navigation() {
             Photo Gallery
           </a>
 
-          {/* Pricing, Hotel, FAQ, etc. */}
+          {/* Pricing, Sponsors, Hotel, FAQ, etc. */}
           <a
             href="/#register"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -194,6 +194,14 @@ export default function Navigation() {
             }`}
           >
             Pricing
+          </a>
+          <a
+            href="/sponsors#icons"
+            className={`text-sm leading-6 nav-link lg:text-xl ${
+              isActive('/sponsors') ? 'text-wri-red' : 'text-wri-blue'
+            }`}
+          >
+            Sponsors
           </a>
           <a
             href="/#hotel"
@@ -275,6 +283,12 @@ export default function Navigation() {
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Pricing
+                  </a>
+                  <a
+                    href="/sponsors#icons"
+                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    Sponsors
                   </a>
                   <a
                     href="/#hotel"

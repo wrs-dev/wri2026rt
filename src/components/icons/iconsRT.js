@@ -19,10 +19,13 @@ const IconLinksRT = () => {
   const icons = useMemo(
     () => [
       {
+        href: 'principles-course',
         src: '/principles-icon.svg',
         title: 'Principles Course',
         date: 'August 26, 2025',
         restingBgColor: 'bg-wri-green',
+        hoverBorderColor: 'hover:border-wri-blue',
+        hoverBgColor: 'hover:bg-wri-green',
       },
       {
         href: 'rail-transit-seminar',

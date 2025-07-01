@@ -28,9 +28,6 @@ export default function Home() {
     <main className="bg-white">
       <Navigation />
       <Banner25RT30th />
-      <h3 className="mt-12 mb-6 text-xl font-light text-center sm:text-4xl font-wri">
-      Principles Course Speakers to be Announced Soon
-        </h3>
       <IconsRT />
 
       {/* About Section (keeps your existing RT text) */}
