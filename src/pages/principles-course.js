@@ -37,7 +37,7 @@ const PrinciplesCoursePage = () => {
                     </span>
                   </h2>
                   <h3 className="text-3xl font-normal leading-normal text-center pb-11">
-                    June 10, 2025
+                    August 26, 2025
                   </h3>
                   <p className="pt-2 pb-6">
                     Designed for both Rail Transit and Heavy Haul professionals,{' '}
