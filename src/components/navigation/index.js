@@ -22,16 +22,16 @@ export default function Navigation() {
   const links = [
     {
       name: 'Principles Course',
-      description: 'Coming Soon',
-      href: '#',
+      description: 'August 26th',
+      href: 'https://wri2025rt.wheel-rail-seminars.com/principles-course',
       icon: 'principles-icon.svg',
       background: 'bg-wri-green',
       isExternal: false,
     },
     {
       name: 'Rail Transit Seminar',
-      description: 'Coming Soon',
-      href: '#',
+      description: 'August 27-28th',
+      href: 'https://wri2025rt.wheel-rail-seminars.com/rail-transit-seminar',
       icon: 'rail-transit.svg',
       background: 'bg-wri-blue',
       isExternal: false,
