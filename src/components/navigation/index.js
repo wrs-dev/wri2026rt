@@ -23,7 +23,7 @@ export default function Navigation() {
     {
       name: 'Principles Course',
       description: 'August 26th',
-      href: 'https://wri2025rt.wheel-rail-seminars.com/principles-course',
+      href: 'https://wri2025rt.wheel-rail-seminars.com/principles-course#icons',
       icon: 'principles-icon.svg',
       background: 'bg-wri-green',
       isExternal: false,
@@ -31,7 +31,7 @@ export default function Navigation() {
     {
       name: 'Rail Transit Seminar',
       description: 'August 27-28th',
-      href: 'https://wri2025rt.wheel-rail-seminars.com/rail-transit-seminar',
+      href: 'https://wri2025rt.wheel-rail-seminars.com/rail-transit-seminar#icons',
       icon: 'rail-transit.svg',
       background: 'bg-wri-blue',
       isExternal: false,
