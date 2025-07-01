@@ -40,20 +40,7 @@ const PrinciplesCoursePage = () => {
                     August 26, 2025
                   </h3>
                   <p className="pt-2 pb-6">
-                    Designed for both Rail Transit and Heavy Haul professionals,{' '}
-                    <span className="font-bold text-wri-green">
-                      the Principles of Wheel/Rail Interaction
-                    </span>{' '}
-                    is an intensive, full-day course providing in-depth
-                    examination of the primary aspects of wheel/rail and
-                    vehicle/track interaction, drawing from both theory and
-                    practical application. Past courses have covered topics such
-                    as wheel truing strategy, rail metallurgy, ultrasonic
-                    testing, thermal rail stresses, vehicle-track measurement
-                    technologies and much more. The Course offers a
-                    cross-disciplinary perspective on the fundamentals
-                    recommended for both industry veterans and novice
-                    railroaders.
+                    <b>The Principles of Wheel/Rail Interaction course</b> has been revitalized and reimagined with a tighter focus on the practical aspects of wheel/rail and vehicle/track interaction for 2025. The course will begin with a case study — and it will be referenced throughout the day as we dive into; friction management, damage mechanisms, measurement systems, noise & vibrations, vehicle suspensions, track structures, geometry among other topics. A wrap-up session will review the causes attributed to the case study. The Course will focus on the practical aspects of wheel/rail and vehicle/track interaction on subway and light rail systems. The speakers and topics can be seen below.
                   </p>
 
                   <h2 className="mt-16 seminar-discount-header">
@@ -75,8 +62,7 @@ const PrinciplesCoursePage = () => {
                     </a>
                   </p>
                   <p>
-                    NOTE: Attendance at Rail Transit or Heavy Haul seminars is
-                    NOT required to register for the Principles Course.
+                    NOTE: Attendance at the Rail Transit Seminar is NOT required to register for the Principles Course.
                   </p>
                 </div>
 
