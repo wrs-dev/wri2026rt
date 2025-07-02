@@ -71,6 +71,12 @@ const goldSponsors = [
     imagePath: '/whitmore.png',
     url: 'https://www.whitmores.com/',
   },
+  {
+    name: 'WVCO Railroad Solutions',
+    description: '',
+    imagePath: '/gold-wvco.png',
+    url: 'https://wvcorailroad.com/',
+  },
 ];
 
 const silverSponsors = [

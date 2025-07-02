@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Navigation from '@/components/navigation';
 import InfoZonePage from '@/components/infozone/infoZonePage-no-abstracts';
 import Banner25RT30th from '@/components/banner/wri25RT-30th';
-import IconsRT from '@/components/icons/iconsRT-nolink';
+import IconsRT from '@/components/icons/iconsRT';
 
 export async function getStaticProps() {
   return {
