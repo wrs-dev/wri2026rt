@@ -55,10 +55,10 @@ const goldSponsors = [
     url: 'https://gatewayrailservices.com/',
   },
   {
-    name: 'Humantics',
+    name: 'Humatics',
     description: '',
-    imagePath: '/gold-humantics.png',
-    url: 'https://humantics.com/',
+    imagePath: '/gold-humatics.png',
+    url: 'https://humatics.com/',
   },
   {
     name: 'LB Foster',
@@ -218,7 +218,7 @@ export default function SponsorPage() {
                             ? 'h-16'
                             : sponsor.name === 'Whitmore'
                             ? 'h-12'
-                            : sponsor.name === 'Humantics'
+                            : sponsor.name === 'Humatics'
                             ? 'h-12'
                             : 'max-h-20'
                         }`}
