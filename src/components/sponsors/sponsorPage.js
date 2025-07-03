@@ -4,7 +4,8 @@ import Link from 'next/link';
 const pearlSponsors = [
   {
     name: 'Plasser American',
-    description: 'Plasser American provides track maintenance solutions and machines, leading innovation in the railway construction and maintenance sector.',
+    description:
+      'Plasser American provides track maintenance solutions and machines, leading innovation in the railway construction and maintenance sector.',
     imagePath: '/platinum-plasser-american.svg',
     url: 'https://plasseramerican.com/',
   },
@@ -52,6 +53,12 @@ const goldSponsors = [
     description: '',
     imagePath: '/gateway-rail-services.png',
     url: 'https://gatewayrailservices.com/',
+  },
+  {
+    name: 'Humantics',
+    description: '',
+    imagePath: '/gold-humantics.png',
+    url: 'https://humantics.com/',
   },
   {
     name: 'LB Foster',
@@ -106,7 +113,6 @@ const bronzeSponsors = [
 export default function SponsorPage() {
   return (
     <div className="pt-12 pb-24 bg-white sm:py-32">
-
       {/* Pearl Sponsor Section */}
       <section>
         <div className="px-6 mx-auto mb-24 max-w-7xl lg:px-8">
@@ -115,7 +121,7 @@ export default function SponsorPage() {
               <span className="text-yellow-600">PEARL MILESTONE</span> sponsor
             </h2>
             <div className="flex flex-col col-span-2">
-              {pearlSponsors.map((sponsor) => (
+              {pearlSponsors.map(sponsor => (
                 <div key={sponsor.name} className="flex flex-col mb-8">
                   <div className="mb-4">
                     <img
@@ -150,7 +156,7 @@ export default function SponsorPage() {
               <span className="text-zinc-500">PLATINUM</span> sponsors
             </h2>
             <dl className="grid grid-cols-1 col-span-2 gap-x-8 gap-y-16 sm:grid-cols-1">
-              {platinumSponsors.map((sponsor) => (
+              {platinumSponsors.map(sponsor => (
                 <div key={sponsor.name} className="flex flex-col mb-8">
                   <div className="mb-4">
                     <img
@@ -170,13 +176,13 @@ export default function SponsorPage() {
                   <p className="mt-1 mb-2 text-base leading-7">
                     {sponsor.description}
                   </p>
-                  {sponsor.bullets && sponsor.bullets.length > 0 && (
+                  {sponsor.bullets &&
+                    sponsor.bullets.length > 0 &&
                     sponsor.bullets.map((bullet, index) => (
                       <p className="py-1 pl-6" key={index}>
                         • {bullet}
                       </p>
-                    ))
-                  )}
+                    ))}
                 </div>
               ))}
             </dl>
@@ -192,7 +198,7 @@ export default function SponsorPage() {
               <span className="text-yellow-600">GOLD</span> sponsors
             </h2>
             <dl className="grid grid-cols-1 col-span-2 gap-x-8 gap-y-16 sm:grid-cols-2 place-items-start">
-              {goldSponsors.map((sponsor) => (
+              {goldSponsors.map(sponsor => (
                 <div key={sponsor.name}>
                   <dt className="text-base font-semibold leading-7 text-black">
                     <div className="flex items-center h-24">
@@ -200,13 +206,21 @@ export default function SponsorPage() {
                         src={sponsor.imagePath}
                         alt={sponsor.name}
                         className={`img-fill-contain ${
-                          sponsor.name === 'Amsted Rail' ? 'h-20' :
-                          sponsor.name === 'Gateway Rail Services' ? 'h-20' :
-                          sponsor.name === 'ENSCO' ? 'h-20' :
-                          sponsor.name === 'LB Foster' ? 'h-14' :
-                          sponsor.name === 'Rhombert Sersa' ? 'h-16' :
-                          sponsor.name === 'Whitmore' ? 'h-12' :
-                          'max-h-20'
+                          sponsor.name === 'Amsted Rail'
+                            ? 'h-20'
+                            : sponsor.name === 'Gateway Rail Services'
+                            ? 'h-20'
+                            : sponsor.name === 'ENSCO'
+                            ? 'h-20'
+                            : sponsor.name === 'LB Foster'
+                            ? 'h-14'
+                            : sponsor.name === 'Rhombert Sersa'
+                            ? 'h-16'
+                            : sponsor.name === 'Whitmore'
+                            ? 'h-12'
+                            : sponsor.name === 'Humantics'
+                            ? 'h-12'
+                            : 'max-h-20'
                         }`}
                       />
                     </div>
@@ -237,7 +251,7 @@ export default function SponsorPage() {
             </h2>
             <div className="col-span-2">
               <dl className="grid items-end grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 place-items-start">
-                {silverSponsors.map((sponsor) => (
+                {silverSponsors.map(sponsor => (
                   <div key={sponsor.name}>
                     <dt className="text-base font-semibold leading-7 text-black">
                       <div className="flex items-center h-24">
@@ -245,7 +259,9 @@ export default function SponsorPage() {
                           src={sponsor.imagePath}
                           alt={sponsor.name}
                           className={`img-fill-contain ${
-                            sponsor.name === 'Interface Journal' ? 'h-20' : 'max-h-14'
+                            sponsor.name === 'Interface Journal'
+                              ? 'h-20'
+                              : 'max-h-14'
                           }`}
                         />
                       </div>
@@ -276,7 +292,7 @@ export default function SponsorPage() {
               <span className="text-amber-800">BRONZE</span> sponsors
             </h2>
             <dl className="grid grid-cols-1 col-span-2 gap-x-8 gap-y-16 sm:grid-cols-2 place-items-start">
-              {bronzeSponsors.map((sponsor) => (
+              {bronzeSponsors.map(sponsor => (
                 <div key={sponsor.name}>
                   <dt className="text-base font-semibold leading-7 text-black">
                     <div className="flex items-center h-20">
@@ -284,7 +300,9 @@ export default function SponsorPage() {
                         src={sponsor.imagePath}
                         alt={sponsor.name}
                         className={`img-fill-contain ${
-                          sponsor.name === 'Steel Dynamics' ? 'h-14' : 'max-h-20'
+                          sponsor.name === 'Steel Dynamics'
+                            ? 'h-14'
+                            : 'max-h-20'
                         }`}
                       />
                     </div>
