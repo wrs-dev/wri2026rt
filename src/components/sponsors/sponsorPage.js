@@ -105,6 +105,12 @@ const silverSponsors = [
     imagePath: '/getzner-logo.png',
     url: 'https://www.getzner.com/en',
   },
+  {
+    name: 'Gatekeeper',
+    description: '',
+    imagePath: '/gold-gatekeeper.png',
+    url: 'https://gatekeeper-systems.com',
+  },
 ];
 
 const bronzeSponsors = [
@@ -269,8 +275,11 @@ export default function SponsorPage() {
                           className={`img-fill-contain ${
                             sponsor.name === 'Interface Journal'
                               ? 'h-20'
+                              : sponsor.name === 'Gatekeeper'
+                              ? ''
                               : 'max-h-14'
                           }`}
+                          style={sponsor.name === 'Gatekeeper' ? { height: '4.6rem' } : {}}
                         />
                       </div>
                     </dt>
