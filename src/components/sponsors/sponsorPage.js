@@ -73,6 +73,12 @@ const goldSponsors = [
     url: 'https://www.rhomberg-sersa.com/en',
   },
   {
+    name: 'Vossloh',
+    description: '',
+    imagePath: '/gold-vossloh.jpg',
+    url: 'https://www.vossloh.com/en/',
+  },
+  {
     name: 'Whitmore',
     description: '',
     imagePath: '/whitmore.png',
@@ -220,6 +226,8 @@ export default function SponsorPage() {
                             ? 'h-12'
                             : sponsor.name === 'Humatics'
                             ? 'h-12'
+                            : sponsor.name === 'Vossloh'
+                            ? 'h-16'
                             : 'max-h-20'
                         }`}
                       />
