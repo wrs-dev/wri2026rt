@@ -76,7 +76,7 @@ const HeavyHaulSeminarPage = () => {
                   </h2>
                   <p className="pt-2 pb-6">
                     Wheel Rail Seminars offers various discount programs,
-                    including Multi-Event Discounts and Special Employee
+                    including Multi-Event Discounts and Special Rail Transit Agency/Government Employee
                     Discounts for railroad, transit & government employees.
                   </p>
                   <p>

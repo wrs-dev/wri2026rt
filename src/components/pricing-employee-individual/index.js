@@ -8,7 +8,7 @@ export default function PricingEmployeeIndividual() {
       <div className="mb-4 overflow-hidden bg-white shadow-md rounded-3xl">
         <div className="px-8 py-4 bg-yellow-500">
           <h1 className="text-xl font-bold text-blue-950">
-            Employee Registration - Individual Event Pricing
+            Rail Transit Agency/Government Employee Registration - Individual Event Pricing
           </h1>
         </div>
         <div className="px-8 pt-6 pb-8">

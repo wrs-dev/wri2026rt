@@ -40,7 +40,11 @@ const PrinciplesCoursePage = () => {
                     August 26, 2025
                   </h3>
                   <p className="pt-2 pb-6">
-                    <b>The Principles of Wheel/Rail Interaction course</b> has been revitalized and reimagined with a tighter focus on the practical aspects of wheel/rail and vehicle/track interaction for 2025. The course will begin with a case study — and it will be referenced throughout the day as we dive into; friction management, damage mechanisms, measurement systems, noise & vibrations, vehicle suspensions, track structures, geometry among other topics. A wrap-up session will review the causes attributed to the case study. The Course will focus on the practical aspects of wheel/rail and vehicle/track interaction on subway and light rail systems. The speakers and topics can be seen below.
+                    This year's conference format includes an exciting{' '}
+                    <span className="font-bold text-wri-green">
+                      Principles of Wheel/Rail Interaction
+                    </span>{' '}
+                    course that is completely tailored to the Rail Transit community. The course will revolve around a case study based on a difficult set of wheel-rail challenges faced by a real operating system, with significant implications for system performance, reliability, economics, and safety. The day will include related sessions on track structures and components, vehicle suspensions, vehicle-track interaction, noise and vibrations, damage mechanisms, maintenance processes, friction management, maintenance window planning & utilization, and procurement & contracts for new systems. Drawing on the content presented throughout the day, a wrap-up session will connect the dots between the case study's real-world problems, root causes, corrections and mitigation strategies that have been identified and pursued.
                   </p>
 
                   <h2 className="mt-16 seminar-discount-header">
@@ -48,7 +52,7 @@ const PrinciplesCoursePage = () => {
                   </h2>
                   <p className="pt-2 pb-6">
                     Wheel Rail Seminars offers various discount programs,
-                    including Multi-Event Discounts and Special Employee
+                    including Multi-Event Discounts and Special Rail Transit Agency/Government Employee
                     Discounts for railroad, transit & government employees.
                   </p>
                   <p className="pt-2 pb-6">
@@ -62,7 +66,8 @@ const PrinciplesCoursePage = () => {
                     </a>
                   </p>
                   <p>
-                    NOTE: Attendance at the Rail Transit Seminar is NOT required to register for the Principles Course.
+                    NOTE: Attendance at Rail Transit or Heavy Haul seminars is
+                    NOT required to register for the Principles Course.
                   </p>
                 </div>
 
