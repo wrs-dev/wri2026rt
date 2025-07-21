@@ -16,7 +16,7 @@ const AgendaDownloadButton = () => {
     <Link href="/WRI2025-RT-Agenda-Seattle.pdf" download>
       {/* Apply initial and whileHover to MotionBox */}
       <motion.div
-        className="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-bold text-white transition duration-300 ease-out border-2 border-white shadow-xl rounded-xl bg-wri-blue hover:bg-wri-green hover:text-white"
+        className="relative inline-flex items-center justify-center p-4 px-5 py-3 overflow-hidden font-bold text-white transition duration-300 ease-out border-2 border-white shadow-xl rounded-xl bg-wri-red hover:bg-wri-green hover:text-white"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         initial="rest" // Initial state (non-hovered)
