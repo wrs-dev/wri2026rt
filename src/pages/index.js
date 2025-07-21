@@ -1,6 +1,7 @@
 import Navigation from '@/components/navigation';
 import Banner25RT30th from '@/components/banner/wri25RT-30th';
 import IconsRT from '@/components/icons/iconsRT';
+import AgendaButton from '@/components/buttons/agenda-download-button';
 import Intro from '@/components/intro';
 {/* import CallForPapers from '@/components/call-for-papers'; */}
 import Registration from '@/components/registration';
@@ -29,7 +30,9 @@ export default function Home() {
       <Navigation />
       <Banner25RT30th />
       <IconsRT />
-
+      <div className="flex justify-center mb-12">
+        <AgendaButton />
+      </div>
       {/* About Section (keeps your existing RT text) */}
       <div className="pb-40 about-container font-wri" id="about">
         <h1 className="mt-2 mb-2 text-2xl font-extrabold text-center sm:text-5xl font-wri">
