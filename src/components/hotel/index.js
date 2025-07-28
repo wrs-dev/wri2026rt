@@ -62,7 +62,7 @@ export default function Hotel() {
             </p>
             <p className="mb-3.5 text-base">
               Reservations must be received on or before the cut-off date of{' '}
-              <b>Friday, August 2, 2025</b>. Once our room block is full, you
+              <b>Friday, August 11, 2025</b>. Once our room block is full, you
               may not be able to receive our special rate.
             </p>
             <p className="mb-3.5 text-base">
