@@ -14,12 +14,12 @@ export default function PricingVirtualMulti() {
         <div className="px-8 pt-6 pb-8">
           <div className="mb-4">
             <h2 className="font-semibold text-md text-blue-950">
-              Heavy Haul Seminar <em>Plus</em> Principles Course (3 Days)
+              Rail Transit Seminar <em>Plus</em> Principles Course (3 Days)
             </h2>
             <h2 className="text-md text-wri-blue">
               Cost: $650 (Save $150)
             </h2>
-            <p className="text-gray-500 text-md">June 10 - 12, 2025</p>
+            <p className="text-gray-500 text-md">August 26-28, 2025</p>
           </div>
         </div>
       </div>
