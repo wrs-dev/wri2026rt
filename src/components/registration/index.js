@@ -52,9 +52,9 @@ const RegistrationComp = () => {
       <h2 className="px-4 text-5xl font-normal leading-normal text-center pb-11">
         <b>Register for WRI 2025 Rail Transit Now!</b>
       </h2>
-      <h2 className="px-4 text-5xl font-normal leading-normal text-center pb-11">
+      {/* <h2 className="px-4 text-5xl font-normal leading-normal text-center pb-11">
         <b>Take advantage of Early Bird pricing!</b>
-      </h2>
+      </h2>*/}
 
       <div className="row">
         <div className="container" id="register">
