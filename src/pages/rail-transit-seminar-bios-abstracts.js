@@ -42,7 +42,7 @@ const BiosAbstractsPCPage = () => {
 
       {/* Registration & Sponsors follow */}
       <Registration />
-      {/*<SponsorsCloud />*/}
+      <SponsorsCloud />
     </main>
   );
 };

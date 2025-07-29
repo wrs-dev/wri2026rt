@@ -118,7 +118,7 @@ const RailTransitSeminarPage = () => {
       </div>
 
       <Registration />
-      {/* <SponsorsCloud /> */}
+      <SponsorsCloud />
     </main>
   );
 };

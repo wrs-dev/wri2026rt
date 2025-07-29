@@ -72,8 +72,7 @@ export default function Home() {
         </div>
       </section>
       <Hotel />
-      {/* Temporarily remove sponsor cloud (commented out) */}
-      {/* <SponsorsCloud /> */}
+      <SponsorsCloud />
     </main>
   );
 }

@@ -37,7 +37,7 @@ const BiosAbstractsPCPage = () => {
 
       <BiosAbstractsPC />
       <Registration />
-      {/* <SponsorsCloud /> */}
+      <SponsorsCloud />
     </main>
   );
 };
