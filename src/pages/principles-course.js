@@ -4,7 +4,7 @@ import Banner25RT30th from '@/components/banner/wri25RT-30th';
 import IconLinks from '@/components/icons/iconsRT';
 import SpeakersPC from '@/components/speakers/speakersPC';
 import Registration from '@/components/registration';
-// import SponsorsCloud from '@/components/sponsors';
+import SponsorsCloud from '@/components/sponsors';
 import Head from 'next/head';
 
 export async function getStaticProps() {
@@ -112,7 +112,7 @@ const PrinciplesCoursePage = () => {
       </div>
 
       <Registration />
-      {/* <SponsorsCloud /> */}
+      <SponsorsCloud />
     </main>
   );
 };

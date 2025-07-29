@@ -14,27 +14,19 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-rts.png"
-          alt="RT&S Presenting Sponsor"
-          className="w-auto h-12 max-w-none"
+          src="/sound-transit-local-host.webp"
+          alt="Sound Transit Local Host"
+          className="w-auto h-14 max-w-none"
           loading="lazy"
-          width={143}
-          height={50}
+          width={280}
+          height={60}
         />
         <Image
-          src="/cloud-amsted-rail.png"
-          alt="Platinum Sponsor Amsted Rail"
+          src="/cloud-plasser-american.png"
+          alt="Pearl Milestone Sponsor Plasser American"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={190}
-          height={50}
-        />
-        <Image
-          src="/cloud-ensco.png"
-          alt="Platinum Sponsor Ensco"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={187}
+          width={353}
           height={50}
         />
         <Image
@@ -46,27 +38,51 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-plasser-american.png"
-          alt="Platinum Sponsor Plasser American"
+          src="/cloud-amsted-rail.png"
+          alt="Gold Sponsor Amsted Rail"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={353}
+          width={190}
           height={50}
         />
         <Image
-          src="/cloud-holland.png"
-          alt="Gold Sponsor Holland"
+          src="/cloud-ensco.png"
+          alt="Gold Sponsor Ensco"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={206}
+          width={187}
           height={50}
         />
         <Image
-          src="/cloud-goldschmidt.png"
-          alt="Gold Sponsor Goldschmidt"
+          src="/gateway-rail-services.png"
+          alt="Gold Sponsor Gateway Rail Services"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={240}
+          height={60}
+        />
+        <Image
+          src="/gold-humatics.png"
+          alt="Gold Sponsor Humatics"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={228}
+          width={180}
+          height={50}
+        />
+        <Image
+          src="/cloud-lbfoster.png"
+          alt="Gold Sponsor LB Foster"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={240}
+          height={50}
+        />
+        <Image
+          src="/cloud-rhomberg-sersa.png"
+          alt="Gold Sponsor Rhomberg Sersa"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={145}
           height={50}
         />
         <Image
@@ -78,123 +94,43 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-HBK.png"
-          alt="Gold Sponsor HBK"
+          src="/whitmore.png"
+          alt="Gold Sponsor Whitmore"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={128}
+          width={200}
           height={50}
         />
         <Image
-          src="/cloud-sperry.png"
-          alt="Platinum Sponsor Sperry Rail"
+          src="/gold-wvco.png"
+          alt="Gold Sponsor WVCO Railroad Solutions"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={75}
-          height={50}
-        />
-        <Image
-          src="/cloud-WID.jpg"
-          alt="Gold Sponsor Wayside Inspection Devices"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={182}
-          height={50}
-        />
-        <Image
-          src="/cloud-arm-grg.png"
-          alt="Cloud ARM GRG"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={138}
-          height={50}
-        />
-        <Image
-          src="/silver-athena.png"
-          alt="Silver Athena"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={191}
-          height={50}
-        />
-        <Image
-          src="/cloud-lbfoster.png"
-          alt="Cloud Lbfoster"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={240}
-          height={50}
-        />
-        <Image
-          src="/cloud-railroad-software.png"
-          alt="Silver Sponsor Railroad Software"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={215}
-          height={50}
-        />
-        <Image
-          src="/cloud-robel-group.png"
-          alt="Silver Sponsor Robel Group"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={197}
+          width={180}
           height={50}
         />
         <Image
           src="/cloud-IJ.png"
           alt="Silver Sponsor Interface Journal"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={154}
+          height={60}
+        />
+        <Image
+          src="/getzner-logo.png"
+          alt="Silver Sponsor Getzner"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={128}
+          width={180}
           height={50}
         />
         <Image
-          src="/cloud-linsinger.png"
-          alt="Linsinger Silver Sponsor"
+          src="/gold-gatekeeper.png"
+          alt="Silver Sponsor Gatekeeper"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={71}
-          height={50}
-        />
-        <Image
-          src="/cloud-remsa.png"
-          alt="Remsa Silver Sponsor"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={87}
-          height={50}
-        />
-        <Image
-          src="/cloud-fts.png"
-          alt="InfoZone Sponsor FTS"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={155}
-          height={50}
-        />
-        <Image
-          src="/cloud-bosspac.png"
-          alt="InfoZone Sponsor BossPac"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={245}
-          height={50}
-        />
-        <Image
-          src="/cloud-wabtec.png"
-          alt="Silver Sponsor Wabtec"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={157}
-          height={50}
-        />
-        <Image
-          src="/cloud-rhomberg-sersa.png"
-          alt="Silver Sponsor Rhombnerg Sersa"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={145}
+          width={200}
           height={50}
         />
         <Image
@@ -206,11 +142,27 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-cars.png"
-          alt="Bronze Sponsor Canadian Association of Railway Suppliers"
+          src="/cloud-linsinger.png"
+          alt="InfoZone Sponsor Linsinger"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={85}
+          height={60}
+        />
+        <Image
+          src="/cloud-railroad-software.png"
+          alt="InfoZone Sponsor Railroad Software"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={261}
+          width={215}
+          height={50}
+        />
+        <Image
+          src="/hexagon.png"
+          alt="InfoZone Sponsor Hexagon"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={180}
           height={50}
         />
       </div>
@@ -224,27 +176,19 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-rts.png"
-          alt="RT&S Presenting Sponsor"
-          className="w-auto h-12 max-w-none"
+          src="/sound-transit-local-host.webp"
+          alt="Sound Transit Local Host"
+          className="w-auto h-14 max-w-none"
           loading="lazy"
-          width={143}
-          height={50}
+          width={280}
+          height={60}
         />
         <Image
-          src="/cloud-amsted-rail.png"
-          alt="Platinum Sponsor Amsted Rail"
+          src="/cloud-plasser-american.png"
+          alt="Pearl Milestone Sponsor Plasser American"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={190}
-          height={50}
-        />
-        <Image
-          src="/cloud-ensco.png"
-          alt="Platinum Sponsor Ensco"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={187}
+          width={353}
           height={50}
         />
         <Image
@@ -256,27 +200,51 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-plasser-american.png"
-          alt="Platinum Sponsor Plasser American"
+          src="/cloud-amsted-rail.png"
+          alt="Gold Sponsor Amsted Rail"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={353}
+          width={190}
           height={50}
         />
         <Image
-          src="/cloud-holland.png"
-          alt="Gold Sponsor Holland"
+          src="/cloud-ensco.png"
+          alt="Gold Sponsor Ensco"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={206}
+          width={187}
           height={50}
         />
         <Image
-          src="/cloud-goldschmidt.png"
-          alt="Gold Sponsor Goldschmidt"
+          src="/gateway-rail-services.png"
+          alt="Gold Sponsor Gateway Rail Services"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={240}
+          height={60}
+        />
+        <Image
+          src="/gold-humatics.png"
+          alt="Gold Sponsor Humatics"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={228}
+          width={180}
+          height={50}
+        />
+        <Image
+          src="/cloud-lbfoster.png"
+          alt="Gold Sponsor LB Foster"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={240}
+          height={50}
+        />
+        <Image
+          src="/cloud-rhomberg-sersa.png"
+          alt="Gold Sponsor Rhomberg Sersa"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={145}
           height={50}
         />
         <Image
@@ -288,123 +256,43 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-HBK.png"
-          alt="Gold Sponsor HBK"
+          src="/whitmore.png"
+          alt="Gold Sponsor Whitmore"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={128}
+          width={200}
           height={50}
         />
         <Image
-          src="/cloud-sperry.png"
-          alt="Platinum Sponsor Sperry Rail"
+          src="/gold-wvco.png"
+          alt="Gold Sponsor WVCO Railroad Solutions"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={75}
-          height={50}
-        />
-        <Image
-          src="/cloud-WID.jpg"
-          alt="Gold Sponsor Wayside Inspection Devices"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={182}
-          height={50}
-        />
-        <Image
-          src="/cloud-arm-grg.png"
-          alt="Cloud ARM GRG"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={138}
-          height={50}
-        />
-        <Image
-          src="/silver-athena.png"
-          alt="Silver Athena"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={191}
-          height={50}
-        />
-        <Image
-          src="/cloud-lbfoster.png"
-          alt="Cloud Lbfoster"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={240}
-          height={50}
-        />
-        <Image
-          src="/cloud-railroad-software.png"
-          alt="Silver Sponsor Railroad Software"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={215}
-          height={50}
-        />
-        <Image
-          src="/cloud-robel-group.png"
-          alt="Silver Sponsor Robel Group"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={197}
+          width={180}
           height={50}
         />
         <Image
           src="/cloud-IJ.png"
           alt="Silver Sponsor Interface Journal"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={154}
+          height={60}
+        />
+        <Image
+          src="/getzner-logo.png"
+          alt="Silver Sponsor Getzner"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={128}
+          width={180}
           height={50}
         />
         <Image
-          src="/cloud-linsinger.png"
-          alt="Linsinger Silver Sponsor"
+          src="/gold-gatekeeper.png"
+          alt="Silver Sponsor Gatekeeper"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={71}
-          height={50}
-        />
-        <Image
-          src="/cloud-remsa.png"
-          alt="Remsa Silver Sponsor"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={87}
-          height={50}
-        />
-        <Image
-          src="/cloud-fts.png"
-          alt="InfoZone Sponsor FTS"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={155}
-          height={50}
-        />
-        <Image
-          src="/cloud-bosspac.png"
-          alt="InfoZone Sponsor BossPac"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={245}
-          height={50}
-        />
-        <Image
-          src="/cloud-wabtec.png"
-          alt="Silver Sponsor Wabtec"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={157}
-          height={50}
-        />
-        <Image
-          src="/cloud-rhomberg-sersa.png"
-          alt="Silver Sponsor Rhombnerg Sersa"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={145}
+          width={200}
           height={50}
         />
         <Image
@@ -416,11 +304,27 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-cars.png"
-          alt="Bronze Sponsor Canadian Association of Railway Suppliers"
+          src="/cloud-linsinger.png"
+          alt="InfoZone Sponsor Linsinger"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={85}
+          height={60}
+        />
+        <Image
+          src="/cloud-railroad-software.png"
+          alt="InfoZone Sponsor Railroad Software"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={261}
+          width={215}
+          height={50}
+        />
+        <Image
+          src="/hexagon.png"
+          alt="InfoZone Sponsor Hexagon"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={180}
           height={50}
         />
       </div>
@@ -434,27 +338,19 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-rts.png"
-          alt="RT&S Presenting Sponsor"
-          className="w-auto h-12 max-w-none"
+          src="/sound-transit-local-host.webp"
+          alt="Sound Transit Local Host"
+          className="w-auto h-14 max-w-none"
           loading="lazy"
-          width={143}
-          height={50}
+          width={280}
+          height={60}
         />
         <Image
-          src="/cloud-amsted-rail.png"
-          alt="Platinum Sponsor Amsted Rail"
+          src="/cloud-plasser-american.png"
+          alt="Pearl Milestone Sponsor Plasser American"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={190}
-          height={50}
-        />
-        <Image
-          src="/cloud-ensco.png"
-          alt="Platinum Sponsor Ensco"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={187}
+          width={353}
           height={50}
         />
         <Image
@@ -466,27 +362,51 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-plasser-american.png"
-          alt="Platinum Sponsor Plasser American"
+          src="/cloud-amsted-rail.png"
+          alt="Gold Sponsor Amsted Rail"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={353}
+          width={190}
           height={50}
         />
         <Image
-          src="/cloud-holland.png"
-          alt="Gold Sponsor Holland"
+          src="/cloud-ensco.png"
+          alt="Gold Sponsor Ensco"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={206}
+          width={187}
           height={50}
         />
         <Image
-          src="/cloud-goldschmidt.png"
-          alt="Gold Sponsor Goldschmidt"
+          src="/gateway-rail-services.png"
+          alt="Gold Sponsor Gateway Rail Services"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={240}
+          height={60}
+        />
+        <Image
+          src="/gold-humatics.png"
+          alt="Gold Sponsor Humatics"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={228}
+          width={180}
+          height={50}
+        />
+        <Image
+          src="/cloud-lbfoster.png"
+          alt="Gold Sponsor LB Foster"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={240}
+          height={50}
+        />
+        <Image
+          src="/cloud-rhomberg-sersa.png"
+          alt="Gold Sponsor Rhomberg Sersa"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={145}
           height={50}
         />
         <Image
@@ -498,123 +418,43 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-HBK.png"
-          alt="Gold Sponsor HBK"
+          src="/whitmore.png"
+          alt="Gold Sponsor Whitmore"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={128}
+          width={200}
           height={50}
         />
         <Image
-          src="/cloud-sperry.png"
-          alt="Platinum Sponsor Sperry Rail"
+          src="/gold-wvco.png"
+          alt="Gold Sponsor WVCO Railroad Solutions"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={75}
-          height={50}
-        />
-        <Image
-          src="/cloud-WID.jpg"
-          alt="Gold Sponsor Wayside Inspection Devices"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={182}
-          height={50}
-        />
-        <Image
-          src="/cloud-arm-grg.png"
-          alt="Cloud ARM GRG"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={138}
-          height={50}
-        />
-        <Image
-          src="/silver-athena.png"
-          alt="Silver Athena"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={191}
-          height={50}
-        />
-        <Image
-          src="/cloud-lbfoster.png"
-          alt="Cloud Lbfoster"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={240}
-          height={50}
-        />
-        <Image
-          src="/cloud-railroad-software.png"
-          alt="Silver Sponsor Railroad Software"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={215}
-          height={50}
-        />
-        <Image
-          src="/cloud-robel-group.png"
-          alt="Silver Sponsor Robel Group"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={197}
+          width={180}
           height={50}
         />
         <Image
           src="/cloud-IJ.png"
           alt="Silver Sponsor Interface Journal"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={154}
+          height={60}
+        />
+        <Image
+          src="/getzner-logo.png"
+          alt="Silver Sponsor Getzner"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={128}
+          width={180}
           height={50}
         />
         <Image
-          src="/cloud-linsinger.png"
-          alt="Linsinger Silver Sponsor"
+          src="/gold-gatekeeper.png"
+          alt="Silver Sponsor Gatekeeper"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={71}
-          height={50}
-        />
-        <Image
-          src="/cloud-remsa.png"
-          alt="Remsa Silver Sponsor"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={87}
-          height={50}
-        />
-        <Image
-          src="/cloud-fts.png"
-          alt="InfoZone Sponsor FTS"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={155}
-          height={50}
-        />
-        <Image
-          src="/cloud-bosspac.png"
-          alt="InfoZone Sponsor BossPac"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={245}
-          height={50}
-        />
-        <Image
-          src="/cloud-wabtec.png"
-          alt="Silver Sponsor Wabtec"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={157}
-          height={50}
-        />
-        <Image
-          src="/cloud-rhomberg-sersa.png"
-          alt="Silver Sponsor Rhombnerg Sersa"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={145}
+          width={200}
           height={50}
         />
         <Image
@@ -626,11 +466,27 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-cars.png"
-          alt="Bronze Sponsor Canadian Association of Railway Suppliers"
+          src="/cloud-linsinger.png"
+          alt="InfoZone Sponsor Linsinger"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={85}
+          height={60}
+        />
+        <Image
+          src="/cloud-railroad-software.png"
+          alt="InfoZone Sponsor Railroad Software"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={261}
+          width={215}
+          height={50}
+        />
+        <Image
+          src="/hexagon.png"
+          alt="InfoZone Sponsor Hexagon"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={180}
           height={50}
         />
       </div>
@@ -644,27 +500,19 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-rts.png"
-          alt="RT&S Presenting Sponsor"
-          className="w-auto h-12 max-w-none"
+          src="/sound-transit-local-host.webp"
+          alt="Sound Transit Local Host"
+          className="w-auto h-14 max-w-none"
           loading="lazy"
-          width={143}
-          height={50}
+          width={280}
+          height={60}
         />
         <Image
-          src="/cloud-amsted-rail.png"
-          alt="Platinum Sponsor Amsted Rail"
+          src="/cloud-plasser-american.png"
+          alt="Pearl Milestone Sponsor Plasser American"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={190}
-          height={50}
-        />
-        <Image
-          src="/cloud-ensco.png"
-          alt="Platinum Sponsor Ensco"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={187}
+          width={353}
           height={50}
         />
         <Image
@@ -676,194 +524,8 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-plasser-american.png"
-          alt="Platinum Sponsor Plasser American"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={353}
-          height={50}
-        />
-        <Image
-          src="/cloud-holland.png"
-          alt="Gold Sponsor Holland"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={206}
-          height={50}
-        />
-        <Image
-          src="/cloud-goldschmidt.png"
-          alt="Gold Sponsor Goldschmidt"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={228}
-          height={50}
-        />
-        <Image
-          src="/cloud-vossloh.jpg"
-          alt="Gold Sponsor Vossloh"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={192}
-          height={50}
-        />
-        <Image
-          src="/cloud-HBK.png"
-          alt="Gold Sponsor HBK"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={128}
-          height={50}
-        />
-        <Image
-          src="/cloud-sperry.png"
-          alt="Platinum Sponsor Sperry Rail"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={75}
-          height={50}
-        />
-        <Image
-          src="/cloud-WID.jpg"
-          alt="Gold Sponsor Wayside Inspection Devices"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={182}
-          height={50}
-        />
-        <Image
-          src="/cloud-arm-grg.png"
-          alt="Cloud ARM GRG"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={138}
-          height={50}
-        />
-        <Image
-          src="/silver-athena.png"
-          alt="Silver Athena"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={191}
-          height={50}
-        />
-        <Image
-          src="/cloud-lbfoster.png"
-          alt="Cloud Lbfoster"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={240}
-          height={50}
-        />
-        <Image
-          src="/cloud-railroad-software.png"
-          alt="Silver Sponsor Railroad Software"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={215}
-          height={50}
-        />
-        <Image
-          src="/cloud-robel-group.png"
-          alt="Silver Sponsor Robel Group"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={197}
-          height={50}
-        />
-        <Image
-          src="/cloud-IJ.png"
-          alt="Silver Sponsor Interface Journal"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={128}
-          height={50}
-        />
-        <Image
-          src="/cloud-linsinger.png"
-          alt="Linsinger Silver Sponsor"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={71}
-          height={50}
-        />
-        <Image
-          src="/cloud-remsa.png"
-          alt="Remsa Silver Sponsor"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={87}
-          height={50}
-        />
-        <Image
-          src="/cloud-fts.png"
-          alt="InfoZone Sponsor FTS"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={155}
-          height={50}
-        />
-        <Image
-          src="/cloud-bosspac.png"
-          alt="InfoZone Sponsor BossPac"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={245}
-          height={50}
-        />
-        <Image
-          src="/cloud-wabtec.png"
-          alt="Silver Sponsor Wabtec"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={157}
-          height={50}
-        />
-        <Image
-          src="/cloud-rhomberg-sersa.png"
-          alt="Silver Sponsor Rhombnerg Sersa"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={145}
-          height={50}
-        />
-        <Image
-          src="/cloud-steel-dynamics.png"
-          alt="Bronze Sponsor Steel Dynamics"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={247}
-          height={50}
-        />
-        <Image
-          src="/cloud-cars.png"
-          alt="Bronze Sponsor Canadian Association of Railway Suppliers"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={261}
-          height={50}
-        />
-      </div>
-      <div className="flex space-x-16 animate-loop-scroll">
-        <Image
-          src="/cloud-mass-transit.png"
-          alt="MassTransit Presenting Sponsor"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={168}
-          height={50}
-        />
-        <Image
-          src="/cloud-rts.png"
-          alt="RT&S Presenting Sponsor"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={143}
-          height={50}
-        />
-        <Image
           src="/cloud-amsted-rail.png"
-          alt="Platinum Sponsor Amsted Rail"
+          alt="Gold Sponsor Amsted Rail"
           className="w-auto h-12 max-w-none"
           loading="lazy"
           width={190}
@@ -871,42 +533,42 @@ const LogoRow = () => {
         />
         <Image
           src="/cloud-ensco.png"
-          alt="Platinum Sponsor Ensco"
+          alt="Gold Sponsor Ensco"
           className="w-auto h-12 max-w-none"
           loading="lazy"
           width={187}
           height={50}
         />
         <Image
-          src="/cloud-loram.png"
-          alt="Platinum Sponsor Loram"
+          src="/gateway-rail-services.png"
+          alt="Gold Sponsor Gateway Rail Services"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={240}
+          height={60}
+        />
+        <Image
+          src="/gold-humatics.png"
+          alt="Gold Sponsor Humatics"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={279}
+          width={180}
           height={50}
         />
         <Image
-          src="/cloud-plasser-american.png"
-          alt="Platinum Sponsor Plasser American"
+          src="/cloud-lbfoster.png"
+          alt="Gold Sponsor LB Foster"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={353}
+          width={240}
           height={50}
         />
         <Image
-          src="/cloud-holland.png"
-          alt="Gold Sponsor Holland"
+          src="/cloud-rhomberg-sersa.png"
+          alt="Gold Sponsor Rhomberg Sersa"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={206}
-          height={50}
-        />
-        <Image
-          src="/cloud-goldschmidt.png"
-          alt="Gold Sponsor Goldschmidt"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={228}
+          width={145}
           height={50}
         />
         <Image
@@ -918,123 +580,43 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-HBK.png"
-          alt="Gold Sponsor HBK"
+          src="/whitmore.png"
+          alt="Gold Sponsor Whitmore"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={128}
+          width={200}
           height={50}
         />
         <Image
-          src="/cloud-sperry.png"
-          alt="Platinum Sponsor Sperry Rail"
+          src="/gold-wvco.png"
+          alt="Gold Sponsor WVCO Railroad Solutions"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={75}
-          height={50}
-        />
-        <Image
-          src="/cloud-WID.jpg"
-          alt="Gold Sponsor Wayside Inspection Devices"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={182}
-          height={50}
-        />
-        <Image
-          src="/cloud-arm-grg.png"
-          alt="Cloud ARM GRG"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={138}
-          height={50}
-        />
-        <Image
-          src="/silver-athena.png"
-          alt="Silver Athena"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={191}
-          height={50}
-        />
-        <Image
-          src="/cloud-lbfoster.png"
-          alt="Cloud Lbfoster"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={240}
-          height={50}
-        />
-        <Image
-          src="/cloud-railroad-software.png"
-          alt="Silver Sponsor Railroad Software"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={215}
-          height={50}
-        />
-        <Image
-          src="/cloud-robel-group.png"
-          alt="Silver Sponsor Robel Group"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={197}
+          width={180}
           height={50}
         />
         <Image
           src="/cloud-IJ.png"
           alt="Silver Sponsor Interface Journal"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={154}
+          height={60}
+        />
+        <Image
+          src="/getzner-logo.png"
+          alt="Silver Sponsor Getzner"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={128}
+          width={180}
           height={50}
         />
         <Image
-          src="/cloud-linsinger.png"
-          alt="Linsinger Silver Sponsor"
+          src="/gold-gatekeeper.png"
+          alt="Silver Sponsor Gatekeeper"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={71}
-          height={50}
-        />
-        <Image
-          src="/cloud-remsa.png"
-          alt="Remsa Silver Sponsor"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={87}
-          height={50}
-        />
-        <Image
-          src="/cloud-fts.png"
-          alt="InfoZone Sponsor FTS"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={155}
-          height={50}
-        />
-        <Image
-          src="/cloud-bosspac.png"
-          alt="InfoZone Sponsor BossPac"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={245}
-          height={50}
-        />
-        <Image
-          src="/cloud-wabtec.png"
-          alt="Silver Sponsor Wabtec"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={157}
-          height={50}
-        />
-        <Image
-          src="/cloud-rhomberg-sersa.png"
-          alt="Silver Sponsor Rhombnerg Sersa"
-          className="w-auto h-12 max-w-none"
-          loading="lazy"
-          width={145}
+          width={200}
           height={50}
         />
         <Image
@@ -1046,11 +628,27 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-cars.png"
-          alt="Bronze Sponsor Canadian Association of Railway Suppliers"
+          src="/cloud-linsinger.png"
+          alt="InfoZone Sponsor Linsinger"
+          className="w-auto h-14 max-w-none"
+          loading="lazy"
+          width={85}
+          height={60}
+        />
+        <Image
+          src="/cloud-railroad-software.png"
+          alt="InfoZone Sponsor Railroad Software"
           className="w-auto h-12 max-w-none"
           loading="lazy"
-          width={261}
+          width={215}
+          height={50}
+        />
+        <Image
+          src="/hexagon.png"
+          alt="InfoZone Sponsor Hexagon"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={180}
           height={50}
         />
       </div>

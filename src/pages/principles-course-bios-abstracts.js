@@ -5,7 +5,7 @@ import Banner25RT30th from '@/components/banner/wri25RT-30th';  // 2025 version
 import IconLinks from '@/components/icons/iconsRT';            // 2025 RT icons
 import BiosAbstractsPC from '@/components/bios-abstracts/bios-abstractsPC';
 import Registration from '@/components/registration';
-// import SponsorsCloud from '@/components/sponsors';
+import SponsorsCloud from '@/components/sponsors';
 
 export async function getStaticProps() {
   return {
@@ -37,7 +37,7 @@ const BiosAbstractsPCPage = () => {
 
       <BiosAbstractsPC />
       <Registration />
-      {/* <SponsorsCloud /> */}
+      <SponsorsCloud />
     </main>
   );
 };
