@@ -18,7 +18,7 @@ const infoZoneSponsors = [
     {
     name: 'Hexagon | NEXTSENSE',
     description: '',
-    imagePath: '/hexagon.png',
+    imagePath: '/hexagon_new.jpg',
     url: 'https://www.calipri.net/en/',
   },
   {
