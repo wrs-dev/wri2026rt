@@ -19,7 +19,7 @@ const infoZoneSponsors = [
     name: 'Hexagon | NEXTSENSE',
     description: '',
     imagePath: '/hexagon.png',
-    url: 'https://hexagon.com/industries/transportation/rail-transit',
+    url: 'https://www.calipri.net/en/',
   },
   {
     name: 'Loram',
