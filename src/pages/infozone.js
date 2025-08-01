@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
 import Navigation from '@/components/navigation';
-import InfoZonePage from '@/components/infozone/infoZonePage';
+import InfoZonePage from '@/components/infozone/infoZonePage-no-abstracts';
 import Banner25RT30th from '@/components/banner/wri25RT-30th';
 import IconsRT from '@/components/icons/iconsRT';
 
