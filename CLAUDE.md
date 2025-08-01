@@ -32,11 +32,11 @@ npm run lint       # Run ESLint
 - **GSAP/Framer Motion** for animations
 
 ### Project Structure
-- `/pages` - Next.js page routes including multiple conference tracks (RT, HH, Principles)
-- `/components` - Reusable React components organized by feature
-- `/netlify/functions` - Serverless functions for newsletter, RSS feeds
-- `/public` - Static assets including speaker images, sponsor logos
-- `/styles` - Global styles and Tailwind configuration
+- `/src/pages` - Next.js page routes including multiple conference tracks (RT, HH, Principles)
+- `/src/components` - Reusable React components organized by feature
+- `/netlify/functions` - Serverless functions for newsletter subscriptions and RSS feeds
+- `/public` - Static assets including speaker images, sponsor logos, Rive animations
+- `/src/styles` - Global styles and Tailwind configuration
 
 ### Key Implementation Patterns
 
@@ -54,8 +54,11 @@ npm run lint       # Run ESLint
 
 ### Environment Variables
 Required environment variables (set in Netlify):
-- `MAILERLITE_API_KEY` - For newsletter subscriptions
-- `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` - For analytics tracking
+- `MAILERLITE_PRODUCTION_API_KEY` - For newsletter subscriptions
+- `MAILERLITE_PRODUCTION_BASE_API_URL` - MailerLite API base URL
+- `MAILERLITE_PRODUCTION_NEWSLETTER_GROUP_ID` - MailerLite group ID for subscribers
+- `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` - For analytics tracking (wri2025rt.wheel-rail-seminars.com)
+- `STORYBLOK_API_TOKEN` - For CMS content fetching
 
 ### Deployment
 The site is configured for static export and automatic deployment via Netlify:
@@ -71,16 +74,22 @@ The site is configured for static export and automatic deployment via Netlify:
 ### Common Tasks
 
 **Adding a new speaker:**
-1. Add speaker image to `/public/speakers/[conference]/`
-2. Create new page in `/pages/[conference]/abstracts/[speaker-name].js`
-3. Update speaker listing component with new entry
+1. Add speaker image to `/public/speakers/[conference]/` (optimize for web)
+2. Update the relevant speaker component in `/src/components/speakers/speakers[RT|HH|PC].js`
+3. Add speaker bio/abstract data to the component's speaker array
 
 **Updating sponsor logos:**
-1. Add optimized logo to `/public/sponsors/`
-2. Update relevant sponsor tier component
+1. Add optimized logo to `/public/` (use descriptive naming like `gold-companyname.png`)
+2. Update relevant sponsor component in `/src/components/sponsors/`
 3. Ensure proper alt text and link attributes
 
 **Modifying conference dates/info:**
-1. Update hero sections in relevant conference pages
-2. Update meta tags and SEO information
-3. Update registration widget embed codes if needed
+1. Update hero sections in relevant conference pages (`/src/pages/[conference].js`)
+2. Update countdown timer in registration component if needed
+3. Update meta tags in `_app.js` or page-specific props
+
+**Key File Locations:**
+- Conference pages: `/src/pages/rail-transit-seminar.js`, `/src/pages/heavy-haul-seminar.js`, `/src/pages/principles-course.js`
+- Registration component with pricing: `/src/components/registration/index.js`
+- Banner animations: `/src/components/banner/wri25RT.js`, `/src/components/banner/wri25HH.js`
+- Cvent registration widgets: `/src/components/CventWidget.js` (dev) and `/src/components/CventWidget-prod.js` (production)

@@ -34,9 +34,7 @@ export default function PricingEmployeeIndividual() {
               Principles Course (1 Day)
             </h2>
             <h2 className="text-md text-wri-blue">
-              Cost: 
-              <span className="ml-2 mr-1 text-gray-500 line-through">$450</span>
-              $405 Early Bird
+              Cost: $450
             </h2>
             <p className="text-gray-500 text-md">August 26, 2025</p>
           </div>
@@ -47,9 +45,7 @@ export default function PricingEmployeeIndividual() {
               Rail Transit Seminar (2 Days)
             </h2>
             <h2 className="text-md text-wri-blue">
-              Cost: 
-              <span className="ml-2 mr-1 text-gray-500 line-through">$1,000</span>
-              $900 Early Bird
+              Cost: $1,000
             </h2>
             <p className="text-gray-500 text-md">August 27-28, 2025</p>
           </div>

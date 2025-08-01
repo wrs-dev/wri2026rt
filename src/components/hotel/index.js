@@ -27,7 +27,7 @@ export default function Hotel() {
                   Hyatt Regency Seattle
                 </div>
                 <div className="mb-8 text-lg font-bold">
-                808 Howell Street Seattle, Washington, 98101 United States
+                  808 Howell Street Seattle, Washington, 98101 United States
                 </div>
                 <a
                   href="https://www.hyatt.com/en-US/group-booking/SEARS/G-WRI5"
@@ -45,8 +45,8 @@ export default function Hotel() {
           <div className="col">
             <h2>Making Reservations/Discounted Rate:</h2>
             <p className="mb-3.5 text-base">
-              You can use the Hyatt Regency Seattle&apos;s secure online reservation system
-              to book, modify, or cancel your reservation{' '}
+              You can use the Hyatt Regency Seattle&apos;s secure online
+              reservation system to book, modify, or cancel your reservation{' '}
               <a
                 className="text-red-500 underline hover:text-blue-600"
                 href="https://www.hyatt.com/en-US/group-booking/SEARS/G-WRI5"
@@ -66,30 +66,35 @@ export default function Hotel() {
               may not be able to receive our special rate.
             </p>
             <p className="mb-3.5 text-base">
-              If you require additional reservations assistance, you may contact the hotel
-              reservation department at (206) 973-1234 and refer to the group by name:{' '}
+              If you require additional reservations assistance, you may contact
+              the hotel reservation department at (206) 973-1234 and refer to
+              the group by name:{' '}
               <b>Wheel/Rail Interaction Rail Transit &apos;25 Seattle.</b>
             </p>
 
             <h2>Room Deposits/Guarantees:</h2>
             <p className="mb-3.5 text-base">
-              <b>Hotel reservations require a credit card guarantee to secure your room.</b>{' '}
-              Should you need to cancel your reservation, reservations must be canceled a
-              minimum of 48 hours prior to arrival, 5PM hotel time, to avoid a one-night
-              cancellation penalty.
+              <b>
+                Hotel reservations require a credit card guarantee to secure
+                your room.
+              </b>{' '}
+              Should you need to cancel your reservation, reservations must be
+              canceled a minimum of 48 hours prior to arrival, 5PM hotel time,
+              to avoid a one-night cancellation penalty.
             </p>
 
             <h2>Reservation Confirmation:</h2>
             <p className="mb-3.5 text-base">
-              You will receive your hotel confirmation email directly from the hotel.
+              You will receive your hotel confirmation email directly from the
+              hotel.
             </p>
             <p className="mb-3.5 text-base">
               <b>
-                Reservation must be canceled by 5:00pm, local hotel time, two days prior to
-                arrival date.
+                Reservation must be canceled by 5:00pm, local hotel time, two
+                days prior to arrival date.
               </b>{' '}
-              Failure to cancel by 5:00pm, 48 hours prior will result in the loss of one
-              night&apos;s room and tax on your credit card.
+              Failure to cancel by 5:00pm, 48 hours prior will result in the
+              loss of one night&apos;s room and tax on your credit card.
             </p>
           </div>
         </div>
