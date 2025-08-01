@@ -111,6 +111,12 @@ const silverSponsors = [
     imagePath: '/gold-gatekeeper.png',
     url: 'https://gatekeeper-systems.com',
   },
+  {
+    name: 'GMT',
+    description: '',
+    imagePath: '/new-gmt-international.png',
+    url: 'https://www.gmt-gmbh.com/en',
+  },
 ];
 
 const bronzeSponsors = [

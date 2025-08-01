@@ -134,6 +134,14 @@ const LogoRow = () => {
           height={50}
         />
         <Image
+          src="/new-gmt-international.png"
+          alt="Silver Sponsor GMT"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={180}
+          height={50}
+        />
+        <Image
           src="/cloud-steel-dynamics.png"
           alt="Bronze Sponsor Steel Dynamics"
           className="w-auto h-12 max-w-none"
@@ -296,6 +304,14 @@ const LogoRow = () => {
           height={50}
         />
         <Image
+          src="/new-gmt-international.png"
+          alt="Silver Sponsor GMT"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={180}
+          height={50}
+        />
+        <Image
           src="/cloud-steel-dynamics.png"
           alt="Bronze Sponsor Steel Dynamics"
           className="w-auto h-12 max-w-none"
@@ -458,6 +474,14 @@ const LogoRow = () => {
           height={50}
         />
         <Image
+          src="/new-gmt-international.png"
+          alt="Silver Sponsor GMT"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={180}
+          height={50}
+        />
+        <Image
           src="/cloud-steel-dynamics.png"
           alt="Bronze Sponsor Steel Dynamics"
           className="w-auto h-12 max-w-none"
@@ -617,6 +641,14 @@ const LogoRow = () => {
           className="w-auto h-12 max-w-none"
           loading="lazy"
           width={200}
+          height={50}
+        />
+        <Image
+          src="/new-gmt-international.png"
+          alt="Silver Sponsor GMT"
+          className="w-auto h-12 max-w-none"
+          loading="lazy"
+          width={180}
           height={50}
         />
         <Image
