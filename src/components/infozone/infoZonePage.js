@@ -163,13 +163,14 @@ export default function InfoZonePage() {
           <InfoZonePhotos />
         </div>
       </section>
-      {/* Hexagon | NEXTSENSE Abstract Section */}
+      {/* Abstracts Section */}
       <section className="px-6 mx-auto mb-24 max-w-7xl lg:px-8">
         <div className="px-12 mx-auto">
           <h3 className="mb-8 text-4xl font-normal leading-normal text-center pt-11">
             Review the InfoZone Abstracts
           </h3>
         </div>
+        {/* Hexagon | NEXTSENSE Abstract Section */}
         <div id="hexagon" className="grid grid-cols-1 gap-4 p-4 mb-12 md:grid-cols-5 bg-wri-yellow/20 rounded-xl">
           {/* Top-left block: empty */}
           <div className="hidden md:block md:col-span-1"></div>
