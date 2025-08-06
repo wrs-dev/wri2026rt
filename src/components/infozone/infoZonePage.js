@@ -55,13 +55,13 @@ export default function InfoZonePage() {
           <div className="md:col-span-4">
             <p className="mt-4 text-lg">
               The InfoZone is an interactive learning environment that is
-              designed to augment the information presented at the annual Heavy
-              Haul Seminar.
+              designed to augment the information presented at the annual Rail
+              Transit Seminar.
             </p>
             <p className="mt-4 text-lg">
               Our InfoZone partners offer high-quality technical information on
               the aspects of wheel/rail interaction that they know best. These
-              sessions, which are built into the Heavy Haul Seminar program, are
+              sessions, which are built into the Rail Transit Seminar program, are
               designed to provide small groups of approximately 30 delegates
               insight into the product or service that is the specialty of the
               presenting company. The goal is to promote a better understanding
