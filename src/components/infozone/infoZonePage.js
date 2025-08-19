@@ -143,9 +143,7 @@ export default function InfoZonePage() {
           {/* Row 3: Plasser American perfectly centered */}
           <div className="flex justify-center mb-12">
             <a
-              href={infoZoneSponsors[4].url}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#plasser"
               className="flex items-center justify-center w-full h-32"
             >
               <img
@@ -169,6 +167,71 @@ export default function InfoZonePage() {
           <h3 className="mb-8 text-4xl font-normal leading-normal text-center pt-11">
             Review the InfoZone Abstracts
           </h3>
+        </div>
+        {/* Plasser American Abstract Section */}
+        <div id="plasser" className="grid grid-cols-1 gap-4 p-4 mb-12 md:grid-cols-5 bg-wri-yellow/20 rounded-xl">
+          {/* Left block: logo spanning both rows */}
+          <div className="hidden md:flex md:col-span-1 md:row-span-2 items-center justify-center ml-4">
+            <a
+              href="https://www.plasseramerican.com/en/home/start"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center"
+            >
+              <Image
+                src="/platinum-plasser-american.svg"
+                alt="Plasser American Logo"
+                width={200}
+                height={100}
+              />
+            </a>
+          </div>
+          {/* Top-right block: heading */}
+          <div className="md:col-span-4">
+            <h3 className="mt-4 text-2xl font-bold">Plasser American - A Deep Dive Into Rail Milling</h3>
+          </div>
+          {/* Bottom-right block: paragraphs */}
+          <div className="pb-4 pr-4 md:col-span-4">
+            <p className="text-lg">
+              Rail milling has made its way to North America - some railroads have already tested it, 
+              and many others are discussing its potential. However, key questions remain regarding its 
+              fundamental characteristics and the distinctions between the various milling technologies 
+              available. This Infozone will shed some light on these questions.
+            </p>
+          </div>
+        </div>
+        {/* Linsinger Abstract Section */}
+        <div id="linsinger" className="grid grid-cols-1 gap-4 p-4 mb-12 md:grid-cols-5 bg-wri-yellow/20 rounded-xl">
+          {/* Left block: logo spanning both rows */}
+          <div className="hidden md:flex md:col-span-1 md:row-span-2 items-center justify-center ml-4">
+            <a
+              href="https://www.linsinger.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center"
+            >
+              <Image
+                src="/linsinger-trans.png"
+                alt="Linsinger Logo"
+                width={200}
+                height={100}
+              />
+            </a>
+          </div>
+          {/* Top-right block: heading */}
+          <div className="md:col-span-4">
+            <h3 className="mt-4 text-2xl font-bold">Linsinger - Rail Maintenance Strategies</h3>
+          </div>
+          {/* Bottom-right block: paragraphs */}
+          <div className="pb-4 pr-4 md:col-span-4">
+            <p className="text-lg">
+              Extending the service life of the rails efficiently depends on how the rail reprofiling 
+              (surface removal) is done as well as when and where it is done. More frequent monitoring 
+              of the rails condition with suitable measuring methods opens for efficient condition-based 
+              removal of defects in early stages. The presentation describes the potential benefits by 
+              condition-based rail reprofiling as an alternative to the widely used cyclic grinding today.
+            </p>
+          </div>
         </div>
         {/* Hexagon | NEXTSENSE Abstract Section */}
         <div id="hexagon" className="grid grid-cols-1 gap-4 p-4 mb-12 md:grid-cols-5 bg-wri-yellow/20 rounded-xl">
@@ -222,39 +285,6 @@ export default function InfoZonePage() {
               need to swap and turn wheels, almost to zero! This achievement allowed Vienna's
               public transport team to save over 4 million euros by eliminating the need to keep
               two vehicles on standby for unexpected stoppages.
-            </p>
-          </div>
-        </div>
-        {/* Linsinger Abstract Section */}
-        <div id="linsinger" className="grid grid-cols-1 gap-4 p-4 mb-12 md:grid-cols-5 bg-wri-yellow/20 rounded-xl">
-          {/* Left block: logo spanning both rows */}
-          <div className="hidden md:flex md:col-span-1 md:row-span-2 items-center justify-center ml-4">
-            <a
-              href="https://www.linsinger.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center"
-            >
-              <Image
-                src="/linsinger-trans.png"
-                alt="Linsinger Logo"
-                width={200}
-                height={100}
-              />
-            </a>
-          </div>
-          {/* Top-right block: heading */}
-          <div className="md:col-span-4">
-            <h3 className="mt-4 text-2xl font-bold">Linsinger - Rail Maintenance Strategies</h3>
-          </div>
-          {/* Bottom-right block: paragraphs */}
-          <div className="pb-4 pr-4 md:col-span-4">
-            <p className="text-lg">
-              Extending the service life of the rails efficiently depends on how the rail reprofiling 
-              (surface removal) is done as well as when and where it is done. More frequent monitoring 
-              of the rails condition with suitable measuring methods opens for efficient condition-based 
-              removal of defects in early stages. The presentation describes the potential benefits by 
-              condition-based rail reprofiling as an alternative to the widely used cyclic grinding today.
             </p>
           </div>
         </div>
