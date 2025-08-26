@@ -11,36 +11,15 @@ import PricingStudentMulti from '@/components/pricing-student-multi';
 import RegisterButton from '@/components/buttons/register-button';
 import StudentRegisterButton from '@/components/buttons/student-register-button';
 
-// Countdown hook
+// Countdown hook - Modified to return all zeros
 const useCountdown = (targetDate) => {
-  const countDownDate = new Date(targetDate).getTime();
-
-  const [countDown, setCountDown] = useState({
-    days: null,
-    hours: null,
-    minutes: null,
-    seconds: null,
-  });
-
-  useEffect(() => {
-    const updateCountdown = () => {
-      const now = new Date().getTime();
-      const distance = countDownDate - now;
-
-      setCountDown({
-        days: Math.floor(distance / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((distance / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((distance / 1000 / 60) % 60),
-        seconds: Math.floor((distance / 1000) % 60),
-      });
-    };
-
-    updateCountdown();
-    const interval = setInterval(updateCountdown, 1000);
-    return () => clearInterval(interval);
-  }, [countDownDate]);
-
-  return countDown;
+  // Return static zeros instead of calculating countdown
+  return {
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  };
 };
 
 const RegistrationComp = () => {
