@@ -2,9 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
+import Banner25RT30th from '@/components/banner/wri25RT-30th';
+import IconLinks from '@/components/icons/iconsRT';
 import Navigation from '@/components/navigation';
-import Banner25RT from '@/components/banner/wri25RT';
-import IconsRT from '@/components/icons/iconsRT';
+// import FeatureSpeaker from '@/components/speakers/featureSpeaker';
+// import FocusTopicRT from '@/components/speakers/focusTopicRT';
 import SpeakersRTPreview from '@/components/speakers/speakersRT-final';
 import Registration from '@/components/registration';
 import SponsorsCloud from '@/components/sponsors';
@@ -12,99 +14,112 @@ import SponsorsCloud from '@/components/sponsors';
 export async function getStaticProps() {
   return {
     props: {
-      title: 'WRI 2025 RT | Rail Transit Seminar Speakers',
-      description:
-        'Meet the Rail Transit speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)',
-      socialImage: '/wri2025-rt-social.png',
-    },
+      title: "WRI 2025 | Rail Transit Seminar Speakers",
+      description: "Speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)",
+      socialImage: "/wri2025-social.png"
+    }
   };
 }
 
 const RailTransitSeminarPage = () => {
-  const currentYear = new Date().getFullYear();
-
   return (
-    <>
-      <main className="bg-white">
-        <Navigation />
-        <Banner25RT />
-        <IconsRT />
+    <main className="bg-white">
+      <Navigation />
+      <Banner25RT30th />
+      <IconLinks />
 
-        <div className="section">
-          <div className="px-12 mx-auto">
-            <div className="flex flex-wrap justify-center">
-              <div className="w-full px-4 mx-auto mb-24 max-w-7xl">
-                <div className="px-4 mb-6 lg:w-4/6 lg:pr-24">
-                  <h2 className="text-5xl font-normal leading-normal text-center">
-                    <span className="text-wri-blue">
-                      <b>2025 Rail Transit Seminar</b>
-                    </span>
-                  </h2>
-                </div>
-                <h3 className="text-3xl font-normal leading-normal text-center pb-11">
-                  June 10, 2025
-                </h3>
-              </div>
-            </div>
-          </div>
-
-          <p className="pt-2 pb-6">
-            <span className="font-bold text-wri-red">
-              Welcome to the WRI 2025 Conference!<br />
-              <br />
-            </span>
-            Please check back after the conference to access speaker presentations and recordings.
-          </p>
-        </div>
-
-        <SpeakersRTPreview />
-
-        <section className="section">
-          <div className="flex flex-col gap-8 px-4 py-8 mx-auto bg-white max-w-7xl">
-            <div className="text-center">
-              <h2 className="mb-4 text-4xl font-bold text-wri-dark-blue">
-                Thank You for Attending!
+      {/* Seminar Info Block */}
+      <div className="flex flex-wrap justify-center">
+        <div className="w-full px-4 mx-auto mb-24 max-w-7xl">
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full px-4 mb-6 lg:w-4/6 lg:pr-24">
+              <h2 className="text-5xl font-normal leading-normal text-center">
+                <span className="text-wri-blue">
+                  <b>2025 Rail Transit Seminar</b>
+                </span>
               </h2>
-              <p className="mb-8 text-lg text-gray-700">
-                We hope you enjoyed the conference. Materials will be posted soon.
+              <h3 className="text-3xl font-normal leading-normal text-center pb-11">
+                August 27-28, 2025
+              </h3>
+              <p className="pt-2 pb-6">
+                <span className="font-bold text-wri-blue">The Rail Transit Seminar</span>{' '}
+                is devoted to examining wheel/rail and vehicle/track
+                interaction on light rail and subway operations.
+              </p>
+              <p>
+                Some examples of cross-disciplinary sessions that have been
+                covered in the past include vehicle/track dynamics, noise & vibration,
+                wheel/rail profile design & maintenance, and friction management.
+                Join transit professionals, government regulators, researchers, suppliers,
+                and consultants for presentations and discussions in order to gain a better
+                understanding of the complex interaction unique to the rail transit wheel/rail interface.
+              </p>
+              <h2 className="mt-16 seminar-discount-header">
+                WRI 2025 Discount Programs:
+              </h2>
+              <p className="pt-2 pb-6">
+                Wheel Rail Seminars offers various discount programs,
+                including Multi-Event Discounts and Special Rail Transit Agency/Government Employee
+                Discounts for railroad, transit & government employees.
+              </p>
+              <p>
+                <a
+                  href="https://wheel-rail-seminars.com/#reviews"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Attendees praise the high-quality presenters & topics, and
+                  inclusive approach to dining and networking.
+                </a>
               </p>
             </div>
 
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <div className="p-6 rounded-lg shadow-md bg-gray-50">
-                <h3 className="mb-3 text-xl font-semibold text-wri-blue">
-                  Presentation PDFs
-                </h3>
-                <p className="text-gray-600">
-                  Click on any speaker card above to download their presentation PDF.
-                </p>
-              </div>
+            <div className="w-full p-8 border-l-2 lg:w-2/6 bg-wri-blue/20 border-wri-blue">
+              <h2 className="pt-0 pb-4 seminar-header text-wri-blue/90">
+                YOUR REGISTRATION INCLUDES:
+              </h2>
+              <ul className="pl-5 list-disc seminar-list">
+                <li>Continental Breakfast</li>
+                <li>Mid-morning Coffee and Refreshment Break</li>
+                <li>Luncheon served in the ExpoZone</li>
+                <li>Full Line-up of Presentations</li>
+                <li>Afternoon Coffee and Refreshment Break</li>
+                <li>Reception following the Seminar</li>
+                <li>
+                  Exclusive Presentation Download Page access following the event
+                </li>
+              </ul>
 
-              <div className="p-6 rounded-lg shadow-md bg-gray-50">
-                <h3 className="mb-3 text-xl font-semibold text-wri-blue">
-                  Session Recordings
-                </h3>
-                <p className="text-gray-600">
-                  Video recordings will be available soon for registered attendees.
-                </p>
-              </div>
-
-              <div className="p-6 rounded-lg shadow-md bg-gray-50">
-                <h3 className="mb-3 text-xl font-semibold text-wri-blue">
-                  Next Conference
-                </h3>
-                <p className="text-gray-600">
-                  Join us next year for WRI 2026. Details coming soon!
-                </p>
-              </div>
+              <h2 className="pt-6 pb-4 leading-tight seminar-header text-wri-blue/90">
+                Attendees are also eligible to receive:
+              </h2>
+              <ul className="pl-5 list-disc seminar-list">
+                <li>Continuing education/professional development credits</li>
+              </ul>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
 
-        <Registration />
-        <SponsorsCloud />
-      </main>
-    </>
+      {/* Speakers Section */}
+      <div className="section">
+        <div className="mx-auto">
+          <h2 className="text-5xl font-normal text-center pb-11">
+            Meet the{' '}
+            <span className="text-wri-blue">
+              <b>2025 Rail Transit Seminar</b>
+            </span>{' '}
+            Speakers
+          </h2>
+          {/* <FeatureSpeaker /> */}
+          {/* <FocusTopicRT /> */}
+          <SpeakersRTPreview />
+        </div>
+      </div>
+
+      <Registration />
+      <SponsorsCloud />
+    </main>
   );
 };
 
