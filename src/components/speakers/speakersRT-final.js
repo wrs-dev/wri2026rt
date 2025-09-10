@@ -96,7 +96,7 @@ const SpeakersRT = () => {
       try {
         const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || 'published'; // Fallback to 'published' if the variable is not set
         const response = await Storyblok.get('cdn/stories', {
-          starts_with: 'wri-conferences/speaker-cards-rt/',
+          starts_with: 'wri-2025-rt/speaker-cards-rt/',
           version: version,
         });
 
