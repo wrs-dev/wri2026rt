@@ -3,7 +3,7 @@ import Navigation from '@/components/navigation';
 import Banner25RT30th from '@/components/banner/wri25RT-30th';
 import IconLinks from '@/components/icons/iconsRT';
 import SpeakersPCPreview from '@/components/speakers/speakersPC-final';
-import Registration from '@/components/registration';
+// import Registration from '@/components/registration';
 import SponsorsCloud from '@/components/sponsors';
 import Head from 'next/head';
 
@@ -111,7 +111,7 @@ const PrinciplesCoursePage = () => {
         </div>
       </div>
 
-      <Registration />
+      {/* <Registration /> */}
       <SponsorsCloud />
     </main>
   );

@@ -8,7 +8,7 @@ import Navigation from '@/components/navigation';
 // import FeatureSpeaker from '@/components/speakers/featureSpeaker';
 // import FocusTopicRT from '@/components/speakers/focusTopicRT';
 import SpeakersRTPreview from '@/components/speakers/speakersRT-final';
-import Registration from '@/components/registration';
+// import Registration from '@/components/registration';
 import SponsorsCloud from '@/components/sponsors';
 
 export async function getStaticProps() {
@@ -117,7 +117,7 @@ const RailTransitSeminarPage = () => {
         </div>
       </div>
 
-      <Registration />
+      {/* <Registration /> */}
       <SponsorsCloud />
     </main>
   );
