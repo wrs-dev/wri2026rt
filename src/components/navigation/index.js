@@ -21,7 +21,7 @@ export default function Navigation() {
 
   const links = [
     {
-      name: 'Principles Course',
+      name: 'Principles Course - Coming Soon',
       description: 'September 1st',
       href: '#',
       icon: 'principles-icon.svg',
@@ -29,7 +29,7 @@ export default function Navigation() {
       isExternal: false,
     },
     {
-      name: 'Rail Transit Seminar',
+      name: 'Rail Transit Seminar - Coming Soon',
       description: 'September 2-3, 2026',
       href: '#',
       icon: 'rail-transit.svg',
@@ -159,11 +159,11 @@ export default function Navigation() {
 
                     {/* Link to 2025 Rail Transit */}
                     <div className="relative flex items-center p-4 text-sm rounded-lg group gap-x-6 hover:bg-sky-100">
-                      <div className="flex items-center justify-center flex-none rounded-lg h-11 w-11 bg-wri-blue">
+                      <div className="flex items-center justify-center flex-none rounded-lg h-11 w-11">
                         <img
-                          src="/rail-transit-icon-blue.svg"
+                          src="/WRI25RT-icon.png"
                           alt="WRI25RT Icon"
-                          className="w-8 h-8"
+                          className="object-cover w-full h-full rounded-lg"
                         />
                       </div>
                       <div className="flex-auto">
