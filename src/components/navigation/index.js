@@ -21,16 +21,16 @@ export default function Navigation() {
 
   const links = [
     {
-      name: 'Principles Course - Coming Soon',
-      description: 'September 1st',
+      name: 'Principles Course',
+      description: 'To be announced',
       href: '#',
       icon: 'principles-icon.svg',
       background: 'bg-wri-green',
       isExternal: false,
     },
     {
-      name: 'Rail Transit Seminar - Coming Soon',
-      description: 'September 2-3, 2026',
+      name: 'Rail Transit Seminar',
+      description: 'To be announced',
       href: '#',
       icon: 'rail-transit.svg',
       background: 'bg-wri-blue',
