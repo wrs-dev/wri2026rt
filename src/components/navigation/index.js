@@ -22,16 +22,16 @@ export default function Navigation() {
   const links = [
     {
       name: 'Principles Course',
-      description: 'August 26th',
-      href: 'https://wri2025rt.wheel-rail-seminars.com/principles-course#icons',
+      description: 'September 1st',
+      href: '#',
       icon: 'principles-icon.svg',
       background: 'bg-wri-green',
       isExternal: false,
     },
     {
       name: 'Rail Transit Seminar',
-      description: 'August 27-28th',
-      href: 'https://wri2025rt.wheel-rail-seminars.com/rail-transit-seminar#icons',
+      description: 'September 2-3, 2026',
+      href: '#',
       icon: 'rail-transit.svg',
       background: 'bg-wri-blue',
       isExternal: false,
@@ -146,12 +146,34 @@ export default function Navigation() {
                       </div>
                       <div className="flex-auto">
                         <a
-                          href="https://wri2025hh.wheel-rail-seminars.com/#register"
+                          href="https://wri2026hh.wheel-rail-seminars.com/#register"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="block text-sm lg:text-xl text-wri-blue hover:text-wri-green focus:outline-none focus:ring-0"
                         >
-                          Visit WRI2025 Heavy Haul
+                          Visit WRI2026 Heavy Haul
+                          <span className="absolute inset-0" />
+                        </a>
+                      </div>
+                    </div>
+
+                    {/* Link to 2025 Rail Transit */}
+                    <div className="relative flex items-center p-4 text-sm rounded-lg group gap-x-6 hover:bg-sky-100">
+                      <div className="flex items-center justify-center flex-none rounded-lg h-11 w-11 bg-wri-blue">
+                        <img
+                          src="/rail-transit-icon-blue.svg"
+                          alt="WRI25RT Icon"
+                          className="w-8 h-8"
+                        />
+                      </div>
+                      <div className="flex-auto">
+                        <a
+                          href="https://wri2025rt.wheel-rail-seminars.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block text-sm lg:text-xl text-wri-blue hover:text-wri-green focus:outline-none focus:ring-0"
+                        >
+                          Visit WRI2025 Rail Transit
                           <span className="absolute inset-0" />
                         </a>
                       </div>
@@ -186,31 +208,31 @@ export default function Navigation() {
             Photo Gallery
           </a>
 
-          {/* Pricing, Sponsors, Hotel, FAQ, etc. */}
-          <a
+          {/* Pricing, Sponsors, Hotel temporarily hidden */}
+          {/* <a
             href="/#register"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/#register') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Pricing
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="/sponsors#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/sponsors') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Sponsors
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="/#hotel"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('#hotel') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Hotel
-          </a>
+          </a> */}
           <a
             href="/faq#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -219,8 +241,9 @@ export default function Navigation() {
           >
             FAQ
           </a>
+          {/* TEMPORARY: Changed from /infozone#icons to #zones - remember to switch back */}
           <a
-            href="/infozone#icons"
+            href="#zones"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/infozone') ? 'text-wri-red' : 'text-wri-blue'
             }`}
@@ -278,24 +301,24 @@ export default function Navigation() {
                   >
                     Home
                   </a>
-                  <a
+                  {/* <a
                     href="/#register"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Pricing
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     href="/sponsors#icons"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Sponsors
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     href="/#hotel"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Hotel Reservations
-                  </a>
+                  </a> */}
                   <a
                     href="/faq#icons"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
@@ -310,8 +333,9 @@ export default function Navigation() {
                   >
                     WRI Seminar Archives
                   </a>
+                  {/* TEMPORARY: Changed from /infozone#icons to #zones - remember to switch back */}
                   <a
-                    href="/infozone#icons"
+                    href="#zones"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     InfoZone
@@ -341,14 +365,14 @@ export default function Navigation() {
                   >
                     Photo Gallery
                   </a>
-                  {/* Visit WRI2025 Heavy Haul in mobile menu */}
+                  {/* Visit WRI2026 Heavy Haul in mobile menu */}
                   <a
-                    href="https://wri2025hh.wheel-rail-seminars.com/#register"
+                    href="https://wri2026hh.wheel-rail-seminars.com/#register"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
-                    Visit WRI2025 Heavy Haul
+                    Visit WRI2026 Heavy Haul
                   </a>
                 </div>
               </div>

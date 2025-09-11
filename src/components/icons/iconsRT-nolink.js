@@ -8,13 +8,13 @@ const IconLinksRT = () => {
       {
         src: '/principles-icon.svg',
         title: 'Principles Course',
-        date: 'August 26, 2025',
+        date: 'September 1, 2026',
         bgColor: 'bg-wri-green', // Stationary background color
       },
       {
         src: '/rail-transit.svg',
         title: 'Rail Transit Seminar',
-        date: 'August 27-28, 2025',
+        date: 'September 2-3, 2026',
         bgColor: 'bg-wri-blue', // Stationary background color
       },
     ],

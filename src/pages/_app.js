@@ -71,14 +71,14 @@ function App({ Component, pageProps }) {
   const getLayoutProps = () => {
     const { title, description, socialImage } = pageProps;
     return {
-      title: title || 'WRI 2025 Rail Transit Conference Seattle',
-      description: description || '30th Annual Wheel Rail Interaction Conference',
-      socialImage: socialImage || '/wri2025rt-social.png',
+      title: title || 'WRI 2026 Rail Transit Conference Boston',
+      description: description || '31st Annual Wheel Rail Interaction Conference',
+      socialImage: socialImage || '/wri2026rt-social.png',
     };
   };
 
   return (
-    <PlausibleProvider domain="wri2025rt.wheel-rail-seminars.com">
+    <PlausibleProvider domain="wri2026rt.wheel-rail-seminars.com">
       <Layout {...getLayoutProps()}>
         <Component {...pageProps} />
       </Layout>

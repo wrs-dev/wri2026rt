@@ -20,7 +20,7 @@ export default function PricingStudentIndividual() {
               Cost:
               <span className="ml-2 mr-1">$300</span>
             </h2>
-            <p className="text-gray-500 text-md">August 26, 2025</p>
+            <p className="text-gray-500 text-md">September 1, 2026</p>
           </div>
           <div className="mb-4">
             <h2 className="font-semibold text-md text-blue-950">
@@ -30,7 +30,7 @@ export default function PricingStudentIndividual() {
               Cost:
               <span className="ml-2 mr-1">$600</span>
             </h2>
-            <p className="text-gray-500 text-md">August 27-28, 2025</p>
+            <p className="text-gray-500 text-md">September 2-3, 2026</p>
           </div>
         </div>
       </div>

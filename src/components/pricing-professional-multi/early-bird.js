@@ -48,7 +48,7 @@ export default function PricingProfessionalMulti() {
               </span>
               $1,440 Early Bird
             </h2>
-            <p className="text-gray-500 text-md">August 26–28, 2025</p>
+            <p className="text-gray-500 text-md">September 1–3, 2026</p>
           </div>
         </div>
       </div>

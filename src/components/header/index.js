@@ -10,8 +10,8 @@ const Header = () => {
         {/* 1) Desktop/Tablet layout (≥ sm): single row, hidden on mobile */}
         <div className="items-end justify-between hidden sm:flex">
           
-          {/* Left sponsor: Mass Transit */}
-          <div className="flex items-end">
+          {/* Left sponsor: Mass Transit - TEMPORARILY HIDDEN */}
+          {/* <div className="flex items-end">
             <a
               href="https://www.masstransitmag.com/"
               target="_blank"
@@ -29,15 +29,15 @@ const Header = () => {
                 "
               />
             </a>
-          </div>
+          </div> */}
 
           {/* Center animation */}
-          <div className="flex items-end justify-center flex-grow">
+          <div className="flex items-end justify-center flex-grow mx-auto">
             <Animation />
           </div>
 
-          {/* Right sponsor: Sound Transit */}
-          <div className="flex items-end">
+          {/* Right sponsor: Sound Transit - TEMPORARILY HIDDEN */}
+          {/* <div className="flex items-end">
             <a
               href="https://www.soundtransit.org/"
               target="_blank"
@@ -50,7 +50,7 @@ const Header = () => {
                 className="w-[280px] h-auto"
               />
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* 2) Mobile layout (< sm): single column, logos side-by-side */}
@@ -60,8 +60,8 @@ const Header = () => {
             <Animation />
           </div>
 
-          {/* Two logos side by side, bottom-aligned */}
-          <div className="flex items-end justify-around w-full mt-4">
+          {/* Two logos side by side, bottom-aligned - TEMPORARILY HIDDEN */}
+          {/* <div className="flex items-end justify-around w-full mt-4">
             <a
               href="https://www.masstransitmag.com/"
               target="_blank"
@@ -87,7 +87,7 @@ const Header = () => {
                 className="w-[140px] h-auto"
               />
             </a>
-          </div>
+          </div> */}
         </div>
 
       </div>

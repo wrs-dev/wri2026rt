@@ -18,37 +18,17 @@ const navigation = {
       target: '_blank',
     },
     {
-      name: "Visit WRI '24 Sponsors",
-      href: 'https://wri.wheel-rail-seminars.com/sponsors#icons',
+      name: "Visit WRI '25 Sponsors",
+      href: 'https://wri2025rt.wheel-rail-seminars.com/sponsors',
       target: '_blank',
     },
   ],
   support: [
-    {
-      name: 'WRI 2024 Chicago',
-      href: 'https://wri.wheel-rail-seminars.com',
-      target: '_blank',
-    },
-    {
-      name: 'WRI 2025 HH Kansas City',
-      href: 'https://wri2025hh.wheel-rail-seminars.com',
-      target: '_blank',
-    },
-    {
-      name: 'WRI 2025 RT Seattle',
-      href: '/',
-      target: '_self',
-    },
-    {
-      name: 'Info Zone/Expo Zone',
-      href: '/#zones',
-      target: '_self',
-    },
-    {
-      name: 'Become a Sponsor',
-      href: '/sponsor-packages',
-      target: '_self',
-    },
+    { name: 'WRI 2026 HH Dallas', href: 'https://wri2026hh.wheel-rail-seminars.com', target: '_blank' },
+    { name: 'WRI 2025 HH Kansas City', href: 'https://wri2025hh.wheel-rail-seminars.com', target: '_blank' },
+    { name: 'WRI 2025 RT Seattle', href: 'https://wri2025rt.wheel-rail-seminars.com', target: '_blank' },
+    { name: 'Info Zone/Expo Zone', href: '/#zones', target: '_self' },
+    { name: 'Become a Sponsor', href: 'https://wri2026hh.wheel-rail-seminars.com', target: '_blank' },
   ],
   company: [
     {

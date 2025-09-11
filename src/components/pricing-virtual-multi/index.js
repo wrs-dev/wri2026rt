@@ -19,7 +19,7 @@ export default function PricingVirtualMulti() {
             <h2 className="text-md text-wri-blue">
               Cost: $650 (Save $150)
             </h2>
-            <p className="text-gray-500 text-md">August 26-28, 2025</p>
+            <p className="text-gray-500 text-md">September 1-3, 2026</p>
           </div>
         </div>
       </div>

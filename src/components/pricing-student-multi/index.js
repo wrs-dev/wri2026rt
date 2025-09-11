@@ -20,7 +20,7 @@ export default function PricingStudentMulti() {
               Cost:
               <span className="ml-2 mr-1">$800 (Save $100)</span>
             </h2>
-            <p className="text-gray-500 text-md">August 26-28, 2025</p>
+            <p className="text-gray-500 text-md">September 1-3, 2026</p>
           </div>
         </div>
       </div>

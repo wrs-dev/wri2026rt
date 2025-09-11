@@ -25,10 +25,10 @@ export default function CallForPapers() {
             <h2 className="max-w-2xl mx-auto text-2xl font-bold tracking-tight text-white sm:text-3xl">
               Call for Papers
               <br />
-              WRI 2025 Rail Transit Conference
+              WRI 2026 Rail Transit Conference
             </h2>
             <p className="max-w-lg mx-auto mt-4 text-sm leading-6 text-gray-100 sm:text-base sm:leading-7">
-            Wheel Rail Seminars is looking for candidates to present at the August 26-28 Wheel/Rail Interaction Rail Transit Conference (WRI 2025 RT) that will be held in Seattle, WA. If you are interested in
+            Wheel Rail Seminars is looking for candidates to present at the September 1-3 Wheel/Rail Interaction Rail Transit Conference (WRI 2026 RT) that will be held in Boston, MA. If you are interested in
               being considered for presenting at the conference, please fill out
               the form using the link below.
             </p>

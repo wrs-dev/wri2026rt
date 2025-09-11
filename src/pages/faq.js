@@ -7,7 +7,7 @@ import IconsRT from '@/components/icons/iconsRT';
 import Registration from '@/components/registration';
 import { Disclosure } from '@headlessui/react';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
-import Banner25RT from '@/components/banner/wri25RT';
+import Banner26RT from '@/components/banner/wri25RT';
 
 const faqs = [
   {
@@ -64,8 +64,8 @@ export async function getStaticProps() {
       title:
         'WRI Wheel Rail Interaction Conference | FAQ - Frequently Asked Questions about WRI',
       description:
-        'Frequently Asked Questions for the 30th Annual Wheel/Rail Interaction Conference (WRI)',
-      socialImage: '/wri2025rt-social.png',
+        'Frequently Asked Questions for the 31st Annual Wheel/Rail Interaction Conference (WRI)',
+      socialImage: '/wri2026rt-social.png',
     },
   };
 }
@@ -74,7 +74,7 @@ const faq = () => {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner25RT />
+      <Banner26RT />
       <IconsRT />
       <div className="seminar-about-text" id="faqs">
         <div className="px-12 mx-auto">

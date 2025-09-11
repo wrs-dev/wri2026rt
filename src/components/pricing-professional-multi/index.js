@@ -36,7 +36,7 @@ export default function PricingProfessionalMulti() {
               Cost: $1,600
             </h2>
             <p className="text-gray-500 text-md">
-              August 26–28, 2025
+              September 1–3, 2026
             </p>
           </div>
         </div>

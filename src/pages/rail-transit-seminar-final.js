@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
-import Banner25RT30th from '@/components/banner/wri25RT-30th';
+import Banner26RT31st from '@/components/banner/wri25RT-30th';
 import IconLinks from '@/components/icons/iconsRT';
 import Navigation from '@/components/navigation';
 // import FeatureSpeaker from '@/components/speakers/featureSpeaker';
@@ -14,9 +14,9 @@ import SponsorsCloud from '@/components/sponsors';
 export async function getStaticProps() {
   return {
     props: {
-      title: "WRI 2025 | Rail Transit Seminar Speakers",
-      description: "Speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)",
-      socialImage: "/wri2025-social.png"
+      title: "WRI 2026 | Rail Transit Seminar Speakers",
+      description: "Speakers for the 31st Annual Wheel/Rail Interaction Conference (WRI)",
+      socialImage: "/wri2026-social.png"
     }
   };
 }
@@ -25,7 +25,7 @@ const RailTransitSeminarPage = () => {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner25RT30th />
+      <Banner26RT31st />
       <IconLinks />
 
       {/* Seminar Info Block */}
@@ -35,11 +35,11 @@ const RailTransitSeminarPage = () => {
             <div className="w-full px-4 mb-6 lg:w-4/6 lg:pr-24">
               <h2 className="text-5xl font-normal leading-normal text-center">
                 <span className="text-wri-blue">
-                  <b>2025 Rail Transit Seminar</b>
+                  <b>2026 Rail Transit Seminar</b>
                 </span>
               </h2>
               <h3 className="text-3xl font-normal leading-normal text-center pb-11">
-                August 27-28, 2025
+                September 2-3, 2026
               </h3>
               <p className="pt-2 pb-6">
                 <span className="font-bold text-wri-blue">The Rail Transit Seminar</span>{' '}
@@ -55,7 +55,7 @@ const RailTransitSeminarPage = () => {
                 understanding of the complex interaction unique to the rail transit wheel/rail interface.
               </p>
               <h2 className="mt-16 seminar-discount-header">
-                WRI 2025 Discount Programs:
+                WRI 2026 Discount Programs:
               </h2>
               <p className="pt-2 pb-6">
                 Wheel Rail Seminars offers various discount programs,

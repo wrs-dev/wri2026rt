@@ -15,12 +15,14 @@ const SponsorsCloud = () => {
         className="container mx-auto text-center"
         style={{ marginTop: "5rem" }}
       >
-        <Link
-          href="/sponsors#icons"
+        <a
+          href="https://wri2025rt.wheel-rail-seminars.com/sponsors"
+          target="_blank"
+          rel="noopener noreferrer"
           className="pt-4 pb-4 pl-8 pr-8 rounded-2xl bg-wri-blue px-3.5 py-2.5 text-xl font-semibold text-white shadow-sm hover:bg-wri-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wri-green"
         >
           Visit the WRI '25 Rail Transit Sponsor Page
-        </Link>
+        </a>
       </div>
     </section>
   );

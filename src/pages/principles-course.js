@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Navigation from '@/components/navigation';
-import Banner25RT30th from '@/components/banner/wri25RT-30th';
+import Banner26RT31st from '@/components/banner/wri26RT-31st';
 import IconLinks from '@/components/icons/iconsRT';
 import SpeakersPC from '@/components/speakers/speakersPC';
 import Registration from '@/components/registration';
@@ -10,10 +10,10 @@ import Head from 'next/head';
 export async function getStaticProps() {
   return {
     props: {
-      title: 'WRI 2025 | Principles Course Speakers',
+      title: 'WRI 2026 | Principles Course Speakers',
       description:
-        'Speakers for the 30th Annual Wheel/Rail Interaction Conference (WRI)',
-      socialImage: '/wri2025-social.png',
+        'Speakers for the 31st Annual Wheel/Rail Interaction Conference (WRI)',
+      socialImage: '/wri2026-social.png',
     },
   };
 }
@@ -22,7 +22,7 @@ const PrinciplesCoursePage = () => {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner25RT30th />
+      <Banner26RT31st />
       <IconLinks />
 
       <div className="section">
@@ -33,11 +33,11 @@ const PrinciplesCoursePage = () => {
                 <div className="w-full px-4 mb-6 lg:w-4/6 lg:pr-24">
                   <h2 className="text-5xl font-normal leading-normal text-center">
                     <span className="text-wri-green">
-                      <b>2025 Principles Course</b>
+                      <b>2026 Principles Course</b>
                     </span>
                   </h2>
                   <h3 className="text-3xl font-normal leading-normal text-center pb-11">
-                    August 26, 2025
+                    September 1, 2026
                   </h3>
                   <p className="pt-2 pb-6">
                     This year's conference format includes an exciting{' '}
@@ -48,7 +48,7 @@ const PrinciplesCoursePage = () => {
                   </p>
 
                   <h2 className="mt-16 seminar-discount-header">
-                    WRI 2025 Discount Programs:
+                    WRI 2026 Discount Programs:
                   </h2>
                   <p className="pt-2 pb-6">
                     Wheel Rail Seminars offers various discount programs,
@@ -103,7 +103,7 @@ const PrinciplesCoursePage = () => {
           <h2 className="text-5xl font-normal text-center pb-11">
             Meet the{' '}
             <span className="text-wri-green">
-              <b>2025 Principles Course</b>
+              <b>2026 Principles Course</b>
             </span>{' '}
             Speakers
           </h2>

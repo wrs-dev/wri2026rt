@@ -8,7 +8,7 @@ const SponsorPackagesRT = () => {
   return (
     <main className="bg-white">
       <Head>
-        <title>WRI 2025 RT Sponsorships</title>
+        <title>WRI 2026 RT Sponsorships</title>
       </Head>
       <Navigation />
       <Banner25RTNoButton />
@@ -17,7 +17,7 @@ const SponsorPackagesRT = () => {
         <div className="pt-12 mx-auto">
           {/* Main Headline */}
           <h2 className="text-6xl font-bold leading-normal text-center pt-11">
-            WRI 2025 RT Sponsorships
+            WRI 2026 RT Sponsorships
           </h2>
         </div>
       </div>

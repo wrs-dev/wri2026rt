@@ -19,16 +19,13 @@ export default function InfoZoneSection() {
                   conference venue that serves as a prime location for sponsors
                   to showcase their brands to a highly engaged and diverse
                   audience.{' '}
-                  conference venue that serves as a prime location for sponsors
-                  to showcase their brands to a highly engaged and diverse
-                  audience.{' '}
                 </p>
-                <Link
+                {/*<Link
                   className="pt-4 underline text-wri-red"
-                  href="/sponsor-packages"
+                  href="https://wri2025hh.wheel-rail-seminars.com/sponsor-packages"
                 >
                   Join the 2025 ExpoZone!
-                </Link>
+                </Link>*/}
               </li>
               <li>
                 <figure className="relative w-full h-0 pb-[95.31%]">
@@ -56,18 +53,18 @@ export default function InfoZoneSection() {
                   on wheel/rail interaction. These sessions are built into the
                   program and designed for small group interaction.{' '}
                 </p>
-                <Link
+                {/*<Link
                   className="pt-4 underline text-wri-green"
-                  href="/sponsor-packages"
+                  href="https://wri2025hh.wheel-rail-seminars.com/sponsor-packages"
                 >
                   Get into the InfoZone!
-                </Link>
+                </Link>*/}
               </li>
               <li>
                 <figure className="relative w-full h-0 pb-[95.31%]">
                   <Image
                     src="/info-zone.webp"
-                    alt="info-zone"
+                    alt="InfoZone Photo"
                     layout="fill"
                     className="object-cover"
                     quality={100}

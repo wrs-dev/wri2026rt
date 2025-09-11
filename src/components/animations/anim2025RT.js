@@ -6,7 +6,7 @@ const AnimationRT = () => {
     <div className="w-full max-w-[1000px] h-auto">
       <div className="relative pb-[20%]"> {/* This maintains the aspect ratio */}
         <Rive
-          src="/wri2025RT_header.riv"
+          src="/wri2026RT_header.riv"
           className="absolute inset-0 w-full h-full"
           layout={new Layout({ fit: Fit.Contain, alignment: Alignment.Center })}
           autoplay={true}

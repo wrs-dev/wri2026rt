@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the website for the WRI 2025 Rail Transit Conference (30th Anniversary Wheel Rail Interaction Conference) scheduled for August 26-28, 2025 in Seattle, WA. It's built with Next.js 13.5 as a static site and deployed on Netlify.
+This is the website for the WRI 2026 Rail Transit Conference (31st Anniversary Wheel Rail Interaction Conference) scheduled for September 1-3, 2026 in Boston, MA. It's built with Next.js 13.5 as a static site and deployed on Netlify.
 
 ## Essential Commands
 
@@ -57,7 +57,7 @@ Required environment variables (set in Netlify):
 - `MAILERLITE_PRODUCTION_API_KEY` - For newsletter subscriptions
 - `MAILERLITE_PRODUCTION_BASE_API_URL` - MailerLite API base URL
 - `MAILERLITE_PRODUCTION_NEWSLETTER_GROUP_ID` - MailerLite group ID for subscribers
-- `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` - For analytics tracking (wri2025rt.wheel-rail-seminars.com)
+- `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` - For analytics tracking (wri2026rt.wheel-rail-seminars.com)
 - `STORYBLOK_API_TOKEN` - For CMS content fetching
 
 ### Deployment
@@ -91,5 +91,5 @@ The site is configured for static export and automatic deployment via Netlify:
 **Key File Locations:**
 - Conference pages: `/src/pages/rail-transit-seminar.js`, `/src/pages/heavy-haul-seminar.js`, `/src/pages/principles-course.js`
 - Registration component with pricing: `/src/components/registration/index.js`
-- Banner animations: `/src/components/banner/wri25RT.js`, `/src/components/banner/wri25HH.js`
+- Banner animations: `/src/components/banner/wri26RT.js`, `/src/components/banner/wri26HH.js`
 - Cvent registration widgets: `/src/components/CventWidget.js` (dev) and `/src/components/CventWidget-prod.js` (production)
