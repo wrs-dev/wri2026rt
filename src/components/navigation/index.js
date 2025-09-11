@@ -146,7 +146,7 @@ export default function Navigation() {
                       </div>
                       <div className="flex-auto">
                         <a
-                          href="https://wri2026hh.wheel-rail-seminars.com/#register"
+                          href="https://wri202hh.wheel-rail-seminars.com"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="block text-sm lg:text-xl text-wri-blue hover:text-wri-green focus:outline-none focus:ring-0"
