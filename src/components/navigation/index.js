@@ -358,7 +358,7 @@ export default function Navigation() {
                   </a>
                   {/* Photo Gallery in mobile menu */}
                   <a
-                    href="https://wri2024-gallery.vercel.app/"
+                    href="https://wri-gallery.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
