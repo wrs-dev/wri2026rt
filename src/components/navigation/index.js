@@ -269,7 +269,7 @@ export default function Navigation() {
               className="w-8 h-8 pr-2"
               alt="Interface Journal"
             />
-            IJ
+            Interface Journal
           </a>
         </Popover.Group>
 
