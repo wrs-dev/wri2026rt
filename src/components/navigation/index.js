@@ -198,7 +198,7 @@ export default function Navigation() {
 
           {/* NEW: Photo Gallery link in main nav (after WRI Seminars) */}
           <a
-            href="https://wri2024-gallery.vercel.app/"
+            href="https://wri-gallery.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className={`text-sm leading-6 nav-link lg:text-xl text-wri-blue ${
