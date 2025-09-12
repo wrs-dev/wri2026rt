@@ -19,7 +19,7 @@ export async function getStaticProps() {
       title: 'WRI 2026 RT | WRI Rail Transit Conference - Boston, MA || Home',
       description:
         'Welcome to the WRI 2026 Rail Transit Conference in Boston. Join us for an exciting event focusing on wheel/rail and vehicle/track interaction for light rail and subway operations.',
-      socialImage: '/wri2026-rt-social.png',
+      socialImage: '/wri2026rt-social.png',
     },
   };
 }

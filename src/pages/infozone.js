@@ -12,7 +12,7 @@ export async function getStaticProps() {
     props: {
       title: "WRI 2026 | InfoZone",
       description: "InfoZone for the 31st Annual Wheel/Rail Interaction Conference (WRI)",
-      socialImage: "/wri2026-rt-social.png" 
+      socialImage: "/wri2026rt-social.png" 
     }
   };
 }
