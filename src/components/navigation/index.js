@@ -134,8 +134,31 @@ export default function Navigation() {
                     </div>
                   ))}
 
-                  {/* Link to 2025 Heavy Haul with thumbnail */}
+                  {/* Links to Heavy Haul conferences with thumbnails */}
                   <div className="flex flex-col">
+                    {/* Link to 2026 Heavy Haul */}
+                    <div className="relative flex items-center p-4 text-sm rounded-lg group gap-x-6 hover:bg-sky-100">
+                      <div className="flex items-center justify-center flex-none rounded-lg h-11 w-11">
+                        <img
+                          src="/WRI26HH-rounded-icon.png"
+                          alt="WRI26HH Icon"
+                          className="object-cover w-full h-full rounded-lg"
+                        />
+                      </div>
+                      <div className="flex-auto">
+                        <a
+                          href="https://wri2026hh.wheel-rail-seminars.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block text-sm lg:text-xl text-wri-blue hover:text-wri-green focus:outline-none focus:ring-0"
+                        >
+                          Visit WRI2026 Heavy Haul
+                          <span className="absolute inset-0" />
+                        </a>
+                      </div>
+                    </div>
+
+                    {/* Link to 2025 Heavy Haul */}
                     <div className="relative flex items-center p-4 text-sm rounded-lg group gap-x-6 hover:bg-sky-100">
                       <div className="flex items-center justify-center flex-none rounded-lg h-11 w-11">
                         <img
@@ -146,12 +169,12 @@ export default function Navigation() {
                       </div>
                       <div className="flex-auto">
                         <a
-                          href="https://wri202hh.wheel-rail-seminars.com"
+                          href="https://wri2025hh.wheel-rail-seminars.com"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="block text-sm lg:text-xl text-wri-blue hover:text-wri-green focus:outline-none focus:ring-0"
                         >
-                          Visit WRI2026 Heavy Haul
+                          Visit WRI2025 Heavy Haul
                           <span className="absolute inset-0" />
                         </a>
                       </div>
@@ -367,12 +390,21 @@ export default function Navigation() {
                   </a>
                   {/* Visit WRI2026 Heavy Haul in mobile menu */}
                   <a
-                    href="https://wri2026hh.wheel-rail-seminars.com/#register"
+                    href="https://wri2026hh.wheel-rail-seminars.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Visit WRI2026 Heavy Haul
+                  </a>
+                  {/* Visit WRI2025 Heavy Haul in mobile menu */}
+                  <a
+                    href="https://wri2025hh.wheel-rail-seminars.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    Visit WRI2025 Heavy Haul
                   </a>
                 </div>
               </div>
