@@ -53,7 +53,7 @@ export default function Intro() {
                 {' '}
                 {/* 529 / 820 ≈ 64.51% */}
                 <Image
-                  src="/rt-presentations.webp"
+                  src="/rt-presentations.jpg"
                   alt="Technical Presentations"
                   layout="fill"
                   className="object-cover w-full bg-gray-100 rounded-t-2xl"
@@ -91,7 +91,7 @@ export default function Intro() {
                 {' '}
                 {/* 529 / 820 ≈ 64.51% */}
                 <Image
-                  src="/rt-networking.webp"
+                  src="/rt-networking.jpg"
                   alt="Professional Networking"
                   layout="fill"
                   className="object-cover w-full bg-gray-100 rounded-t-2xl"
