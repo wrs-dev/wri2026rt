@@ -43,7 +43,7 @@ export default function SponsorPackages() {
                 Bronze Sponsorship
               </h3>
               <p className="mt-2 text-xl font-semibold text-wri-dark-blue">
-                $1,000.00
+                $1,100.00
               </p>
             </div>
             <div className="col-span-2">
@@ -86,7 +86,7 @@ export default function SponsorPackages() {
                 Silver Sponsorship
               </h3>
               <p className="mt-2 text-xl font-semibold text-wri-dark-blue">
-                $3,400.00
+                $3,750.00
               </p>
             </div>
             <div className="col-span-2">
@@ -119,7 +119,7 @@ export default function SponsorPackages() {
                 Gold Sponsorship
               </h3>
               <p className="mt-2 text-xl font-semibold text-wri-dark-blue">
-                $4,000.00
+                $4,400.00
               </p>
             </div>
             <div className="col-span-2">
@@ -151,7 +151,7 @@ export default function SponsorPackages() {
                 Platinum Sponsorship
               </h3>
               <p className="mt-2 text-xl font-semibold text-wri-dark-blue">
-                $5,500.00
+                $6,000.00
               </p>
             </div>
             <div className="col-span-2">
