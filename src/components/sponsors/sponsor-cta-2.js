@@ -40,12 +40,14 @@ export default function SponsorCTA2() {
                 >
                   Package Details
                 </a>
+                {/* Temporarily hidden
                 <a
                   href="WRI-2025-Sponsorship-Kit.pdf"
                   className="text-sm font-semibold leading-6 text-white"
                 >
                   Download PDF with details <span aria-hidden="true">→</span>
                 </a>
+                */}
               </div>
             </div>
   

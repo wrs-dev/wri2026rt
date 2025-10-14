@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Navigation from '@/components/navigation';
 import Banner26RTNoButton from '@/components/banner/wri26RT-no-button'; 
-import CventWidget from '@/components/CventWidget-prod';
+import CventWidget from '@/components/CventWidget';
 
 export async function getStaticProps() {
   return {

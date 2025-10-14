@@ -10,7 +10,7 @@ const CventWidget = () => {
       const script = document.createElement('script');
       script.id = scriptId;
       script.async = true;
-      script.src = 'https://web.cvent.com/event_guest/v1/embed/b5e71deb-db8d-42cc-8fc5-1c390327d7df.js';
+      script.src = 'https://web.cvent.com/event_guest/v1/embed/47f99285-873f-4252-9014-9dc13d5a5d20.js';
       document.body.appendChild(script);
     }
 

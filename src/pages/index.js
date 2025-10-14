@@ -5,7 +5,7 @@ import IconsRTNoLink from '@/components/icons/iconsRT-nolink';
 import Intro from '@/components/intro';
 {/* import CallForPapers from '@/components/call-for-papers'; */}
 {/* import Registration from '@/components/registration'; */}
-{/* import SponsorCTA2 from '@/components/sponsors/sponsor-cta-2'; */}
+import SponsorCTA2 from '@/components/sponsors/sponsor-cta-2';
 import Reviews from '@/components/reviews';
 import InfoZoneSection from '@/components/infozone/infoZoneSection';
 import InterfaceJournal from '@/components/interface-journal';
@@ -66,7 +66,7 @@ export default function Home() {
       {/*<CallForPapers />*/}
       {/* <Registration /> */}
       <InfoZoneSection />
-      {/* <SponsorCTA2 /> */}
+      <SponsorCTA2 />
       <Reviews />
 
       {/* Two-column layout for Interface Journal & Announcements */}
