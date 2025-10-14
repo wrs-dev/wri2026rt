@@ -95,7 +95,7 @@ export default function SponsorPackages() {
               </p>
               <ul className="ml-6 list-disc">
                 <li>
-                  One (1) complimentary registration for the WRI 2025 Rail
+                  One (1) complimentary registration for the WRI 2026 Rail
                   Transit Seminar, Principles Course, and related social events
                 </li>
                 <li>6’ Display table in ExpoZone/Refreshment Area</li>
