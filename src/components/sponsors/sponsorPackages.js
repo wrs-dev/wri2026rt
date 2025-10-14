@@ -304,7 +304,9 @@ export default function SponsorPackages() {
               </p>
             </div>
           </div>
+          {/* Temporarily hidden until PDF file is ready
           <SponsorCtaPdf />
+          */}
         </section>
       </div>
     </div>
