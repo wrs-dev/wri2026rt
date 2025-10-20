@@ -14,7 +14,7 @@ const iconVariants = {
 const SponsorRegisterButtonInfoZone = () => {
   return (
     <Link
-      href="https://cvent.me/PmbxDO"
+      href="https://cvent.me/KO7ExW"
       target="_blank"
       rel="noopener noreferrer"
     >
