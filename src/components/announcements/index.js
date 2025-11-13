@@ -9,21 +9,27 @@ export default function WRIAnnouncements() {
       </div>
       <div className="p-8">
         <h1 className="mb-1 text-2xl font-bold text-wri-dark-blue">
-          Mike Roney Receives 2025 Worth Award
+          Gordon Bachinsky receives CARS Lifetime Achievement Award
         </h1>
         <Image
-          src="/mike-roney-worth-award.jpeg"
-          alt="Mike Roney receives the Worth Award at WRI 2025"
+          src="/gbachinsky-lifetime-achievement.webp"
+          alt="Gordon Bachinsky receives CARS Lifetime Achievement Award"
           width={776}
           height={582}
           className="mb-4"
           style={{ width: "100%", height: "auto", maxWidth: "776px" }}
         />
         <p>
-          Congratulations to Mike Roney on receiving this year’s Worth Award at the WRI Heavy Haul Conference—an honor named after the legendary Art Worth and awarded to one individual each year in recognition of lifetime achievement and extraordinary contributions to the rail industry.
+          Congratulations to Wheel Rail Seminars Founder, Gordon Bachinsky!
         </p>
         <p className="mt-4">
-          Michael’s dedication, leadership, and impact over the years make him more than deserving of this highly coveted recognition. Well done! 👏
+          Earlier this week at the Canadian Association of Railway Suppliers (CARS) National Railway Day in Montreal, Gordon was honored with the Lifetime Achievement Award, a well-deserved recognition of his 50+ years of dedication and leadership in the rail industry.
+        </p>
+        <p className="mt-4">
+          We are so proud to see Gordon celebrated for his lifelong commitment to advancing rail through innovation, education, and collaboration. His vision and passion have made a lasting impact on the industry and continue to inspire all of us at Wheel Rail Seminars.
+        </p>
+        <p className="mt-4">
+          Please join us in congratulating Gordon on this incredible achievement!
         </p>
       </div>
     </div>

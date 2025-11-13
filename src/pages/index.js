@@ -3,7 +3,7 @@ import Banner26RTNoButton from '@/components/banner/wri26RT-no-button';
 import IconsRTNoLink from '@/components/icons/iconsRT-nolink';
 {/* import AgendaButton from '@/components/buttons/agenda-download-button'; */}
 import Intro from '@/components/intro';
-{/* import CallForPapers from '@/components/call-for-papers'; */}
+import CallForPapers from '@/components/call-for-papers';
 {/* import Registration from '@/components/registration'; */}
 import SponsorCTA2 from '@/components/sponsors/sponsor-cta-2';
 import Reviews from '@/components/reviews';
@@ -63,7 +63,7 @@ export default function Home() {
       </div>
 
       <Intro />
-      {/*<CallForPapers />*/}
+      <CallForPapers />
       {/* <Registration /> */}
       <InfoZoneSection />
       <SponsorCTA2 />
