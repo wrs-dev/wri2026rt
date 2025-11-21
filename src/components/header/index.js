@@ -10,7 +10,28 @@ const Header = () => {
         {/* 1) Desktop/Tablet layout (≥ sm): single row, hidden on mobile */}
         <div className="items-end justify-between hidden sm:flex">
 
-          {/* Left sponsor: Mass Transit - Presenting Sponsor */}
+          {/* Left sponsor: Interface Journal - Presenting Sponsor */}
+          <div className="flex items-end">
+            <a
+              href="https://www.interfacejournal.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/interface-journal-presenting-sponsor.webp"
+                alt="Interface Journal Logo - Presenting Sponsor"
+                style={{ display: 'block' }}
+                className="w-[280px] h-auto"
+              />
+            </a>
+          </div>
+
+          {/* Center animation */}
+          <div className="flex items-end justify-center flex-grow mx-auto">
+            <Animation />
+          </div>
+
+          {/* Right sponsor: Mass Transit - Presenting Sponsor */}
           <div className="flex items-end">
             <a
               href="https://www.masstransitmag.com/"
@@ -30,27 +51,6 @@ const Header = () => {
               />
             </a>
           </div>
-
-          {/* Center animation */}
-          <div className="flex items-end justify-center flex-grow mx-auto">
-            <Animation />
-          </div>
-
-          {/* Right sponsor: Interface Journal - Presenting Sponsor */}
-          <div className="flex items-end">
-            <a
-              href="https://www.interfacejournal.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/interface-journal-presenting-sponsor.webp"
-                alt="Interface Journal Logo - Presenting Sponsor"
-                style={{ display: 'block' }}
-                className="w-[280px] h-auto"
-              />
-            </a>
-          </div>
         </div>
 
         {/* 2) Mobile layout (< sm): single column, logos side-by-side */}
@@ -63,18 +63,6 @@ const Header = () => {
           {/* Two logos side by side, bottom-aligned */}
           <div className="flex items-end justify-around w-full mt-4">
             <a
-              href="https://www.masstransitmag.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/mass-transit-presenting-sponsor.webp"
-                alt="Mass Transit Logo - Presenting Sponsor"
-                style={{ display: 'block' }}
-                className="w-[140px] h-auto"
-              />
-            </a>
-            <a
               href="https://www.interfacejournal.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -83,6 +71,18 @@ const Header = () => {
               <img
                 src="/interface-journal-presenting-sponsor.webp"
                 alt="Interface Journal Logo - Presenting Sponsor"
+                style={{ display: 'block' }}
+                className="w-[140px] h-auto"
+              />
+            </a>
+            <a
+              href="https://www.masstransitmag.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/mass-transit-presenting-sponsor.webp"
+                alt="Mass Transit Logo - Presenting Sponsor"
                 style={{ display: 'block' }}
                 className="w-[140px] h-auto"
               />
