@@ -42,12 +42,7 @@ const Header = () => {
                 src="/mass-transit-presenting-sponsor.webp"
                 alt="Mass Transit Logo - Presenting Sponsor"
                 style={{ display: 'block' }}
-                className="
-                  h-auto
-                  sm:w-[160px]
-                  md:w-[175px]
-                  lg:w-[258px]
-                "
+                className="w-[280px] h-auto"
               />
             </a>
           </div>
@@ -66,7 +61,6 @@ const Header = () => {
               href="https://www.interfacejournal.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative top-[-1px]"
             >
               <img
                 src="/interface-journal-presenting-sponsor.webp"
