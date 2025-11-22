@@ -21,7 +21,7 @@ const Header = () => {
                 src="/interface-journal-presenting-sponsor.webp"
                 alt="Interface Journal Logo - Presenting Sponsor"
                 style={{ display: 'block' }}
-                className="w-[280px] h-auto"
+                className="w-[280px] h-auto -translate-y-[10px]"
               />
             </a>
           </div>
@@ -42,7 +42,7 @@ const Header = () => {
                 src="/mass-transit-presenting-sponsor.webp"
                 alt="Mass Transit Logo - Presenting Sponsor"
                 style={{ display: 'block' }}
-                className="w-[280px] h-auto"
+                className="w-[280px] h-auto -translate-y-[5px]"
               />
             </a>
           </div>
@@ -66,7 +66,7 @@ const Header = () => {
                 src="/interface-journal-presenting-sponsor.webp"
                 alt="Interface Journal Logo - Presenting Sponsor"
                 style={{ display: 'block' }}
-                className="w-[140px] h-auto"
+                className="w-[140px] h-auto -translate-y-[5px]"
               />
             </a>
             <a
@@ -78,7 +78,7 @@ const Header = () => {
                 src="/mass-transit-presenting-sponsor.webp"
                 alt="Mass Transit Logo - Presenting Sponsor"
                 style={{ display: 'block' }}
-                className="w-[140px] h-auto"
+                className="w-[140px] h-auto -translate-y-[3px]"
               />
             </a>
           </div>
