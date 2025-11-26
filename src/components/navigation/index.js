@@ -264,9 +264,8 @@ export default function Navigation() {
           >
             FAQ
           </a>
-          {/* TEMPORARY: Changed from /infozone#icons to #zones - remember to switch back */}
           <a
-            href="#zones"
+            href="/infozone#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/infozone') ? 'text-wri-red' : 'text-wri-blue'
             }`}
@@ -356,9 +355,8 @@ export default function Navigation() {
                   >
                     WRI Seminar Archives
                   </a>
-                  {/* TEMPORARY: Changed from /infozone#icons to #zones - remember to switch back */}
                   <a
-                    href="#zones"
+                    href="/infozone#icons"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     InfoZone

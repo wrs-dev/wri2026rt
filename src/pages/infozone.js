@@ -3,9 +3,9 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
 import Navigation from '@/components/navigation';
-import InfoZonePage from '@/components/infozone/infoZonePage';
-import Banner26RT31st from '@/components/banner/wri25RT-30th';
-import IconsRT from '@/components/icons/iconsRT';
+import InfoZonePageSponsorship from '@/components/infozone/infoZonePageSponsorships';
+import Banner26RTNoButton from '@/components/banner/wri26RT-no-button';
+import IconsRTNoLink from '@/components/icons/iconsRT-nolink';
 
 export async function getStaticProps() {
   return {
@@ -21,8 +21,8 @@ const infozone = () => {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner26RT31st />
-      <IconsRT />
+      <Banner26RTNoButton />
+      <IconsRTNoLink />
       <div className="seminar-about-text" id="infozone">
         <div className="px-12 mx-auto">
           <h2 className="text-6xl font-normal leading-normal text-center pt-11">
@@ -30,7 +30,7 @@ const infozone = () => {
           </h2>
         </div>
       </div>
-      <InfoZonePage />
+      <InfoZonePageSponsorship />
     </main>
   );
 };
