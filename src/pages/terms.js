@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
 import Navigation from '@/components/navigation'
-import Banner25RT from '@/components/banner/wri25RT';
+import Banner25RT from '@/components/banner/wri26RT';
 import Registration from '@/components/registration';
 import SponsorsCloud from '@/components/sponsors';
 import { Inter } from 'next/font/google';

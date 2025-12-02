@@ -7,7 +7,7 @@ import IconsRT from '@/components/icons/iconsRT';
 import Registration from '@/components/registration';
 import { Disclosure } from '@headlessui/react';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
-import Banner26RT from '@/components/banner/wri25RT';
+import Banner26RT from '@/components/banner/wri26RT';
 
 const faqs = [
   {

@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Navigation from '@/components/navigation';
 import InfoZonePageSponsorship from '@/components/infozone/infoZonePageSponsorships';
-import Banner26RTNoButton from '@/components/banner/wri26RT-no-button';
+import Banner26RT from '@/components/banner/wri26RT';
 import IconsRTNoLink from '@/components/icons/iconsRT-nolink';
 
 export async function getStaticProps() {
@@ -21,7 +21,7 @@ const infozone = () => {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner26RTNoButton />
+      <Banner26RT />
       <IconsRTNoLink />
       <div className="seminar-about-text" id="infozone">
         <div className="px-12 mx-auto">

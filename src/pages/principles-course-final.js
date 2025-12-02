@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Navigation from '@/components/navigation';
-import Banner26RT31st from '@/components/banner/wri25RT-30th';
+import Banner26RT31st from '@/components/banner/wri26RT-31st';
 import IconLinks from '@/components/icons/iconsRT';
 import SpeakersPCPreview from '@/components/speakers/speakersPC-final';
 // import Registration from '@/components/registration';

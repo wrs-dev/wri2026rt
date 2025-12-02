@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Navigation from '@/components/navigation';
-import Banner25RTNoButton from '@/components/banner/wri25RT-no-button';
+import Banner25RTNoButton from '@/components/banner/wri26RT-no-button';
 import SponsorsPackages from '@/components/sponsors/sponsorPackages';
 
 const SponsorPackagesRT = () => {

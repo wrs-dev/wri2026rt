@@ -2,7 +2,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Navigation from '@/components/navigation';
-import Banner25RT30th from '@/components/banner/wri25RT-30th';  // 2025 version
+import Banner25RT30th from '@/components/banner/wri26RT-31st';  // 2026 version
 import IconLinks from '@/components/icons/iconsRT';            // 2025 RT icons
 import BiosAbstractsRT from '@/components/bios-abstracts/bios-abstractsRT'; 
 import Registration from '@/components/registration';

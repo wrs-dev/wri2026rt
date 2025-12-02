@@ -1,10 +1,10 @@
 import Navigation from '@/components/navigation';
-import Banner26RTNoButton from '@/components/banner/wri26RT-no-button';
+import Banner26RT from '@/components/banner/wri26RT';
 import IconsRTNoLink from '@/components/icons/iconsRT-nolink';
 import SponsorCTAButton from '@/components/buttons/sponsor-cta-button';
 import Intro from '@/components/intro';
 import CallForPapers from '@/components/call-for-papers';
-{/* import Registration from '@/components/registration'; */}
+import Registration from '@/components/registration';
 import SponsorCTA2 from '@/components/sponsors/sponsor-cta-2';
 import Reviews from '@/components/reviews';
 import InfoZoneSection from '@/components/infozone/infoZoneSection';
@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <main className="bg-white">
       <Navigation />
-      <Banner26RTNoButton />
+      <Banner26RT />
       
       {/* Speakers announcement */}
       <div className="py-8 text-center">
@@ -64,7 +64,7 @@ export default function Home() {
 
       <Intro />
       <CallForPapers />
-      {/* <Registration /> */}
+      <Registration />
       <InfoZoneSection />
       <SponsorCTA2 />
       <Reviews />

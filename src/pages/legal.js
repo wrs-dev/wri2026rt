@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Navigation from '@/components/navigation';
 import IconLinks from '@/components/icons';
-import Banner25RT from '@/components/banner/wri25RT';
+import Banner25RT from '@/components/banner/wri26RT';
 
 export async function getStaticProps() {
   return {

@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] });
 export default function PricingProfessionalIndividual() {
   return (
     <section className="px-0 lg:px-12">
-      <div className="mb-0 overflow-hidden bg-white shadow-md rounded-3xl" style={{
+      <div className="mb-4 overflow-hidden bg-white shadow-md rounded-3xl" style={{
         height: '100%',
         minHeight: '300px',
         display: 'flex',
@@ -34,10 +34,10 @@ export default function PricingProfessionalIndividual() {
               Principles Course (1 Day)
             </h2>
             <h2 className="text-md text-wri-blue">
-              Cost: $600
+              Cost: <span className="text-gray-500 line-through">$600</span> $540 Early Bird
             </h2>
             <p className="text-gray-500 text-md">
-              August 26, 2025
+              September 1, 2026
             </p>
           </div>
 
@@ -47,10 +47,10 @@ export default function PricingProfessionalIndividual() {
               Rail Transit Seminar (2 Days)
             </h2>
             <h2 className="text-md text-wri-blue">
-              Cost: $1,200
+              Cost: <span className="text-gray-500 line-through">$1,200</span> $1,080 Early Bird
             </h2>
             <p className="text-gray-500 text-md">
-              August 27–28, 2025
+              September 2-3, 2026
             </p>
           </div>
         </div>
