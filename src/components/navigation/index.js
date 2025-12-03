@@ -231,15 +231,15 @@ export default function Navigation() {
             Photo Gallery
           </a>
 
-          {/* Pricing, Sponsors, Hotel temporarily hidden */}
-          {/* <a
+          {/* Pricing */}
+          <a
             href="/#register"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/#register') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Pricing
-          </a> */}
+          </a>
           {/* <a
             href="/sponsors#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -323,12 +323,12 @@ export default function Navigation() {
                   >
                     Home
                   </a>
-                  {/* <a
+                  <a
                     href="/#register"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Pricing
-                  </a> */}
+                  </a>
                   {/* <a
                     href="/sponsors#icons"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
