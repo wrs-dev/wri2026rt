@@ -256,7 +256,7 @@ nav ul li a {
 
 .btn_wrapper ul li {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   border-radius: 26px;
   padding: 15px 32px;
 }
@@ -276,6 +276,31 @@ nav ul li a {
 }
 
 .btn_wrapper a {
+}
+
+/* Mobile responsive styles for btn_wrapper */
+@media (max-width: 640px) {
+  .btn_wrapper ul li {
+    gap: 12px;
+    padding: 15px 20px;
+    align-items: center;
+    min-width: 260px;
+  }
+
+  .btn_wrapper ul li figure {
+    flex-shrink: 0;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn_wrapper ul li figure img {
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+  }
 }
 
 .content-wrapper .row {
