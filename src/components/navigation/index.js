@@ -257,20 +257,20 @@ export default function Navigation() {
             Hotel
           </a> */}
           <a
-            href="/faq#icons"
-            className={`text-sm leading-6 nav-link lg:text-xl ${
-              isActive('/faq') ? 'text-wri-red' : 'text-wri-blue'
-            }`}
-          >
-            FAQ
-          </a>
-          <a
             href="/infozone#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/infozone') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             InfoZone
+          </a>
+          <a
+            href="/faq#icons"
+            className={`text-sm leading-6 nav-link lg:text-xl ${
+              isActive('/faq') ? 'text-wri-red' : 'text-wri-blue'
+            }`}
+          >
+            FAQ
           </a>
           <a
             href="http://wheel-rail-seminars.com/"
@@ -342,12 +342,6 @@ export default function Navigation() {
                     Hotel Reservations
                   </a> */}
                   <a
-                    href="/faq#icons"
-                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
-                  >
-                    FAQ
-                  </a>
-                  <a
                     href="http://archive.wheel-rail-seminars.com/us/downloads.php"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -360,6 +354,12 @@ export default function Navigation() {
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     InfoZone
+                  </a>
+                  <a
+                    href="/faq#icons"
+                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    FAQ
                   </a>
                   <a
                     href="http://wheel-rail-seminars.com/"
