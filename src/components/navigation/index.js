@@ -248,14 +248,14 @@ export default function Navigation() {
           >
             Sponsors
           </a> */}
-          {/* <a
+          <a
             href="/#hotel"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('#hotel') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Hotel
-          </a> */}
+          </a>
           <a
             href="/infozone#icons"
             className={`text-sm leading-6 nav-link lg:text-xl ${
@@ -291,7 +291,7 @@ export default function Navigation() {
               className="w-8 h-8 pr-2"
               alt="Interface Journal"
             />
-            Interface Journal
+            IJ
           </a>
         </Popover.Group>
 
@@ -335,12 +335,12 @@ export default function Navigation() {
                   >
                     Sponsors
                   </a> */}
-                  {/* <a
+                  <a
                     href="/#hotel"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Hotel Reservations
-                  </a> */}
+                  </a>
                   <a
                     href="http://archive.wheel-rail-seminars.com/us/downloads.php"
                     target="_blank"

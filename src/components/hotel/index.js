@@ -5,32 +5,41 @@ export default function Hotel() {
   return (
     <section id="hotel" className="py-32 hare-hotel">
       <div className="container">
-        {/* Using a grid with a single column gap structure like HH */}
         <div className="grid grid-cols-1 gap-8">
-          {/* Left side: Hotel Title & Image */}
           <div className="col">
             <h1 className="mb-4 text-2xl font-bold">
               WRI 2026 RT – Host Hotel – Book your Room
             </h1>
-            <div className="grid grid-cols-1">
-              <figure>
-                <Image
-                  src="/Sheraton-Boston.webp"
-                  alt="Sheraton Boston"
-                  width={400}
-                  height={225}
-                  className="w-full h-auto"
-                />
-              </figure>
-              <div className="mt-4">
+            <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+              <div className="space-y-4">
+                <figure>
+                  <Image
+                    src="/renaissance-boston-seaport-1.webp"
+                    alt="Renaissance Boston Seaport District Hotel"
+                    width={400}
+                    height={225}
+                    className="w-full h-auto"
+                  />
+                </figure>
+                <figure>
+                  <Image
+                    src="/renaissance-boston-seaport-2.webp"
+                    alt="Renaissance Boston Seaport District Hotel Interior"
+                    width={400}
+                    height={225}
+                    className="w-full h-auto"
+                  />
+                </figure>
+              </div>
+              <div>
                 <div className="mb-6 text-3xl font-bold primary-color">
-                  Sheraton Boston
+                  Renaissance Boston Seaport District Hotel
                 </div>
                 <div className="mb-8 text-lg font-bold">
-                  39 Dalton Street Boston, Massachusetts, 02199 United States
+                  606 Congress St, Boston, MA 02210
                 </div>
                 <a
-                  href="https://www.marriott.com/en-us/hotels/boswi-sheraton-boston-hotel/overview/"
+                  href="https://book.passkey.com/event/51143433/owner/52950/landing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-4 py-2 text-xl font-bold border-4 shadow-xl rounded-xl bg-wri-yellow hover:bg-wri-green border-wri-dark-blue hover:border-wri-green text-wri-dark-blue hover:text-white"
@@ -40,16 +49,13 @@ export default function Hotel() {
               </div>
             </div>
           </div>
-
-          {/* Right side: Reservation Info */}
           <div className="col">
             <h2>Making Reservations/Discounted Rate:</h2>
-            <p className="mb-3.5 text-base">
-              You can use the Sheraton Boston&apos;s secure online
-              reservation system to book, modify, or cancel your reservation{' '}
+            <p className="text-base mb-3.5">
+              You can use the Renaissance Boston Seaport Hotel secure online reservation system to book, modify or cancel your hotel reservation{' '}
               <a
-                className="text-red-500 underline hover:text-blue-600"
-                href="https://www.marriott.com/en-us/hotels/boswi-sheraton-boston-hotel/overview/"
+                className="text-red-500"
+                href="https://book.passkey.com/event/51143433/owner/52950/landing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -57,44 +63,41 @@ export default function Hotel() {
               </a>
               .
             </p>
-            <p className="mb-3.5 text-base">
-              Our discounted room rate is <b>$269</b> per night.
+            <p className="text-base mb-3.5">
+              The Discounted Room Rate is <b>$274.00</b> per night.
             </p>
-            <p className="mb-3.5 text-base">
-              Reservations must be received on or before the cut-off date of{' '}
-              <b>Monday, August 18, 2026</b>. Once our room block is full, you
-              may not be able to receive our special rate.
+            <p className="text-base mb-3.5">
+              Reservations must be received on or before the cut-off date of
+              Friday, August 7, 2026. Once the room block is full, you may not be
+              able to receive our special rate or a room.
             </p>
-            <p className="mb-3.5 text-base">
+            <p className="text-base mb-3.5">
               If you require additional reservations assistance, you may contact
-              the hotel reservation department at (206) 973-1234 and refer to
-              the group by name:{' '}
-              <b>Wheel/Rail Interaction Rail Transit &apos;26 Boston.</b>
+              the hotel directly at (617) 338-4111 and refer to
+              the group by name: <b>Wheel Rail Seminars</b>
             </p>
-
             <h2>Room Deposits/Guarantees:</h2>
-            <p className="mb-3.5 text-base">
+            <p className="text-base mb-3.5">
               <b>
                 Hotel reservations require a credit card guarantee to secure
-                your room.
-              </b>{' '}
-              Should you need to cancel your reservation, reservations must be
-              canceled a minimum of 48 hours prior to arrival, 5PM hotel time,
+                your room reservation.
+              </b>
+              {' '}Should you need to cancel your reservation, reservations must be
+              canceled a minimum of 72 hours prior to arrival, 5PM hotel time,
               to avoid a one-night cancellation penalty.
             </p>
-
             <h2>Reservation Confirmation:</h2>
-            <p className="mb-3.5 text-base">
+            <p className="text-base mb-3.5">
               You will receive your hotel confirmation email directly from the
               hotel.
             </p>
-            <p className="mb-3.5 text-base">
+            <p className="text-base mb-3.5">
               <b>
-                Reservation must be canceled by 5:00pm, local hotel time, two
+                Reservations must be canceled by 5:00pm, local hotel time, three
                 days prior to arrival date.
-              </b>{' '}
-              Failure to cancel by 5:00pm, 48 hours prior will result in the
-              loss of one night&apos;s room and tax on your credit card.
+              </b>
+              {' '}Failure to cancel by 5:00pm, 72 hours prior will result in the
+              loss of one night's room and tax on your credit card.
             </p>
           </div>
         </div>
