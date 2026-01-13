@@ -14,7 +14,7 @@ export default function Hotel() {
               <div className="space-y-4">
                 <figure>
                   <Image
-                    src="/renaissance-boston-seaport-1.webp"
+                    src="/boston-1.webp"
                     alt="Renaissance Boston Seaport District Hotel"
                     width={400}
                     height={225}
@@ -23,7 +23,7 @@ export default function Hotel() {
                 </figure>
                 <figure>
                   <Image
-                    src="/renaissance-boston-seaport-2.webp"
+                    src="/boston-2.webp"
                     alt="Renaissance Boston Seaport District Hotel Interior"
                     width={400}
                     height={225}
