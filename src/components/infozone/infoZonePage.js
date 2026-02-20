@@ -10,16 +10,16 @@ const infoZoneSponsors = [
     url: 'https://www.linsinger.com/',
     },
     {
-    name: 'Railroad Software',
-    description: '',
-    imagePath: '/silver-railroad-software.png',
-    url: 'https://www.railroadsoftware.com/',
-    },
-    {
     name: 'Hexagon | NEXTSENSE',
     description: '',
     imagePath: '/hexagon_new.jpg',
     url: 'https://www.calipri.net/en/',
+    },
+    {
+    name: 'Railroad Software',
+    description: '',
+    imagePath: '/silver-railroad-software.png',
+    url: 'https://www.railroadsoftware.com/',
   },
   {
     name: 'Loram',
@@ -84,7 +84,7 @@ export default function InfoZonePage() {
       {/* Sponsors Section */}
       <section>
         <div className="px-6 mx-auto mb-48 max-w-7xl lg:px-8">
-          {/* Row 1: Linsinger and Railroad Software */}
+          {/* Row 1: Linsinger and Hexagon */}
           <div className="grid grid-cols-2 gap-12 mb-12 justify-items-center">
             {/* Linsinger */}
             <a
@@ -97,11 +97,9 @@ export default function InfoZonePage() {
                 className="object-contain h-28"
               />
             </a>
-            {/* Railroad Software */}
+            {/* Hexagon */}
             <a
-              href={infoZoneSponsors[1].url}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#hexagon"
               className="flex items-center justify-center w-full h-32"
             >
               <img
@@ -112,11 +110,13 @@ export default function InfoZonePage() {
             </a>
           </div>
 
-          {/* Row 2: Hexagon and Loram */}
+          {/* Row 2: Railroad Software and Loram */}
           <div className="grid grid-cols-2 gap-12 mb-12 justify-items-center">
-            {/* Hexagon */}
+            {/* Railroad Software */}
             <a
-              href="#hexagon"
+              href={infoZoneSponsors[2].url}
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center w-full h-32"
             >
               <img

@@ -4,9 +4,9 @@ import SponsorRegisterButtonInfoZone from '@/components/buttons/sponsor-register
 
 const infoZoneSponsors = [
   {
-    name: 'Hexagon',
-    imagePath: '/hexagon-2026.png',
-    url: 'https://hexagon.com/',
+    name: 'Railroad Software',
+    imagePath: '/silver-railroad-software.png',
+    url: 'https://www.railroadsoftware.com/',
   },
   {
     name: 'Plasser American',
@@ -69,10 +69,10 @@ export default function InfoZonePageSponsorships() {
       {/* Sponsors Section */}
       <section>
         <div className="px-6 mx-auto mb-24 space-y-12 max-w-7xl lg:px-8">
-          {/* Row 1 - Hexagon, Loram */}
+          {/* Row 1 - Railroad Software, Loram */}
           <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
-            <a href="https://hexagon.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
-              <img src="/hexagon-2026.png" alt="Hexagon logo" className="object-contain h-20" />
+            <a href="https://www.railroadsoftware.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+              <img src="/silver-railroad-software.png" alt="Railroad Software logo" className="object-contain h-20" />
             </a>
             <a href="https://loram.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
               <img src="/platinum-loram.png" alt="Loram logo" className="object-contain h-16" />
