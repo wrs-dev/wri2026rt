@@ -2,7 +2,25 @@ import Image from 'next/image';
 import InfoZonePhotos from '@/components/infozone/infoZonePhotos';
 import SponsorRegisterButtonInfoZone from '@/components/buttons/sponsor-register-button-infozone';
 
-export default function InfoZonePageSponsorship() {
+const infoZoneSponsors = [
+  {
+    name: 'Hexagon',
+    imagePath: '/hexagon-2026.png',
+    url: 'https://hexagon.com/',
+  },
+  {
+    name: 'Plasser American',
+    imagePath: '/platinum-plasser-american.svg',
+    url: 'https://www.plasseramerican.com/en/home/start',
+  },
+  {
+    name: 'Loram',
+    imagePath: '/platinum-loram.png',
+    url: 'https://loram.com/',
+  },
+];
+
+export default function InfoZonePageSponsorships() {
   return (
     <div className="py-12 bg-white">
       {/* InfoZone Section */}
@@ -39,7 +57,38 @@ export default function InfoZonePageSponsorship() {
         </div>
       </section>
 
-      {/* InfoZone Partnership Opportunities Section */}
+      {/* Meet Your InfoZone Partners */}
+      <div className="seminar-about-text" id="sponsor">
+        <div className="px-12 mx-auto">
+          <h2 className="mb-16 text-6xl font-normal leading-normal text-center pt-11">
+            Meet Your InfoZone Partners
+          </h2>
+        </div>
+      </div>
+
+      {/* Sponsors Section */}
+      <section>
+        <div className="px-6 mx-auto mb-24 space-y-12 max-w-7xl lg:px-8">
+          {/* Row 1 - Hexagon, Loram */}
+          <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
+            <a href="https://hexagon.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+              <img src="/hexagon-2026.png" alt="Hexagon logo" className="object-contain h-20" />
+            </a>
+            <a href="https://loram.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+              <img src="/platinum-loram.png" alt="Loram logo" className="object-contain h-16" />
+            </a>
+          </div>
+
+          {/* Row 2 - Plasser American */}
+          <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
+            <a href="https://www.plasseramerican.com/en/home/start" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+              <img src="/platinum-plasser-american.svg" alt="Plasser American logo" className="object-contain h-14" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* InfoZone Partnership Opportunities Section - KEEP FOR RT */}
       <div className="seminar-about-text" id="infozone-sponsorship">
         <div className="px-12 mx-auto">
           <h2 className="mb-16 text-6xl font-normal leading-normal text-center pt-11">

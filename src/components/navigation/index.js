@@ -240,21 +240,13 @@ export default function Navigation() {
           >
             Pricing
           </a>
-          {/* <a
-            href="/sponsors#icons"
+          <a
+            href="/sponsors#sponsor"
             className={`text-sm leading-6 nav-link lg:text-xl ${
               isActive('/sponsors') ? 'text-wri-red' : 'text-wri-blue'
             }`}
           >
             Sponsors
-          </a> */}
-          <a
-            href="/#hotel"
-            className={`text-sm leading-6 nav-link lg:text-xl ${
-              isActive('#hotel') ? 'text-wri-red' : 'text-wri-blue'
-            }`}
-          >
-            Hotel
           </a>
           <a
             href="/infozone#icons"
@@ -263,6 +255,14 @@ export default function Navigation() {
             }`}
           >
             InfoZone
+          </a>
+          <a
+            href="/#hotel"
+            className={`text-sm leading-6 nav-link lg:text-xl ${
+              isActive('#hotel') ? 'text-wri-red' : 'text-wri-blue'
+            }`}
+          >
+            Hotel
           </a>
           <a
             href="/faq#icons"
@@ -329,17 +329,11 @@ export default function Navigation() {
                   >
                     Pricing
                   </a>
-                  {/* <a
-                    href="/sponsors#icons"
+                  <a
+                    href="/sponsors#sponsor"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Sponsors
-                  </a> */}
-                  <a
-                    href="/#hotel"
-                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
-                  >
-                    Hotel Reservations
                   </a>
                   <a
                     href="http://archive.wheel-rail-seminars.com/us/downloads.php"
@@ -354,6 +348,12 @@ export default function Navigation() {
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     InfoZone
+                  </a>
+                  <a
+                    href="/#hotel"
+                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    Hotel Reservations
                   </a>
                   <a
                     href="/faq#icons"

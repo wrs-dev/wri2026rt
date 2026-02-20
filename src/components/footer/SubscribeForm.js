@@ -34,7 +34,6 @@ export default function SubscribeForm() {
         method="POST"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        netlify
         className="mt-6 sm:flex sm:max-w-md"
       >
         <input type="hidden" name="form-name" value="subscribe" />

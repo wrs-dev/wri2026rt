@@ -18,9 +18,9 @@ const navigation = {
       target: '_blank',
     },
     {
-      name: "Visit WRI '25 Sponsors",
-      href: 'https://wri2025rt.wheel-rail-seminars.com/sponsors',
-      target: '_blank',
+      name: 'WRI 2026 RT Sponsors',
+      href: '/sponsors',
+      target: '_self',
     },
   ],
   support: [

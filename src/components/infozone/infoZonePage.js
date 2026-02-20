@@ -249,7 +249,7 @@ export default function InfoZonePage() {
               rel="noopener noreferrer"
             >
               <Image
-                src="/hexagon.png"
+                src="/hexagon-2026.png"
                 alt="Hexagon | NEXTSENSE Logo"
                 width={200}
                 height={100}
