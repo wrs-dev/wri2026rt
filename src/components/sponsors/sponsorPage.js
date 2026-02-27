@@ -47,6 +47,11 @@ const platinumSponsors = [
 
 const goldSponsors = [
   {
+    name: 'Amsted Rail',
+    imagePath: '/gold-amstead-rail.png',
+    url: 'https://www.amstedrail.com/',
+  },
+  {
     name: 'ESI',
     imagePath: '/esi-logo.png',
     url: 'https://www.engsys.com/industries/transportation/rail/',

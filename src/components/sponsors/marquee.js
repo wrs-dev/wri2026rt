@@ -33,6 +33,11 @@ const LogoRow = () => {
         />
         {/* Gold */}
         <img
+          src="/cloud-amsted-rail.png"
+          alt="Gold Sponsor Amsted Rail"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
           src="/esi-logo.png"
           alt="Gold Sponsor ESI"
           className="h-[60px] w-auto max-w-none"
@@ -117,6 +122,11 @@ const LogoRow = () => {
           className="h-[60px] w-auto max-w-none"
         />
         {/* Gold */}
+        <img
+          src="/cloud-amsted-rail.png"
+          alt="Gold Sponsor Amsted Rail"
+          className="h-[60px] w-auto max-w-none"
+        />
         <img
           src="/esi-logo.png"
           alt="Gold Sponsor ESI"
