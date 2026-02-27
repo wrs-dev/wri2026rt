@@ -2,6 +2,34 @@ import React from 'react';
 
 const platinumSponsors = [
   {
+    name: 'Plasser American',
+    description:
+      'Plasser American provides track maintenance solutions and machines, leading innovation in the railway construction and maintenance sector.',
+    imagePath: '/platinum-plasser-american.svg',
+    url: 'https://www.plasseramerican.com/',
+  },
+  {
+    name: 'Loram',
+    description:
+      "For more than 70 years, Loram has been providing railroad maintenance equipment and services to freight, passenger and transit railroads. Loram's reputation rests on our performance as a contractor offering a wide range of track maintenance services:",
+    bulletPoints: [
+      'Production and specialty rail grinding',
+      'Ditch cleaning',
+      'Shoulder ballast cleaning',
+      'Undercutting',
+      'Spot undercutting utilizing our LRV',
+      'Rail handling',
+      'Full service friction management',
+      'Track lifting',
+      'Geotechnical substructure management',
+      'Track Inspection',
+      'Material Handling',
+      'Structural monitoring and data services',
+    ],
+    imagePath: '/platinum-loram.png',
+    url: 'https://www.loram.com/',
+  },
+  {
     name: 'Whitmore',
     description:
       'Whitmore is a global leader in lubrication and friction management solutions for the rail industry. Their innovative products and services help railroads reduce maintenance costs, extend equipment life, and improve operational efficiency.',

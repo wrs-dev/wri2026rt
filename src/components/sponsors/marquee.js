@@ -17,6 +17,16 @@ const LogoRow = () => {
         />
         {/* Platinum */}
         <img
+          src="/cloud-plasser-american.png"
+          alt="Platinum Sponsor Plasser American"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
+          src="/cloud-loram.png"
+          alt="Platinum Sponsor Loram"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
           src="/whitmore.png"
           alt="Platinum Sponsor Whitmore"
           className="h-[60px] w-auto max-w-none"
@@ -73,16 +83,6 @@ const LogoRow = () => {
         <img
           src="/hexagon-2026.png"
           alt="InfoZone Partner Hexagon"
-          className="h-[60px] w-auto max-w-none"
-        />
-        <img
-          src="/cloud-plasser-american.png"
-          alt="InfoZone Partner Plasser American"
-          className="h-[60px] w-auto max-w-none"
-        />
-        <img
-          src="/cloud-loram.png"
-          alt="InfoZone Partner Loram"
           className="h-[60px] w-auto max-w-none"
         />
       </div>
@@ -102,6 +102,16 @@ const LogoRow = () => {
         />
         {/* Platinum */}
         <img
+          src="/cloud-plasser-american.png"
+          alt="Platinum Sponsor Plasser American"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
+          src="/cloud-loram.png"
+          alt="Platinum Sponsor Loram"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
           src="/whitmore.png"
           alt="Platinum Sponsor Whitmore"
           className="h-[60px] w-auto max-w-none"
@@ -158,16 +168,6 @@ const LogoRow = () => {
         <img
           src="/hexagon-2026.png"
           alt="InfoZone Partner Hexagon"
-          className="h-[60px] w-auto max-w-none"
-        />
-        <img
-          src="/cloud-plasser-american.png"
-          alt="InfoZone Partner Plasser American"
-          className="h-[60px] w-auto max-w-none"
-        />
-        <img
-          src="/cloud-loram.png"
-          alt="InfoZone Partner Loram"
           className="h-[60px] w-auto max-w-none"
         />
       </div>
