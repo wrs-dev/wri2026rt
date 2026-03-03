@@ -16,7 +16,7 @@ const Banner2026RT = () => {
       {/* 2. MBTA Logo - 2250x600 px */}
       <div className="absolute top-4 right-4 sm:top-6 sm:right-8">
         <Image
-          src="/MBTA-local-host-full.png"
+          src="/MBTA-local-host.png"
           alt="MBTA Logo - Local Host"
           width={750}
           height={200}
