@@ -15,6 +15,12 @@ const LogoRow = () => {
           alt="Presenting Sponsor Mass Transit"
           className="h-[60px] w-auto max-w-none"
         />
+        {/* Local Host */}
+        <img
+          src="/MBTA-marquee-full.png"
+          alt="Local Host MBTA"
+          className="h-[60px] w-auto max-w-none"
+        />
         {/* Platinum */}
         <img
           src="/cloud-plasser-american.png"
@@ -103,6 +109,12 @@ const LogoRow = () => {
         <img
           src="/cloud-mass-transit.png"
           alt="Presenting Sponsor Mass Transit"
+          className="h-[60px] w-auto max-w-none"
+        />
+        {/* Local Host */}
+        <img
+          src="/MBTA-marquee-full.png"
+          alt="Local Host MBTA"
           className="h-[60px] w-auto max-w-none"
         />
         {/* Platinum */}
