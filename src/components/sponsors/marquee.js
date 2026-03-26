@@ -68,6 +68,11 @@ const LogoRow = () => {
           alt="Gold Sponsor Linsinger"
           className="h-[60px] w-auto max-w-none"
         />
+        <img
+          src="/gold-wvco.png"
+          alt="Gold Sponsor WVCO Railroad Solutions"
+          className="h-[60px] w-auto max-w-none"
+        />
         {/* Silver */}
         <img
           src="/getzner-logo.png"
@@ -162,6 +167,11 @@ const LogoRow = () => {
         <img
           src="/cloud-linsinger.png"
           alt="Gold Sponsor Linsinger"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
+          src="/gold-wvco.png"
+          alt="Gold Sponsor WVCO Railroad Solutions"
           className="h-[60px] w-auto max-w-none"
         />
         {/* Silver */}

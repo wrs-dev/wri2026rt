@@ -76,6 +76,11 @@ const goldSponsors = [
     imagePath: '/silver-linsinger.png',
     url: 'https://www.linsinger.com/',
   },
+  {
+    name: 'WVCO Railroad Solutions',
+    imagePath: '/gold-wvco.png',
+    url: 'https://wvcorailroad.com/',
+  },
 ];
 
 const silverSponsors = [
@@ -172,6 +177,7 @@ export default function SponsorPage() {
                         className={`img-fill-contain ${
                           sponsor.name === 'Holland' ? 'h-24' :
                           sponsor.name === 'ENSCO' ? 'h-20' :
+                          sponsor.name === 'WVCO Railroad Solutions' ? 'h-28' :
                           'max-h-20'
                         }`}
                       />
