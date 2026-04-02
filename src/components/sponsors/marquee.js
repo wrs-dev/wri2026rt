@@ -73,6 +73,11 @@ const LogoRow = () => {
           alt="Gold Sponsor WVCO Railroad Solutions"
           className="h-[60px] w-auto max-w-none"
         />
+        <img
+          src="/cloud-rhomberg-sersa.png"
+          alt="Gold Sponsor Rhomberg Sersa"
+          className="h-[60px] w-auto max-w-none"
+        />
         {/* Silver */}
         <img
           src="/getzner-logo.png"
@@ -172,6 +177,11 @@ const LogoRow = () => {
         <img
           src="/gold-wvco.png"
           alt="Gold Sponsor WVCO Railroad Solutions"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
+          src="/cloud-rhomberg-sersa.png"
+          alt="Gold Sponsor Rhomberg Sersa"
           className="h-[60px] w-auto max-w-none"
         />
         {/* Silver */}

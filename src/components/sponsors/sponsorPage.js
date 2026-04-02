@@ -81,6 +81,11 @@ const goldSponsors = [
     imagePath: '/gold-wvco.png',
     url: 'https://wvcorailroad.com/',
   },
+  {
+    name: 'Rhomberg Sersa',
+    imagePath: '/silver-rhomberg-sersa.png',
+    url: 'https://www.rhomberg-sersa.com/',
+  },
 ];
 
 const silverSponsors = [
