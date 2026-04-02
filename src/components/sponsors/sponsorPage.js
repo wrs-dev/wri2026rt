@@ -183,6 +183,7 @@ export default function SponsorPage() {
                           sponsor.name === 'Holland' ? 'h-24' :
                           sponsor.name === 'ENSCO' ? 'h-20' :
                           sponsor.name === 'WVCO Railroad Solutions' ? 'h-28' :
+                          sponsor.name === 'Rhomberg Sersa' ? 'h-28' :
                           'max-h-20'
                         }`}
                       />
