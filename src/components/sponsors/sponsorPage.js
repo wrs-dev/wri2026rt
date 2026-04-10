@@ -67,9 +67,9 @@ const goldSponsors = [
     url: 'https://www.hollandco.com/',
   },
   {
-    name: 'Scout Robotics',
-    imagePath: '/scout-robotics.png',
-    url: 'http://scoutrobo.com',
+    name: 'Sunrise Systems',
+    imagePath: '/Sunrise-Systems-Logo.webp',
+    url: 'https://www.sunrisesystems.com/',
   },
   {
     name: 'Linsinger',
@@ -77,14 +77,19 @@ const goldSponsors = [
     url: 'https://www.linsinger.com/',
   },
   {
-    name: 'WVCO Railroad Solutions',
-    imagePath: '/gold-wvco.png',
-    url: 'https://wvcorailroad.com/',
+    name: 'Scout Robotics',
+    imagePath: '/scout-robotics.png',
+    url: 'http://scoutrobo.com',
   },
   {
     name: 'Rhomberg Sersa',
     imagePath: '/silver-rhomberg-sersa.png',
     url: 'https://www.rhomberg-sersa.com/',
+  },
+  {
+    name: 'WVCO Railroad Solutions',
+    imagePath: '/gold-wvco.png',
+    url: 'https://wvcorailroad.com/',
   },
 ];
 
@@ -106,6 +111,12 @@ const silverSponsors = [
     description: '',
     imagePath: '/gateway-rail-services.png',
     url: 'https://www.gatewayrail.com/',
+  },
+  {
+    name: 'EKHO Infrastructure Solutions',
+    description: '',
+    imagePath: '/ekho-logo.png',
+    url: 'https://ekhois.com/',
   },
 ];
 
@@ -171,10 +182,12 @@ export default function SponsorPage() {
             <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
               <span className="text-yellow-600">GOLD</span> sponsors
             </h2>
-            <dl className="grid grid-cols-1 col-span-2 gap-x-8 gap-y-16 sm:grid-cols-2 place-items-start">
+            <dl className="grid grid-cols-1 col-span-2 gap-x-8 gap-y-16 sm:grid-cols-2">
               {goldSponsors.map((sponsor) => (
-                <div key={sponsor.name}>
-                  <dt className="text-base font-semibold leading-7 text-black">
+                <div key={sponsor.name} className="flex flex-col">
+                  <dt className={`text-base font-semibold leading-7 text-black ${
+                    sponsor.name === 'Sunrise Systems' ? 'mt-auto' : ''
+                  }`}>
                     <div className="flex items-center h-22">
                       <img
                         src={sponsor.imagePath}
@@ -189,7 +202,7 @@ export default function SponsorPage() {
                       />
                     </div>
                   </dt>
-                  <dd className="mt-1 text-base leading-7">
+                  <dd className="mt-auto pt-1 text-base leading-7">
                     <a
                       href={sponsor.url}
                       target="_blank"
@@ -218,14 +231,17 @@ export default function SponsorPage() {
                 {silverSponsors.map((sponsor) => (
                   <div key={sponsor.name}>
                     <dt className="text-base font-semibold leading-7 text-black">
-                      <div className="flex items-center h-24">
+                      <div className={`flex items-center ${
+                        sponsor.name === 'EKHO Infrastructure Solutions' || sponsor.name === 'Gateway Rail' ? 'h-28 mb-2' : 'h-24'
+                      }`}>
                         <img
                           src={sponsor.imagePath}
                           alt={sponsor.name}
                           className={`img-fill-contain ${
                             sponsor.name === 'Interface Journal' ? 'w-[280px]' :
                             sponsor.name === 'Getzner' ? 'max-h-[68px]' :
-                            sponsor.name === 'Gateway Rail' ? 'max-h-28' :
+                            sponsor.name === 'Gateway Rail' ? 'w-[240px]' :
+                            sponsor.name === 'EKHO Infrastructure Solutions' ? 'max-h-28' :
                             'max-h-14'
                           }`}
                         />

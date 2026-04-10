@@ -78,6 +78,12 @@ const LogoRow = () => {
           alt="Gold Sponsor Rhomberg Sersa"
           className="h-[60px] w-auto max-w-none"
         />
+        {/* Gold */}
+        <img
+          src="/Sunrise-Systems-Logo.webp"
+          alt="Gold Sponsor Sunrise Systems"
+          className="h-[60px] w-auto max-w-none"
+        />
         {/* Silver */}
         <img
           src="/getzner-logo.png"
@@ -92,6 +98,11 @@ const LogoRow = () => {
         <img
           src="/gateway-rail-services.png"
           alt="Silver Sponsor Gateway Rail"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
+          src="/ekho-logo.png"
+          alt="Silver Sponsor EKHO Infrastructure Solutions"
           className="h-[60px] w-auto max-w-none"
         />
         {/* Bronze */}
@@ -184,6 +195,12 @@ const LogoRow = () => {
           alt="Gold Sponsor Rhomberg Sersa"
           className="h-[60px] w-auto max-w-none"
         />
+        {/* Gold */}
+        <img
+          src="/Sunrise-Systems-Logo.webp"
+          alt="Gold Sponsor Sunrise Systems"
+          className="h-[60px] w-auto max-w-none"
+        />
         {/* Silver */}
         <img
           src="/getzner-logo.png"
@@ -198,6 +215,11 @@ const LogoRow = () => {
         <img
           src="/gateway-rail-services.png"
           alt="Silver Sponsor Gateway Rail"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
+          src="/ekho-logo.png"
+          alt="Silver Sponsor EKHO Infrastructure Solutions"
           className="h-[60px] w-auto max-w-none"
         />
         {/* Bronze */}
