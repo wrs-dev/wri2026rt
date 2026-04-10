@@ -82,7 +82,7 @@ const LogoRow = () => {
         <img
           src="/Sunrise-Systems-Logo.webp"
           alt="Gold Sponsor Sunrise Systems"
-          className="h-[60px] w-auto max-w-none"
+          className="h-[48px] w-auto max-w-none"
         />
         {/* Silver */}
         <img
@@ -199,7 +199,7 @@ const LogoRow = () => {
         <img
           src="/Sunrise-Systems-Logo.webp"
           alt="Gold Sponsor Sunrise Systems"
-          className="h-[60px] w-auto max-w-none"
+          className="h-[48px] w-auto max-w-none"
         />
         {/* Silver */}
         <img
