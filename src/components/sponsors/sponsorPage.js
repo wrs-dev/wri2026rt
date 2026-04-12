@@ -197,6 +197,7 @@ export default function SponsorPage() {
                           sponsor.name === 'ENSCO' ? 'h-20' :
                           sponsor.name === 'WVCO Railroad Solutions' ? 'h-28' :
                           sponsor.name === 'Rhomberg Sersa' ? 'h-28' :
+                          sponsor.name === 'Sunrise Systems' ? 'w-[340px]' :
                           'max-h-20'
                         }`}
                       />
