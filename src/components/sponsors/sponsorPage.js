@@ -115,7 +115,7 @@ const silverSponsors = [
   {
     name: 'EKHO Infrastructure Solutions',
     description: '',
-    imagePath: '/ekho-logo.png',
+    imagePath: '/ekho-logo-2.png',
     url: 'https://ekhois.com/',
   },
 ];

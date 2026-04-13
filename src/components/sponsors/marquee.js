@@ -101,7 +101,7 @@ const LogoRow = () => {
           className="h-[60px] w-auto max-w-none"
         />
         <img
-          src="/ekho-logo.png"
+          src="/ekho-logo-2.png"
           alt="Silver Sponsor EKHO Infrastructure Solutions"
           className="h-[60px] w-auto max-w-none"
         />
@@ -218,7 +218,7 @@ const LogoRow = () => {
           className="h-[60px] w-auto max-w-none"
         />
         <img
-          src="/ekho-logo.png"
+          src="/ekho-logo-2.png"
           alt="Silver Sponsor EKHO Infrastructure Solutions"
           className="h-[60px] w-auto max-w-none"
         />
