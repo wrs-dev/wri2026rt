@@ -68,7 +68,7 @@ const goldSponsors = [
   },
   {
     name: 'Sunrise Systems',
-    imagePath: '/Sunrise-Systems-Logo.webp',
+    imagePath: '/Sunrise-Systems-Logo.png',
     url: 'https://www.sunrisesystems.com/',
   },
   {
