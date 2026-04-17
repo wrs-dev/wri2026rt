@@ -316,12 +316,68 @@ export default function Navigation() {
             <div className="flow-root mt-6">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="py-6 space-y-2">
-                  {/* Mobile nav links */}
                   <a
                     href="/"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Home
+                  </a>
+
+                  <div className="pt-2 pb-1 text-xs font-semibold tracking-wider text-gray-500 uppercase">
+                    WRI Seminars
+                  </div>
+                  <a
+                    href="#"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    Principles Course - TBA
+                  </a>
+                  <a
+                    href="#"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    Rail Transit Seminar - TBA
+                  </a>
+                  <a
+                    href="https://wri2026hh.wheel-rail-seminars.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    WRI2026 Heavy Haul
+                  </a>
+                  <a
+                    href="https://wri2025hh.wheel-rail-seminars.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    WRI2025 Heavy Haul
+                  </a>
+                  <a
+                    href="https://wri2025rt.wheel-rail-seminars.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    WRI2025 Rail Transit
+                  </a>
+                  <a
+                    href="http://archive.wheel-rail-seminars.com/us/downloads.php"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    WRI Seminar Archives
+                  </a>
+
+                  <a
+                    href="https://wri-gallery.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
+                  >
+                    Photo Gallery
                   </a>
                   <a
                     href="/#register"
@@ -336,14 +392,6 @@ export default function Navigation() {
                     Sponsors
                   </a>
                   <a
-                    href="http://archive.wheel-rail-seminars.com/us/downloads.php"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
-                  >
-                    WRI Seminar Archives
-                  </a>
-                  <a
                     href="/infozone#icons"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
@@ -353,7 +401,7 @@ export default function Navigation() {
                     href="/#hotel"
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
-                    Hotel Reservations
+                    Hotel
                   </a>
                   <a
                     href="/faq#icons"
@@ -376,33 +424,6 @@ export default function Navigation() {
                     className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
                     Interface Journal
-                  </a>
-                  {/* Photo Gallery in mobile menu */}
-                  <a
-                    href="https://wri-gallery.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
-                  >
-                    Photo Gallery
-                  </a>
-                  {/* Visit WRI2026 Heavy Haul in mobile menu */}
-                  <a
-                    href="https://wri2026hh.wheel-rail-seminars.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
-                  >
-                    Visit WRI2026 Heavy Haul
-                  </a>
-                  {/* Visit WRI2025 Heavy Haul in mobile menu */}
-                  <a
-                    href="https://wri2025hh.wheel-rail-seminars.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block py-2 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
-                  >
-                    Visit WRI2025 Heavy Haul
                   </a>
                 </div>
               </div>
