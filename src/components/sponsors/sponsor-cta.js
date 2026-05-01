@@ -14,10 +14,10 @@ export default function sponsorCta() {
         </h2>
         <div className="flex items-center mt-10 gap-x-6">
           <Link
-            href="/2024-Final-Sponsorship-kit.pdf"
+            href="/sponsor-packages"
             className="rounded-md bg-wri-red px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-wri-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wri-green"
           >
-            Download Information PDF
+            View Sponsorship Packages
           </Link>
         </div>
       </div>
