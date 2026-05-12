@@ -1,6 +1,6 @@
 import Navigation from '@/components/navigation';
 import Banner26RT from '@/components/banner/wri26RT';
-import IconsRTNoLink from '@/components/icons/iconsRT-nolink';
+import IconLinksRT from '@/components/icons/iconsRT';
 import SponsorCTAButton from '@/components/buttons/sponsor-cta-button';
 import Intro from '@/components/intro';
 import CallForPapers from '@/components/call-for-papers';
@@ -30,14 +30,7 @@ export default function Home() {
       <Navigation />
       <Banner26RT />
       
-      {/* Speakers announcement */}
-      <div className="py-8 text-center">
-        <h2 className="text-3xl font-light text-gray-800 sm:text-4xl font-wri">
-          Speakers will be announced soon!
-        </h2>
-      </div>
-      
-      <IconsRTNoLink />
+      <IconLinksRT />
       <div className="flex justify-center mb-12">
         <SponsorCTAButton />
       </div>

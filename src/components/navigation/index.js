@@ -22,8 +22,8 @@ export default function Navigation() {
   const links = [
     {
       name: 'Principles Course',
-      description: 'To be announced',
-      href: '#',
+      description: 'September 1, 2026',
+      href: '/principles-course',
       icon: 'principles-icon.svg',
       background: 'bg-wri-green',
       isExternal: false,
@@ -327,10 +327,10 @@ export default function Navigation() {
                     WRI Seminars
                   </div>
                   <a
-                    href="#"
+                    href="/principles-course"
                     className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
-                    Principles Course - TBA
+                    Principles Course - September 1, 2026
                   </a>
                   <a
                     href="#"

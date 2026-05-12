@@ -1,40 +1,25 @@
-import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useMemo } from 'react';
 
 const IconLinksRT = () => {
-  const router = useRouter();
-
-  const getRestingBackgroundColor = useMemo(() => {
-    if (router.pathname.includes('principles-course')) {
-      return ['bg-wri-green', 'bg-wri-neutral'];
-    } else if (router.pathname.includes('rail-transit-seminar')) {
-      return ['bg-wri-neutral', 'bg-wri-blue'];
-    }
-
-    return ['bg-wri-green', 'bg-wri-blue'];
-  }, [router.pathname]);
-
   const icons = useMemo(
     () => [
       {
-        href: 'principles-course#icons',
+        href: '/principles-course#icons',
         src: '/principles-icon.svg',
         title: 'Principles Course',
-        date: 'August 26, 2025',
+        date: 'September 1, 2026',
         restingBgColor: 'bg-wri-green',
         hoverBorderColor: 'hover:border-wri-blue',
         hoverBgColor: 'hover:bg-wri-green',
       },
       {
-        href: 'rail-transit-seminar#icons',
+        href: null,
         src: '/rail-transit.svg',
         title: 'Rail Transit Seminar',
-        date: 'August 27-28, 2025',
+        date: 'September 2-3, 2026',
         restingBgColor: 'bg-wri-blue',
-        hoverBorderColor: 'hover:border-wri-green',
-        hoverBgColor: 'hover:bg-wri-blue',
       },
     ],
     [],
@@ -44,12 +29,13 @@ const IconLinksRT = () => {
     <div className="btn_wrapper" data-aos="fade-up" id="icons">
       <div className="container">
         <ul className="flex flex-wrap">
-          {icons.map((icon, index) => {
+          {icons.map(icon => {
             const content = (
               <li
                 className={`border-2 border-white shadow-lg ${icon.restingBgColor} ${
                   icon.hoverBorderColor || ''
                 } ${icon.hoverBgColor || ''}`}
+                style={icon.href ? undefined : { cursor: 'default' }}
               >
                 <figure>
                   <Image

@@ -1,20 +1,63 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { ChevronDoubleRightIcon } from '@heroicons/react/16/solid';
-import StoryblokClient from 'storyblok-js-client';
 import { motion } from 'framer-motion';
-
-// Initialize Storyblok client
-const Storyblok = new StoryblokClient({
-  accessToken: process.env.NEXT_PUBLIC_STORYBLOK_PREVIEW_TOKEN,
-  region: 'us',
-});
 
 const MotionBox = motion.div;
 
-const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
-  // Ensure imageUrl in Storyblok matches the name of the photo (firstname-lastname.jpg)
+const speakers = [
+  {
+    name: 'Bryan Sooter',
+    company:
+      'American Public Transportation Association',
+    imageSrc: '/bryan-sooter.jpg',
+    topic: 'The Lay of the Land: Introduction to Rail Transit',
+  },
+  {
+    name: 'Hugh Fuller',
+    company: 'O’Bunco Engineering',
+    imageSrc: '/hugh-fuller.jpg',
+    topic: 'Track Structures and Components',
+  },
+  {
+    name: 'Elton Toma',
+    company: 'National Research Council Canada',
+    imageSrc: '/elton-toma.jpg',
+    topic: 'Vehicle Types, Suspension Systems and Components',
+  },
+  {
+    name: 'Kevin Oldknow',
+    company: 'Simon Fraser University',
+    imageSrc: '/kevin-oldknow.jpg',
+    topic: 'Wheel-Rail Contact: An Introduction',
+  },
+  {
+    name: 'Andrew Little',
+    company: 'L.B. Foster Rail Technologies',
+    imageSrc: '/andrew-little.jpg',
+    topic: 'Friction Management',
+  },
+  {
+    name: 'Derek Watry',
+    company: 'Wilson Ihrig / RWDI',
+    imageSrc: '/derek-watry.jpg',
+    topic: 'Noise and Vibration',
+  },
+  {
+    name: 'Richard Stock',
+    company: 'Plasser American / Plasser & Theurer',
+    imageSrc: '/richard-stock.jpg',
+    topic: 'Wheel/Rail Damage Mechanisms and Remediation Techniques',
+  },
+  {
+    name: 'Matt Dick',
+    company: 'Engineering Systems Inc.',
+    imageSrc: '/matthew-dick.jpg',
+    topic: 'Vehicle/Track Measurement Technologies',
+  },
+];
 
+const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
   return (
     <div className="group">
       <div className="relative">
@@ -58,7 +101,7 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
       <div className="flex justify-center mx-10 my-6 mb-6 sm:my-2 xl:mt-6">
         <Link href={bioLink}>
           <div className="px-12 py-6 text-2xl text-center text-white cursor-pointer rounded-xl hover:text-wri-dark-blue hover:shadow-xl bg-wri-green whitespace-nowrap">
-            Bio & Abstract
+            Biography
           </div>
         </Link>
       </div>
@@ -68,42 +111,15 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
 
 const generateSlug = fullName => {
   if (typeof fullName !== 'string' || fullName.trim().length === 0) {
-    console.warn('generateSlug was called without a valid name');
     return '';
   }
-
-  // Split the name into parts and then take the first letter of the first name
-  const parts = fullName.trim().split(/\s+/); // Split on any whitespace
-  const firstNameInitial = parts[0][0]; // Get the first character of the first name
-  const lastName = parts.length > 1 ? parts[parts.length - 1] : ''; // Safely get the last name
-
-  // Combine the first name initial with the last name, both in lowercase
-  const slug = `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
-
-  return slug;
+  const parts = fullName.trim().split(/\s+/);
+  const firstNameInitial = parts[0][0];
+  const lastName = parts.length > 1 ? parts[parts.length - 1] : '';
+  return `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
 };
 
 const SpeakersPC = () => {
-  const [speakers, setSpeakers] = useState([]);
-
-  useEffect(() => {
-    const fetchSpeakerCards = async () => {
-      try {
-        const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || 'published'; // Fallback to 'published' if the variable is not set
-        const response = await Storyblok.get('cdn/stories', {
-          starts_with: 'wri-2025-rt/speaker-cards-pc/',
-          version: version,
-        });
-
-        setSpeakers(response.data.stories.map(story => story.content));
-      } catch (error) {
-        console.error('Error fetching speaker cards:', error);
-      }
-    };
-
-    fetchSpeakerCards();
-  }, []);
-
   return (
     <section className="mb-20 bg-white">
       <div className="container">
