@@ -30,8 +30,8 @@ export default function Navigation() {
     },
     {
       name: 'Rail Transit Seminar',
-      description: 'To be announced',
-      href: '#',
+      description: 'September 2-3, 2026',
+      href: '/rail-transit-seminar',
       icon: 'rail-transit.svg',
       background: 'bg-wri-blue',
       isExternal: false,
@@ -333,10 +333,10 @@ export default function Navigation() {
                     Principles Course - September 1, 2026
                   </a>
                   <a
-                    href="#"
+                    href="/rail-transit-seminar"
                     className="block py-2 pl-4 text-sm font-semibold leading-7 lg:text-xl text-wri-blue hover:bg-gray-50"
                   >
-                    Rail Transit Seminar - TBA
+                    Rail Transit Seminar - September 2-3, 2026
                   </a>
                   <a
                     href="https://wri2026hh.wheel-rail-seminars.com"

@@ -12,10 +12,10 @@ export async function getStaticProps() {
   return {
     props: {
       // UPDATED meta tags for 2025
-      title: 'WRI 2025 | Rail Transit Seminar Speaker Bios & Abstracts',
+      title: 'WRI 2026 | Rail Transit Seminar Speaker Bios & Abstracts',
       description:
-        'Speaker Bios & Abstracts for the 30th Annual Wheel/Rail Interaction Conference (WRI) – Rail Transit Seminar, 2025',
-      socialImage: '/wri2025-social.png',
+        'Speaker Bios & Abstracts for the 31st Annual Wheel/Rail Interaction Conference (WRI) – Rail Transit Seminar, 2026',
+      socialImage: '/wri2026-social.png',
     },
   };
 }
