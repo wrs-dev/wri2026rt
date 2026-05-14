@@ -96,6 +96,13 @@ const speakers = [
     imageSrc: '/anna-banks.jpg',
     topic: 'Modern Component Failures in Rail Transit Environment',
   },
+  {
+    name: 'Cory Hogan',
+    company: 'ENSCO Rail',
+    imageSrc: '/cory-hogan.jpg',
+    topic:
+      'Optimizing Track Maintenance Limits Using Validated Vehicle–Track Interaction Simulations',
+  },
 ];
 
 const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
