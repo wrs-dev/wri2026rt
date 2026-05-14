@@ -40,11 +40,10 @@ const PrinciplesCoursePage = () => {
                     September 1, 2026
                   </h3>
                   <p className="pt-2 pb-6">
-                    This year's conference format includes an exciting{' '}
                     <span className="font-bold text-wri-green">
                       Principles of Wheel/Rail Interaction
                     </span>{' '}
-                    course that is completely tailored to the Rail Transit community. The course will revolve around a case study based on a difficult set of wheel-rail challenges faced by a real operating system, with significant implications for system performance, reliability, economics, and safety. The day will include related sessions on track structures and components, vehicle suspensions, vehicle-track interaction, noise and vibrations, damage mechanisms, maintenance processes, friction management, maintenance window planning & utilization, and procurement & contracts for new systems. Drawing on the content presented throughout the day, a wrap-up session will connect the dots between the case study's real-world problems, root causes, corrections and mitigation strategies that have been identified and pursued.
+                    course is completely tailored to the Rail Transit community, focusing on the complex wheel-rail challenges impacting system performance, reliability, safety, and economics. The intensive day features technical sessions covering everything from vehicle suspensions and track structures to friction management and maintenance planning. A final wrap-up session will connect the dots between real-world problems, root causes, and successful mitigation strategies.
                   </p>
 
                   <h2 className="mt-16 seminar-discount-header">
