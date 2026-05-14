@@ -107,7 +107,7 @@ const RailTransitSeminarPage = () => {
           <h2 className="text-5xl font-normal text-center pb-11">
             Meet the{' '}
             <span className="text-wri-blue">
-              <b>2025 Rail Transit Seminar</b>
+              <b>2026 Rail Transit Seminar</b>
             </span>{' '}
             Speakers
           </h2>

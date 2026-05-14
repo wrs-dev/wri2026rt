@@ -1,17 +1,104 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { ChevronDoubleRightIcon } from '@heroicons/react/16/solid';
-import StoryblokClient from 'storyblok-js-client';
 
-// Initialize Storyblok client
-const Storyblok = new StoryblokClient({
-  accessToken: process.env.NEXT_PUBLIC_STORYBLOK_PREVIEW_TOKEN,
-  region: 'us',
-});
+const speakers = [
+  {
+    name: 'Ryan Coholan',
+    company: 'MBTA',
+    imageSrc: '/ryan-coholan.jpg',
+    topic: 'Re-attaining a State of Good Repair at MBTA',
+  },
+  {
+    name: 'Shuwen Gao',
+    company: 'National Research Council Canada',
+    imageSrc: '/shuwen-gao.jpg',
+    topic:
+      'Supporting Maintenance Decisions Using Full-Scale Testing: Bearing Monitoring and Winter Wheel Damage',
+  },
+  {
+    name: 'Carsten Rasmussen',
+    company: 'Linsinger',
+    imageSrc: '/carsten-rasmussen.jpg',
+    topic:
+      'Eddy Current Testing and Rail Milling of Severe Defects in Finland: A Case Study',
+  },
+  {
+    name: 'Richard Stock',
+    company: 'Plasser',
+    imageSrc: '/richard-stock.jpg',
+    topic:
+      'Experiences with Grinding and Milling in North America – A Supplier’s View',
+  },
+  {
+    name: 'Manuj Singhal',
+    company: 'Delhi Metro Rail Corporation',
+    imageSrc: '/manuj-singhal.jpg',
+    topic:
+      'Safety Through Stability: A Conicity-Driven Analysis of Rail Grinding and L/V Force Reduction – Field Evidence from the Delhi Metro Network',
+  },
+  {
+    name: 'Atul Bhoosan Khare',
+    company: 'Delhi Metro Rail Corporation',
+    imageSrc: '/atul-khare.jpg',
+    topic:
+      'Safety Through Stability: A Conicity-Driven Analysis of Rail Grinding and L/V Force Reduction – Field Evidence from the Delhi Metro Network',
+  },
+  {
+    name: 'Pradeep Kumar Sharma',
+    company: 'Delhi Metro Rail Corporation',
+    imageSrc: '/pradeep-kumar-sharma.jpg',
+    topic:
+      'Understanding Ground-Borne Vibration Propagation for Resilient Metro Infrastructure: Lessons from Delhi Metro’s Expansion',
+  },
+  {
+    name: 'Shannon McKenna',
+    company: 'Cross-Spectrum Acoustics',
+    imageSrc: '/shannon-mckenna.jpg',
+    topic: 'State-of-Practice of Low-Impact Frogs in Rail Transit',
+  },
+  {
+    name: 'Karl Kim',
+    company: 'University of Hawaii',
+    imageSrc: '/karl-kim.jpg',
+    topic: 'Lessons from HART: Rail Wheel Problems and Solutions',
+  },
+  {
+    name: 'Anbo Wang',
+    company: 'Hatch',
+    imageSrc: '/anbo-wang.jpg',
+    topic:
+      'Mitigating Resonant OOR Development in Rail Transit: SIMPACK Multi Body Dynamics Investigation of the 7000 Series',
+  },
+  {
+    name: 'Andrea Bracciali',
+    company: 'AB Consulting',
+    imageSrc: '/andrea-bracciali.png',
+    topic:
+      'Approach to Wheel-Rail Problems Solution on Metros and Light Rail Systems',
+  },
+  {
+    name: 'Michael Palese',
+    company: 'Amtrak',
+    imageSrc: '/michael-palese.jpg',
+    topic:
+      'Big Data for Rail Health Assessment: Utilizing Existing Inspection Technologies to Forecast Rail Condition',
+  },
+  {
+    name: 'Joel Hassebrock',
+    company: 'ESi',
+    imageSrc: '/joel-hassebrock.jpg',
+    topic: 'Modern Component Failures in Rail Transit Environment',
+  },
+  {
+    name: 'Anna Banks',
+    company: 'ESi',
+    imageSrc: '/anna-banks.jpg',
+    topic: 'Modern Component Failures in Rail Transit Environment',
+  },
+];
 
 const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
-  // Ensure imageUrl in Storyblok matches the name of the photo (firstname-lastname.jpg)
-
   return (
     <div className="group">
       <div className="relative">
@@ -58,57 +145,15 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
 
 const generateSlug = fullName => {
   if (typeof fullName !== 'string' || fullName.trim().length === 0) {
-    console.warn('generateSlug was called without a valid name');
     return '';
   }
-
-  // Split the name into parts and then take the first letter of the first name
-  const parts = fullName.trim().split(/\s+/); // Split on any whitespace
-  const firstNameInitial = parts[0][0]; // Get the first character of the first name
-  const lastName = parts.length > 1 ? parts[parts.length - 1] : ''; // Safely get the last name
-
-  // Combine the first name initial with the last name, both in lowercase
-  const slug = `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
-
-  return slug;
+  const parts = fullName.trim().split(/\s+/);
+  const firstNameInitial = parts[0][0];
+  const lastName = parts.length > 1 ? parts[parts.length - 1] : '';
+  return `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
 };
 
 const SpeakersRT = () => {
-  const [speakers, setSpeakers] = useState([]);
-
-  useEffect(() => {
-    const fetchSpeakerCards = async () => {
-      try {
-        const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || 'published'; // Fallback to 'published' if the variable is not set
-        const response = await Storyblok.get('cdn/stories', {
-          starts_with: 'wri-2025-rt/speaker-cards-rt/',
-          version: version,
-        });
-
-        setSpeakers(response.data.stories.map(story => story.content));
-      } catch (error) {
-        console.error('Error fetching speaker cards:', error);
-      }
-    };
-
-    {
-      /*const fetchSpeakerCards = async () => {
-        try {
-          const response = await Storyblok.get("cdn/stories", {
-            starts_with: "wri-2025-rt/speaker-cards-rt/",
-            version: "published",
-          });
-
-          setSpeakers(response.data.stories.map((story) => story.content));
-        } catch (error) {
-          console.error("Error fetching speaker cards:", error);
-        }
-      };*/
-    }
-
-    fetchSpeakerCards();
-  }, []);
-
   return (
     <section className="mb-20 bg-white">
       <div className="container">
