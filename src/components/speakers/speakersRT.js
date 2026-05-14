@@ -4,6 +4,19 @@ import { ChevronDoubleRightIcon } from '@heroicons/react/16/solid';
 
 const speakers = [
   {
+    name: 'Ryan Coholan',
+    company: 'MBTA',
+    imageSrc: '/ryan-coholan.jpg',
+    topic: 'Re-attaining a State of Good Repair at MBTA',
+  },
+  {
+    name: 'Shuwen Gao',
+    company: 'National Research Council Canada',
+    imageSrc: '/shuwen-gao.jpg',
+    topic:
+      'Supporting Maintenance Decisions Using Full-Scale Testing: Bearing Monitoring and Winter Wheel Damage',
+  },
+  {
     name: 'Carsten Rasmussen',
     company: 'Linsinger',
     imageSrc: '/carsten-rasmussen.jpg',
@@ -16,19 +29,6 @@ const speakers = [
     imageSrc: '/richard-stock.jpg',
     topic:
       'Experiences with Grinding and Milling in North America – A Supplier’s View',
-  },
-  {
-    name: 'Ryan Coholan',
-    company: 'MBTA',
-    imageSrc: '/ryan-coholan.jpg',
-    topic: 'Re-attaining a State of Good Repair at MBTA',
-  },
-  {
-    name: 'Shuwen Gao',
-    company: 'National Research Council Canada',
-    imageSrc: '/shuwen-gao.jpg',
-    topic:
-      'Supporting Maintenance Decisions Using Full-Scale Testing: Bearing Monitoring and Winter Wheel Damage',
   },
   {
     name: 'Manuj Singhal',
@@ -93,7 +93,7 @@ const speakers = [
   {
     name: 'Anna Banks',
     company: 'ESi',
-    imageSrc: '/placeholder-male.jpg',
+    imageSrc: '/anna-banks.jpg',
     topic: 'Modern Component Failures in Rail Transit Environment',
   },
 ];

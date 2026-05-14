@@ -16,50 +16,8 @@ const generateSlug = fullName => {
 // Joint sessions (5 and 12) group two speakers under one shared abstract.
 const topics = [
   {
-    topic:
-      'Eddy Current Testing and Rail Milling of Severe Defects in Finland: A Case Study',
-    abstract: [
-      'In the summer 2025 the rails on the Ring Line in Helsinki, Finland were milled using the flexible rail-road-milling-truck from Linsinger. The milling was requested by the Finnish Transport Infrastructure Agency, FTIA, as a test campaign to investigate the potential by rail milling. Deeper damages and deformations in the rails were measured and milled to restore and extend the service lifetime of the rails. The removed rail damages were mainly in the form of head checks at various stages with depths up to 5–6 mm but also corrugation were present in the rails. Simultaneously, the rails were reprofiled from 60E1 to 60E2. With the flexible milling truck, it was possible to restore and reprofile the rails in curves with significant extensions of the rails service lifetime.',
-      'Specific examples of defects and eddy current measurements will be shown. The possibilities and limitations by the eddy current measuring method is evaluated through examples. The presentation covers monitoring of rail conditions, needed milling, results, evaluation and business cases in connection to the restoration and extended service lifetime of the milled rails. Finally, the potential savings and benefits by adopting a general data-driven condition-based milling strategy in Finland is presented.',
-    ],
-    speakers: [
-      {
-        name: 'Carsten Rasmussen',
-        company: 'Linsinger',
-        imageSrc: '/carsten-rasmussen.jpg',
-        title: 'Rail Maintenance and Innovation Specialist, Linsinger',
-        bio: [
-          'Carsten Jörn Rasmussen is Rail Maintenance and Innovation Specialist at Linsinger. Carsten has more than 25 years of railway experience concentrated on rail steel, rail profile, and all aspects of rail maintenance. He was the engineering supervisor of the rails in Denmark for 12 years, a period during which the number of rail breaks was reduced by more than 80%.',
-          'Carsten has worked for the past 5 years as a consultant, analyzing, troubleshooting, and identifying rail defects and recommending rail maintenance strategies. He holds a Master of Science in Mechanical Engineering from the Technical University of Denmark.',
-        ],
-      },
-    ],
-  },
-  {
-    topic:
-      'Experiences with Grinding and Milling in North America – A Supplier’s View',
-    abstract: [
-      'Although rail milling and rail grinding are core maintenance technologies on many continents, rail milling so far has found only limited application areas in North America despite several suppliers offering milling services (with different milling technologies).',
-      'In general, rail maintenance aims at creating a damage-free rail surface in combination with a defined target rail profile. However, due to specific technological strengths and limitations grinding and milling achieve this goal quite differently. As rail grinding was exclusively used in North America for the last decades, specific strategies and approaches were developed and implemented that make the introduction of rail milling more challenging compared to other continents. Furthermore, assessing the grinding process it is sometimes challenging to make an apples-to-apples comparison because of the subtle (and occasionally significant) technological differences between different grinding machines. This presentation will look (specifically) at the supplier experience of offering milling and grinding services to a North American transit system highlighting the successes, lessons learned and frustrations. Lastly, the paper will discuss opportunities to improve future RFPs so that transit systems are better positioned to obtain the technologies best suited to their rail maintenance requirements.',
-    ],
-    speakers: [
-      {
-        name: 'Richard Stock',
-        company: 'Plasser',
-        imageSrc: '/richard-stock.jpg',
-        title:
-          'Global Head of Rail Solutions, Plasser American / Plasser & Theurer',
-        bio: [
-          'Richard Stock is Global Head of Rail Solutions for Plasser American and Plasser & Theurer where he has strategic responsibility for the topics of rail maintenance, rail welding, and rail measurements.',
-          'Richard started his railroad career in the R&D department at voestalpine in Austria where he was responsible for rail grade selection, wear and RCF-related issues. During his 12 years at voestalpine, he was temporarily seconded to KELSAN Technologies (now L.B. Foster Rail Technologies) in Vancouver to further research collaboration between Kelsan/LB Foster and voestalpine. He subsequently worked for L.B. Foster Rail Technologies as Rail Technology Manager, where he was responsible for various R&D processes and projects, managing university collaborations and technical customer interaction. He then became Milling Technology Manager for LINSINGER and LINMAG. He also led the Application Engineering group to support and analyze field trials. He then moved to Plasser American / Plasser & Theurer, where he is Global Head of Rail Solutions.',
-          'Richard holds a master’s and PhD in material sciences from the University of Leoben, Austria. He is a member of AREMA Committee 4, Committee 2, and the APTA – Track and Noise/Vibration Technical Forum. Richard is also part of the leadership team of the ICRI (International Collaborative Research Initiative).',
-        ],
-      },
-    ],
-  },
-  {
     topic: 'Re-attaining a State of Good Repair at MBTA',
-    abstract: ['TBD'],
+    abstract: [],
     speakers: [
       {
         name: 'Ryan Coholan',
@@ -97,6 +55,48 @@ const topics = [
           'Shuwen Gao is a Research Officer at the National Research Council Canada (NRC) with over 18 years of experience across the aerospace, aircraft, and railway industries.',
           'At NRC’s Vehicle and Track Interaction (VTI) team, Shuwen specializes in railway instrumentation, data acquisition, and control system design. Her work integrates digital modeling and field measurements to bridge the gap between design, testing, and real-world performance. By combining instrumentation, control, and railway dynamics, she contributes to advancing understanding of vehicle–track interaction, enabling data-driven solutions that enhance rail safety, performance, and durability.',
           'Shuwen holds a Bachelor’s degree in Electrical Engineering and a Master’s degree in Mechanical Engineering, bringing a multidisciplinary perspective to railway research and innovation.',
+        ],
+      },
+    ],
+  },
+  {
+    topic:
+      'Eddy Current Testing and Rail Milling of Severe Defects in Finland: A Case Study',
+    abstract: [
+      'In the summer 2025 the rails on the Ring Line in Helsinki, Finland were milled using the flexible rail-road-milling-truck from Linsinger. The milling was requested by the Finnish Transport Infrastructure Agency, FTIA, as a test campaign to investigate the potential by rail milling. Deeper damages and deformations in the rails were measured and milled to restore and extend the service lifetime of the rails. The removed rail damages were mainly in the form of head checks at various stages with depths up to 5–6 mm but also corrugation were present in the rails. Simultaneously, the rails were reprofiled from 60E1 to 60E2. With the flexible milling truck, it was possible to restore and reprofile the rails in curves with significant extensions of the rails service lifetime.',
+      'Specific examples of defects and eddy current measurements will be shown. The possibilities and limitations by the eddy current measuring method is evaluated through examples. The presentation covers monitoring of rail conditions, needed milling, results, evaluation and business cases in connection to the restoration and extended service lifetime of the milled rails. Finally, the potential savings and benefits by adopting a general data-driven condition-based milling strategy in Finland is presented.',
+    ],
+    speakers: [
+      {
+        name: 'Carsten Rasmussen',
+        company: 'Linsinger',
+        imageSrc: '/carsten-rasmussen.jpg',
+        title: 'Rail Maintenance and Innovation Specialist, Linsinger',
+        bio: [
+          'Carsten Jörn Rasmussen is Rail Maintenance and Innovation Specialist at Linsinger. Carsten has more than 25 years of railway experience concentrated on rail steel, rail profile, and all aspects of rail maintenance. He was the engineering supervisor of the rails in Denmark for 12 years, a period during which the number of rail breaks was reduced by more than 80%.',
+          'Carsten has worked for the past 5 years as a consultant, analyzing, troubleshooting, and identifying rail defects and recommending rail maintenance strategies. He holds a Master of Science in Mechanical Engineering from the Technical University of Denmark.',
+        ],
+      },
+    ],
+  },
+  {
+    topic:
+      'Experiences with Grinding and Milling in North America – A Supplier’s View',
+    abstract: [
+      'Although rail milling and rail grinding are core maintenance technologies on many continents, rail milling so far has found only limited application areas in North America despite several suppliers offering milling services (with different milling technologies).',
+      'In general, rail maintenance aims at creating a damage-free rail surface in combination with a defined target rail profile. However, due to specific technological strengths and limitations grinding and milling achieve this goal quite differently. As rail grinding was exclusively used in North America for the last decades, specific strategies and approaches were developed and implemented that make the introduction of rail milling more challenging compared to other continents. Furthermore, assessing the grinding process it is sometimes challenging to make an apples-to-apples comparison because of the subtle (and occasionally significant) technological differences between different grinding machines. This presentation will look (specifically) at the supplier experience of offering milling and grinding services to a North American transit system highlighting the successes, lessons learned and frustrations. Lastly, the paper will discuss opportunities to improve future RFPs so that transit systems are better positioned to obtain the technologies best suited to their rail maintenance requirements.',
+    ],
+    speakers: [
+      {
+        name: 'Richard Stock',
+        company: 'Plasser',
+        imageSrc: '/richard-stock.jpg',
+        title:
+          'Global Head of Rail Solutions, Plasser American / Plasser & Theurer',
+        bio: [
+          'Richard Stock is Global Head of Rail Solutions for Plasser American and Plasser & Theurer where he has strategic responsibility for the topics of rail maintenance, rail welding, and rail measurements.',
+          'Richard started his railroad career in the R&D department at voestalpine in Austria where he was responsible for rail grade selection, wear and RCF-related issues. During his 12 years at voestalpine, he was temporarily seconded to KELSAN Technologies (now L.B. Foster Rail Technologies) in Vancouver to further research collaboration between Kelsan/LB Foster and voestalpine. He subsequently worked for L.B. Foster Rail Technologies as Rail Technology Manager, where he was responsible for various R&D processes and projects, managing university collaborations and technical customer interaction. He then became Milling Technology Manager for LINSINGER and LINMAG. He also led the Application Engineering group to support and analyze field trials. He then moved to Plasser American / Plasser & Theurer, where he is Global Head of Rail Solutions.',
+          'Richard holds a master’s and PhD in material sciences from the University of Leoben, Austria. He is a member of AREMA Committee 4, Committee 2, and the APTA – Track and Noise/Vibration Technical Forum. Richard is also part of the leadership team of the ICRI (International Collaborative Research Initiative).',
         ],
       },
     ],
@@ -287,9 +287,13 @@ const topics = [
       {
         name: 'Anna Banks',
         company: 'ESi',
-        imageSrc: '/placeholder-male.jpg',
+        imageSrc: '/anna-banks.jpg',
         title: 'Staff Consultant, Engineering Systems Inc. (ESi)',
-        bio: ['TBD'],
+        bio: [
+          'Anna J. Banks is a Staff Consultant at Engineering Systems Inc. (ESi) in Omaha, Nebraska. She is a skilled metallurgical engineer with 9 years of experience in metallurgical analysis and condition assessment across the transportation, power, process, pipeline, and manufacturing industries.',
+          'Her technical skills span metallography, scanning electron microscopy (SEM) analysis, mechanical testing, corrosion analysis, weld evaluations, high-temperature damage mechanisms, and adherence to industry standards such as International Organization for Standardization (ISO) and International Automotive Task Force (IATF).',
+          'She holds a B.S. in Metallurgical and Materials Engineering from Colorado School of Mines.',
+        ],
       },
     ],
   },

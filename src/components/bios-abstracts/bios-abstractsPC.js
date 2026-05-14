@@ -20,7 +20,7 @@ const speakers = [
     topic: 'The Lay of the Land: Introduction to Rail Transit',
     title:
       'Director of Standards, Rail Transit, and Commuter Rail Programs, American Public Transportation Association',
-    bio1: 'TBD',
+    bio1: '',
     bio2: '',
   },
   {
@@ -57,7 +57,7 @@ const speakers = [
     topic: 'Friction Management',
     title:
       'Friction Management (FM) Applications Specialist, L.B. Foster Rail Technologies',
-    bio1: 'TBD',
+    bio1: '',
     bio2: '',
   },
   {
