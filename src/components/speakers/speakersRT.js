@@ -86,13 +86,13 @@ const speakers = [
   },
   {
     name: 'Joel Hassebrock',
-    company: 'ESi',
+    company: 'Engineering Systems Inc.',
     imageSrc: '/joel-hassebrock.jpg',
     topic: 'Modern Component Failures in Rail Transit Environment',
   },
   {
     name: 'Anna Banks',
-    company: 'ESi',
+    company: 'Engineering Systems Inc.',
     imageSrc: '/anna-banks.jpg',
     topic: 'Modern Component Failures in Rail Transit Environment',
   },

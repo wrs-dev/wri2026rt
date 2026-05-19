@@ -80,7 +80,7 @@ const speakers = [
     bio2: 'Richard holds a master’s and PhD in material sciences from the University of Leoben, Austria. He is a member of AREMA Committee 4, Committee 2, and the APTA – Track and Noise/Vibration Technical Forum. Richard is also part of the leadership team of the ICRI (International Collaborative Research Initiative).',
   },
   {
-    name: 'Matt Dick',
+    name: 'Matthew Dick',
     company: 'Engineering Systems Inc.',
     imageSrc: '/matthew-dick.jpg',
     topic: 'Vehicle/Track Measurement Technologies',

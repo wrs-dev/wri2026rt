@@ -274,7 +274,7 @@ const topics = [
     speakers: [
       {
         name: 'Joel Hassebrock',
-        company: 'ESi',
+        company: 'Engineering Systems Inc.',
         imageSrc: '/joel-hassebrock.jpg',
         title:
           'Senior Consultant and Regional Operations Manager, Engineering Systems Inc. (ESi)',
@@ -286,7 +286,7 @@ const topics = [
       },
       {
         name: 'Anna Banks',
-        company: 'ESi',
+        company: 'Engineering Systems Inc.',
         imageSrc: '/anna-banks.jpg',
         title: 'Staff Consultant, Engineering Systems Inc. (ESi)',
         bio: [
