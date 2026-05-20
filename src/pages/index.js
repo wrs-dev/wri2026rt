@@ -29,7 +29,11 @@ export default function Home() {
     <main className="bg-white">
       <Navigation />
       <Banner26RT />
-      
+
+      <p className="mt-8 mb-4 text-2xl text-center sm:text-3xl text-wri-blue">
+        Click each seminar button below to view the speakers and read the bios and abstracts of their presentations.
+      </p>
+
       <IconLinksRT />
       <div className="flex justify-center mb-12">
         <SponsorCTAButton />
