@@ -56,7 +56,7 @@ export default function Home() {
       </div>
 
       <Intro />
-      <CallForPapers />
+      {/* <CallForPapers /> */}
       <Registration />
       <InfoZoneSection />
       <SponsorCTA2 />
