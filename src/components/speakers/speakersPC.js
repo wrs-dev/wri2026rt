@@ -50,7 +50,7 @@ const speakers = [
     topic: 'Wheel/Rail Damage Mechanisms and Remediation Techniques',
   },
   {
-    name: 'Matt Dick',
+    name: 'Matthew Dick',
     company: 'Engineering Systems Inc.',
     imageSrc: '/matthew-dick.jpg',
     topic: 'Vehicle/Track Measurement Technologies',

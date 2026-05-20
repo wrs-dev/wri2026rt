@@ -274,7 +274,7 @@ const topics = [
     speakers: [
       {
         name: 'Joel Hassebrock',
-        company: 'ESi',
+        company: 'Engineering Systems Inc.',
         imageSrc: '/joel-hassebrock.jpg',
         title:
           'Senior Consultant and Regional Operations Manager, Engineering Systems Inc. (ESi)',
@@ -286,13 +286,37 @@ const topics = [
       },
       {
         name: 'Anna Banks',
-        company: 'ESi',
+        company: 'Engineering Systems Inc.',
         imageSrc: '/anna-banks.jpg',
         title: 'Staff Consultant, Engineering Systems Inc. (ESi)',
         bio: [
           'Anna J. Banks is a Staff Consultant at Engineering Systems Inc. (ESi) in Omaha, Nebraska. She is a skilled metallurgical engineer with 9 years of experience in metallurgical analysis and condition assessment across the transportation, power, process, pipeline, and manufacturing industries.',
           'Her technical skills span metallography, scanning electron microscopy (SEM) analysis, mechanical testing, corrosion analysis, weld evaluations, high-temperature damage mechanisms, and adherence to industry standards such as International Organization for Standardization (ISO) and International Automotive Task Force (IATF).',
           'She holds a B.S. in Metallurgical and Materials Engineering from Colorado School of Mines.',
+        ],
+      },
+    ],
+  },
+  {
+    topic:
+      'Optimizing Track Maintenance Limits Using Validated Vehicle–Track Interaction Simulations',
+    abstract: [
+      'Transit agencies rely on established maintenance limits for track geometry and rail wear to ensure safe and comfortable operations. While these limits provide important safeguards, they are often based on generalized assumptions that may not fully reflect the dynamic behavior of specific vehicle fleets operating over particular infrastructure conditions. As a result, maintenance limits and associated speed restrictions may in some cases be more conservative than necessary, leading to increased maintenance costs and reduced operational efficiency.',
+      'This presentation describes the use of validated vehicle/track interaction “Digital Twin” simulations on the Massachusetts Bay Transportation Authority (MBTA) network to quantitatively evaluate the operational and safety implications of track geometry degradation and rail wear. The study began with instrumented field testing of multiple vehicle types operating over representative track segments. Vehicle response measurements were combined with detailed track geometry and rail profile data to develop high-fidelity multi-body dynamics simulation models representing the operating fleet.',
+      'Simulation models were validated by comparing predicted vehicle responses to measured field data. Once validated, the models were used to simulate vehicle performance over a range of hypothetical track perturbations and rail wear scenarios extending outside of currently defined maintenance limits.',
+      'Simulation outputs were evaluated using established performance indicators including derailment risk metrics and passenger ride quality thresholds. By examining how these performance indicators evolve as track conditions degrade, the study identifies data-driven practical limits at which safety or ride quality concerns begin to emerge. These results enable the development of maintenance limits tailored to the specific vehicle types and operating conditions of the MBTA network.',
+      'Implementation of these findings has enabled the MBTA to safely expand certain track geometry and rail wear maintenance limits, eliminating unnecessary slow orders while maintaining compliance with safety and ride quality requirements. This has resulted in improved service efficiency and reduced maintenance costs associated with previously conservative limits.',
+      'The results illustrate how validated digital twin simulations provide a robust, data-driven framework for evaluating and optimizing maintenance and operational limits. By enabling property-specific assessments grounded in measured data and validated models, this approach supports safer, more efficient, and more cost-effective transit operations.',
+    ],
+    speakers: [
+      {
+        name: 'Cory Hogan',
+        company: 'ENSCO Rail',
+        imageSrc: '/cory-hogan.jpg',
+        title: 'Director – Vehicle Dynamics Studies, ENSCO Rail, Inc.',
+        bio: [
+          'Cory started his railway career as a research assistant for a Federal Railroad Administration-funded project to develop a non-contacting vertical track deflection measurement system from a loaded hopper car at full track speed. In 2007, Mr. Hogan joined TÜV Rheinland Rail Sciences, Inc., performing duties including software development, data processing, vehicle dynamics simulations with focus on derailment investigations, homologation, and on-track testing and data acquisition. He also served as the North and South American technical support for VAMPIRE vehicle dynamics software. In 2014, he joined ENSCO Rail, Inc., where he has continued to support efforts involving vehicle/track interaction measurements and simulations with focus on automated predictive analytics intended to prevent derailments and provide information for preventative maintenance. Over his career, Cory has assisted in investigations and cause finding for dozens of derailments including investigations for every Class I North American railroad. He has designed and carried out testing for vehicle homologation including vehicle dynamics and noise testing. He has also developed instrumentation and software for custom vehicle dynamics monitors, instrumented wheelsets, and automated predictive vehicle dynamics simulations using measured track data.',
+          'Cory holds B.S. and M.S. degrees in Mechanical Engineering from the University of Nebraska at Lincoln.',
         ],
       },
     ],
