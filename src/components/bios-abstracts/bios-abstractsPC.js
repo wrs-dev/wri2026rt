@@ -56,9 +56,9 @@ const speakers = [
     imageSrc: '/andrew-little.jpg',
     topic: 'Friction Management',
     title:
-      'Friction Management (FM) Applications Specialist, L.B. Foster Rail Technologies',
-    bio1: '',
-    bio2: '',
+      'Friction Management Applications Specialist, L.B. Foster Rail Technologies',
+    bio1: 'Andrew Little is a Friction Management (FM) Applications Specialist at L.B. Foster Rail Technologies based in Vancouver, British Columbia. He holds a BSc in Chemistry from the University of British Columbia and graduated in 2012.',
+    bio2: 'For thirteen years, Andrew has worked in the friction management industry with L.B. Foster and has been working in his current role in Field Applications since 2022. In this role, he focuses on data analysis and programming of field results for transit and freight customers. This data includes rail wear, friction, corrugation, noise, and lateral forces. He also assists the sales teams with field inspections, trials, and project proposals. Prior to this role, Andrew worked in L.B. Foster's R&D department in several chemistry-related positions involving the development and testing of new consumable FM products. Outside of the office, Andrew is a new father and enjoys spending time with his wife, baby boy, and cat. He is also an avid runner and has previously visited Boston in 2023 and 2025 to run the Boston Marathon twice.',
   },
   {
     name: 'Derek Watry',
