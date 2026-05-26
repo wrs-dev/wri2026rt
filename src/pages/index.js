@@ -30,7 +30,7 @@ export default function Home() {
       <Navigation />
       <Banner26RT />
 
-      <p className="mt-8 mb-4 text-2xl font-light text-center text-black font-sans sm:text-3xl">
+      <p className="mt-8 mb-4 text-2xl font-light text-center text-black font-system sm:text-3xl">
         Click each seminar button below to view the speakers and read the bios and abstracts of their presentations.
       </p>
 
