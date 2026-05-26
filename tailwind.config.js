@@ -20,6 +20,7 @@ module.exports = {
       fontFamily: {
         sans: ['Ronnia', ...defaultTheme.fontFamily.sans],
         wri: ['Montserrat', ...defaultTheme.fontFamily.sans],
+        system: defaultTheme.fontFamily.sans,
       },
       colors: {
         'wri-blue': '#0967D2', 
