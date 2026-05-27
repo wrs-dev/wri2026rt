@@ -133,7 +133,7 @@ const topics = [
         name: 'Atul Bhoosan Khare',
         company: 'Delhi Metro Rail Corporation',
         imageSrc: '/atul-khare.jpg',
-        title: 'Indian Railway Service of Engineers, Delhi Metro Rail Corporation',
+        title: 'Executive Director, Delhi Metro Rail Corporation',
         bio: [
           'Mr. Atul B Khare is a distinguished professional in the Indian Railway Service of Engineers, renowned for his extensive expertise in rail infrastructure management, policy formulation, and implementation. With a rich background in mega project management, he has successfully led the construction and maintenance of metro, heavy haul, and semi-high-speed rail systems at senior management levels.',
           'Notably, Mr. Khare executed a landmark project involving the design and construction of a 353 km double line for freight rail traffic, which included a state-of-the-art Central Operation Control & Command Centre equipped with SCADA technology and a large video wall. Currently, he is engaged in civil construction for approximately 25 km of underground and elevated metro lines in New Delhi and Mumbai, along with the installation of Track with vibration mitigation measures for a 150 km metro rail network and associated with track maintenance of about 400 km of metro network in Delhi Metro Rail Corporation with specific focus on Rail grinding, Milling, and vibration mitigation.',
