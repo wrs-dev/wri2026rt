@@ -2,11 +2,11 @@ import React from 'react';
 
 const platinumSponsors = [
   {
-    name: 'Plasser American',
+    name: 'ENSCO',
     description:
-      'Plasser American provides track maintenance solutions and machines, leading innovation in the railway construction and maintenance sector.',
-    imagePath: '/platinum-plasser-american.svg',
-    url: 'https://www.plasseramerican.com/',
+      'ENSCO provides advanced engineering, inspection, and analytics solutions for the rail industry, supporting freight and transit agencies with technologies that improve rail safety, infrastructure performance, and maintenance operations.',
+    imagePath: '/platinum-ensco-nospace.jpg',
+    url: 'https://www.ensco.com/rail',
   },
   {
     name: 'Loram',
@@ -30,6 +30,13 @@ const platinumSponsors = [
     url: 'https://www.loram.com/',
   },
   {
+    name: 'Plasser American',
+    description:
+      'Plasser American provides track maintenance solutions and machines, leading innovation in the railway construction and maintenance sector.',
+    imagePath: '/platinum-plasser-american.svg',
+    url: 'https://www.plasseramerican.com/',
+  },
+  {
     name: 'Whitmore',
     description:
       'Whitmore is a global leader in lubrication and friction management solutions for the rail industry. Their innovative products and services help railroads reduce maintenance costs, extend equipment life, and improve operational efficiency.',
@@ -42,13 +49,6 @@ const platinumSponsors = [
     ],
     imagePath: '/whitmore.png',
     url: 'https://www.whitmores.com/',
-  },
-  {
-    name: 'ENSCO',
-    description:
-      'ENSCO provides advanced engineering, inspection, and analytics solutions for the rail industry, supporting freight and transit agencies with technologies that improve rail safety, infrastructure performance, and maintenance operations.',
-    imagePath: '/platinum-ensco-nospace.jpg',
-    url: 'https://www.ensco.com/rail',
   },
 ];
 
