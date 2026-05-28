@@ -64,9 +64,9 @@ const goldSponsors = [
     url: 'https://www.engsys.com/industries/transportation/rail/',
   },
   {
-    name: 'Holland',
-    imagePath: '/gold-holland.png',
-    url: 'https://www.hollandco.com/',
+    name: 'Linsinger',
+    imagePath: '/silver-linsinger.png',
+    url: 'https://www.linsinger.com/',
   },
   {
     name: 'Sunrise Systems',
@@ -74,9 +74,9 @@ const goldSponsors = [
     url: 'https://www.sunrisesystems.com/',
   },
   {
-    name: 'Linsinger',
-    imagePath: '/silver-linsinger.png',
-    url: 'https://www.linsinger.com/',
+    name: 'Holland',
+    imagePath: '/gold-holland.png',
+    url: 'https://www.hollandco.com/',
   },
   {
     name: 'Scout Robotics',
