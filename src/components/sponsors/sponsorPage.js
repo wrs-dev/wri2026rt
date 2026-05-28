@@ -112,7 +112,7 @@ const silverSponsors = [
     name: 'Gateway Rail',
     description: '',
     imagePath: '/gateway-rail-services.png',
-    url: 'https://www.gatewayrail.com/',
+    url: 'https://gatewayrailservices.com/',
   },
   {
     name: 'EKHO Infrastructure Solutions',
