@@ -13,7 +13,7 @@ const generateSlug = fullName => {
 
 // 2026 Rail Transit Seminar speaker bios & abstracts.
 // `bio` and `abstract` are arrays of paragraph strings — add as many as needed.
-// Joint sessions (5 and 12) group two speakers under one shared abstract.
+// Joint sessions (5, 6, and 12) group multiple speakers under one shared abstract.
 const topics = [
   {
     topic: 'Re-attaining a State of Good Repair at MBTA',
@@ -105,7 +105,7 @@ const topics = [
     topic:
       'Safety Through Stability: A Conicity-Driven Analysis of Rail Grinding and L/V Force Reduction – Field Evidence from the Delhi Metro Network',
     abstract: [
-      'Co-presenters: Manuj Singhal, Director (Infrastructure), and Atul Bhoosan Khare — Delhi Metro Rail Corporation',
+      'Co-presenters: Manuj Singhal, Director (Infrastructure), and Atul Bhoosan Khare — Delhi Metro Rail Corporation; and Aishwary Vardhan Pandey, Research and Development Manager — Vandhana International Pvt Ltd',
       'Delhi Metro Rail Corporation (DMRC), India’s largest and most intensively used rapid transit network, carries over 2.6 billion passengers annually and depends on highly stable wheel-rail interaction to maintain stringent safety margins under dense traffic operations. Among the parameters governing safety critical vehicle behaviour, equivalent conicity, rolling radius difference (RRD) and the associated nonlinearity parameter (NP) play central roles in determining steering stability, hunting susceptibility and the overall dynamic response of metro rolling stock. Yet field-validated assessments of how these parameters evolve under real operating conditions remain limited in the context of urban rail systems.',
       'This study presents a field-driven evaluation of how changes in wheel-rail contact geometry influence equivalent conicity and nonlinearity behaviour in DMRC. Rail profiles from twenty plus track sections were measured using a twin-head MiniProf device under worn and restored (post-reprofiling using rail grinding) conditions. These profiles were analysed to quantify contact patch evolution, RRD trends, conicity variation with lateral displacement and the resulting nonlinearity parameter, a recognised indicator of steering sensitivity and nonlinear stability boundaries.',
       'Results show that progressive rail wear leads to increased conicity, amplified RRD gradients, and elevated nonlinearity parameter values, conditions that reduce stability margins and increase the likelihood of nonlinear steering and hunting onset on tangent track. Restored profiles, by contrast, reduce conicity, regulate RRD behaviour and stabilise nonlinearity parameter variation, thereby suppressing nonlinear tendencies and improving vehicle dynamic stability.',
@@ -140,12 +140,21 @@ const topics = [
           'An advocate of innovation, Mr. Khare focuses on AI-enabled asset management systems, enhancing operational speed, optimizing resources, and developing cutting-edge technologies across various disciplines. His foresight into emerging rail markets and technologies underscores his commitment to advancing India’s railway infrastructure encompassing metro, heavy haul, and semi-high-speed rail systems.',
         ],
       },
+      {
+        name: 'Aishwary Vardhan Pandey',
+        company: 'Vandhana International Pvt Ltd',
+        imageSrc: '/placeholder-male.jpg',
+        title:
+          'Research and Development Manager, Vandhana International Pvt Ltd',
+        bio: [],
+      },
     ],
   },
   {
     topic:
       'Understanding Ground-Borne Vibration Propagation for Resilient Metro Infrastructure: Lessons from Delhi Metro’s Expansion',
     abstract: [
+      'Co-presenters: Pradeep Kumar Sharma — Delhi Metro Rail Corporation; and Aishwary Vardhan Pandey, Research and Development Manager — Vandhana International Pvt Ltd',
       'Delhi, the capital city of India, with a population exceeding 34 million, is among the world’s most densely populated urban regions. The Delhi Metro Rail Corporation (DMRC) operates India’s largest urban rail network — nearly 400 route km — and continues to expand its reach to meet growing mobility needs sustainably. Under the ongoing Phase IV expansion, (1) the Janakpuri West – Majlis Park – RK Ashram extension of Line 8 (Magenta Line) and (2) the Tughlakabad to Aerocity extension of Line 10 (Golden Line) include approximately 27 km of tunnels passing through densely developed areas containing residential buildings, hospitals, educational institutions, and heritage structures that are particularly sensitive to ground-borne vibrations. During metro operations, these train-induced ground-borne vibrations generated at the rail-wheel interface propagate through the tunnel structure and surrounding soil, reaching the ground surface and adjacent buildings. This transmission can induce structural vibrations and secondary noise, potentially causing discomfort or disturbance to nearby occupants.',
       'The objective of the present study is to measure and evaluate train-induced ground-borne vibrations and assess their propagation characteristics from the tunnel to adjacent buildings along the corridor. Ambient vibration measurements were carried out to establish baseline vibration levels, while soil transmissibility and building transfer functions were determined through drop-weight tests conducted at different locations comprising different soil and structural conditions along the selected metro lines. The collected data provides a detailed understanding of vibration attenuation patterns and structural response behavior across varying geotechnical profiles and building typologies. These insights have been used to identify critical zones requiring vibration mitigation. Furthermore, the performance of existing vibration mitigation systems in operational sections was assessed to support the design of site-specific vibration isolation measures for the Line 8 and Line 10 extensions.',
       'This first-of-its-kind study in India reflects DMRC’s proactive approach to integrating vibration impact assessment into the design process. The framework developed through this research marks an important step toward predictive vibration management and optimized track design. Building on this foundation, DMRC continues to deepen its analysis to further enhance comfort for passengers and ensure a quieter, more resilient urban environment for the residents of Delhi.',
@@ -160,6 +169,14 @@ const topics = [
           'Pradeep Kumar Sharma is a senior civil engineering professional with more than 30 years of experience in railway and metro infrastructure, including track engineering, maintenance systems, and large-scale O&M management. An Indian Railway Service of Engineers (1994 batch) officer with an M.Tech in Civil Engineering from IIT Delhi, he has served in key technical and managerial positions in Indian Railways and Delhi Metro Rail Corporation. His work spans permanent way engineering, structural inspection and maintenance, depot and station facility management, contract administration, and technical oversight of metro corridor development.',
           'He has led major maintenance frameworks for multiple metro corridors, supervised infrastructure upkeep across depots, stations, ancillary buildings, and RSS installations, and contributed to planning and execution of track works for DMRC’s Phase-IV projects. His professional interests include ballastless track system design, vibration attenuation, asset management, structural reliability, and maintenance optimization in urban rail systems.',
         ],
+      },
+      {
+        name: 'Aishwary Vardhan Pandey',
+        company: 'Vandhana International Pvt Ltd',
+        imageSrc: '/placeholder-male.jpg',
+        title:
+          'Research and Development Manager, Vandhana International Pvt Ltd',
+        bio: [],
       },
     ],
   },

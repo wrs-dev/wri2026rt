@@ -45,9 +45,23 @@ const speakers = [
       'Safety Through Stability: A Conicity-Driven Analysis of Rail Grinding and L/V Force Reduction – Field Evidence from the Delhi Metro Network',
   },
   {
+    name: 'Aishwary Vardhan Pandey',
+    company: 'Vandhana International Pvt Ltd',
+    imageSrc: '/placeholder-male.jpg',
+    topic:
+      'Safety Through Stability: A Conicity-Driven Analysis of Rail Grinding and L/V Force Reduction – Field Evidence from the Delhi Metro Network',
+  },
+  {
     name: 'Pradeep Kumar Sharma',
     company: 'Delhi Metro Rail Corporation',
     imageSrc: '/pradeep-kumar-sharma.jpg',
+    topic:
+      'Understanding Ground-Borne Vibration Propagation for Resilient Metro Infrastructure: Lessons from Delhi Metro’s Expansion',
+  },
+  {
+    name: 'Aishwary Vardhan Pandey',
+    company: 'Vandhana International Pvt Ltd',
+    imageSrc: '/placeholder-male.jpg',
     topic:
       'Understanding Ground-Borne Vibration Propagation for Resilient Metro Infrastructure: Lessons from Delhi Metro’s Expansion',
   },
