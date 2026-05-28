@@ -43,6 +43,13 @@ const platinumSponsors = [
     imagePath: '/whitmore.png',
     url: 'https://www.whitmores.com/',
   },
+  {
+    name: 'ENSCO',
+    description:
+      'ENSCO provides advanced engineering, inspection, and analytics solutions for the rail industry, supporting freight and transit agencies with technologies that improve rail safety, infrastructure performance, and maintenance operations.',
+    imagePath: '/platinum-ensco-nospace.jpg',
+    url: 'https://www.ensco.com/rail',
+  },
 ];
 
 const goldSponsors = [
@@ -55,11 +62,6 @@ const goldSponsors = [
     name: 'ESI',
     imagePath: '/esi-logo.png',
     url: 'https://www.engsys.com/industries/transportation/rail/',
-  },
-  {
-    name: 'ENSCO',
-    imagePath: '/platinum-ensco-nospace.jpg',
-    url: 'https://www.ensco.com/rail',
   },
   {
     name: 'Holland',
@@ -194,7 +196,6 @@ export default function SponsorPage() {
                         alt={sponsor.name}
                         className={`img-fill-contain ${
                           sponsor.name === 'Holland' ? 'h-24' :
-                          sponsor.name === 'ENSCO' ? 'h-20' :
                           sponsor.name === 'WVCO Railroad Solutions' ? 'h-28' :
                           sponsor.name === 'Rhomberg Sersa' ? 'h-28' :
                           sponsor.name === 'Sunrise Systems' ? 'w-[340px]' :
