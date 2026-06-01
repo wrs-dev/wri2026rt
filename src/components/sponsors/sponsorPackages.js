@@ -207,6 +207,29 @@ export default function SponsorPackages() {
                 has consistently received great reviews from participants and
                 InfoZone Partners alike.
               </p>
+              <p className="mb-2 font-semibold">
+                As an InfoZone Partner, you receive:
+              </p>
+              <ul className="mb-4 ml-6 list-disc">
+                <li>
+                  Two (2) complimentary registrations to the Rail Transit
+                  Seminar, Principles Course, and related social events
+                </li>
+                <li>6’ Display table in ExpoZone/Refreshment Area</li>
+                <li>
+                  Dedicated InfoZone Partner web page with company logo and link
+                </li>
+                <li>
+                  Acknowledgement on select printed Rail Transit Seminar and
+                  Principles Course materials
+                </li>
+                <li>On‐screen logo presence in the General Session Room</li>
+                <li>
+                  Recognition on sponsor signage in Rail Transit & Principles
+                  registration area
+                </li>
+                <li>Social media recognition</li>
+              </ul>
               <div className="mt-4">
                 <SponsorRegisterButtonInfoZone />
               </div>
