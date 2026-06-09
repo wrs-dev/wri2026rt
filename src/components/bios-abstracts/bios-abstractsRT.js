@@ -143,10 +143,14 @@ const topics = [
       {
         name: 'Aishwary Vardhan Pandey',
         company: 'Vandhana International Pvt Ltd',
-        imageSrc: '/placeholder-male.jpg',
+        imageSrc: '/aishwary-vardhan-pandey.jpg',
         title:
           'Research and Development Manager, Vandhana International Pvt Ltd',
-        bio: [],
+        bio: [
+          'Aishwary Vardhan Pandey is a railway enthusiast working as R&D Manager with Vandhana International Pvt Ltd., a premier consultancy in railway track engineering, offering strategic and operational support to global rail technology leaders across India and South East Asia. He holds over 6 years of research and industry experience in structure-property correlation, material characterization and structural integrity assessment. In his current role, he is involved in various research programs for Indian passenger, freight and rapid transit networks for rail life extension.',
+          'His technical skills span SEM and XRD-based microstructural analysis, profilometry, mechanical testing (static, fatigue, and high-temperature), failure analysis and finite element modelling.',
+          'He holds a Ph.D. in Mechanical Engineering from Indira Gandhi Centre for Atomic Research.',
+        ],
       },
     ],
   },
@@ -173,10 +177,14 @@ const topics = [
       {
         name: 'Aishwary Vardhan Pandey',
         company: 'Vandhana International Pvt Ltd',
-        imageSrc: '/placeholder-male.jpg',
+        imageSrc: '/aishwary-vardhan-pandey.jpg',
         title:
           'Research and Development Manager, Vandhana International Pvt Ltd',
-        bio: [],
+        bio: [
+          'Aishwary Vardhan Pandey is a railway enthusiast working as R&D Manager with Vandhana International Pvt Ltd., a premier consultancy in railway track engineering, offering strategic and operational support to global rail technology leaders across India and South East Asia. He holds over 6 years of research and industry experience in structure-property correlation, material characterization and structural integrity assessment. In his current role, he is involved in various research programs for Indian passenger, freight and rapid transit networks for rail life extension.',
+          'His technical skills span SEM and XRD-based microstructural analysis, profilometry, mechanical testing (static, fatigue, and high-temperature), failure analysis and finite element modelling.',
+          'He holds a Ph.D. in Mechanical Engineering from Indira Gandhi Centre for Atomic Research.',
+        ],
       },
     ],
   },
