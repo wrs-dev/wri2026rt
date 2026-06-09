@@ -176,6 +176,7 @@ const topics = [
       },
       {
         name: 'Aishwary Vardhan Pandey',
+        slug: 'a-pandey-2',
         company: 'Vandhana International Pvt Ltd',
         imageSrc: '/aishwary-vardhan-pandey.jpg',
         title:
@@ -348,8 +349,8 @@ const topics = [
   },
 ];
 
-const SpeakerCard = ({ name, company, imageSrc, title, bio = [] }) => {
-  const slug = generateSlug(name);
+const SpeakerCard = ({ name, company, imageSrc, title, bio = [], slug: slugOverride }) => {
+  const slug = slugOverride || generateSlug(name);
 
   return (
     <div
@@ -418,7 +419,7 @@ const TopicLayout = ({ speakers, topic, abstract }) => {
   return (
     <div className="mb-8 overflow-hidden bg-white rounded-lg shadow-md">
       {speakers.map(speaker => (
-        <SpeakerCard key={generateSlug(speaker.name)} {...speaker} />
+        <SpeakerCard key={speaker.slug || generateSlug(speaker.name)} {...speaker} />
       ))}
       <AbstractSection topic={topic} abstract={abstract} />
     </div>

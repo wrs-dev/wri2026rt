@@ -112,6 +112,7 @@ const speakers = [
   },
   {
     name: 'Aishwary Vardhan Pandey',
+    slug: 'a-pandey-2',
     company: 'Vandhana International Pvt Ltd',
     imageSrc: '/aishwary-vardhan-pandey.jpg',
     topic:
@@ -184,9 +185,9 @@ const SpeakersRT = () => {
               <SpeakerCard
                 key={speaker.name}
                 {...speaker}
-                bioLink={`/rail-transit-seminar-bios-abstracts#bio-${generateSlug(
-                  speaker.name,
-                )}`}
+                bioLink={`/rail-transit-seminar-bios-abstracts#bio-${
+                  speaker.slug || generateSlug(speaker.name)
+                }`}
               />
             ))}
           </div>
