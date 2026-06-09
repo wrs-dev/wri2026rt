@@ -45,11 +45,11 @@ const speakers = [
       'Safety Through Stability: A Conicity-Driven Analysis of Rail Grinding and L/V Force Reduction – Field Evidence from the Delhi Metro Network',
   },
   {
-    name: 'Pradeep Kumar Sharma',
-    company: 'Delhi Metro Rail Corporation',
-    imageSrc: '/pradeep-kumar-sharma.jpg',
+    name: 'Aishwary Vardhan Pandey',
+    company: 'Vandhana International Pvt Ltd',
+    imageSrc: '/aishwary-vardhan-pandey.jpg',
     topic:
-      'Understanding Ground-Borne Vibration Propagation for Resilient Metro Infrastructure: Lessons from Delhi Metro’s Expansion',
+      'Safety Through Stability: A Conicity-Driven Analysis of Rail Grinding and L/V Force Reduction – Field Evidence from the Delhi Metro Network',
   },
   {
     name: 'Shannon McKenna',
@@ -102,6 +102,21 @@ const speakers = [
     imageSrc: '/cory-hogan.jpg',
     topic:
       'Optimizing Track Maintenance Limits Using Validated Vehicle–Track Interaction Simulations',
+  },
+  {
+    name: 'Pradeep Kumar Sharma',
+    company: 'Delhi Metro Rail Corporation',
+    imageSrc: '/pradeep-kumar-sharma.jpg',
+    topic:
+      'Understanding Ground-Borne Vibration Propagation for Resilient Metro Infrastructure: Lessons from Delhi Metro’s Expansion',
+  },
+  {
+    name: 'Aishwary Vardhan Pandey',
+    slug: 'a-pandey-2',
+    company: 'Vandhana International Pvt Ltd',
+    imageSrc: '/aishwary-vardhan-pandey.jpg',
+    topic:
+      'Understanding Ground-Borne Vibration Propagation for Resilient Metro Infrastructure: Lessons from Delhi Metro’s Expansion',
   },
 ];
 
@@ -170,9 +185,9 @@ const SpeakersRT = () => {
               <SpeakerCard
                 key={speaker.name}
                 {...speaker}
-                bioLink={`/rail-transit-seminar-bios-abstracts#bio-${generateSlug(
-                  speaker.name,
-                )}`}
+                bioLink={`/rail-transit-seminar-bios-abstracts#bio-${
+                  speaker.slug || generateSlug(speaker.name)
+                }`}
               />
             ))}
           </div>
