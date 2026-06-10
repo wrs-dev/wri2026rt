@@ -120,6 +120,12 @@ const silverSponsors = [
     imagePath: '/ekho-logo.png',
     url: 'https://ekhois.com/',
   },
+  {
+    name: 'Redstone Technologies',
+    description: '',
+    imagePath: '/redstone-technologies.png',
+    url: 'https://redstonetech.us/',
+  },
 ];
 
 const bronzeSponsors = [
@@ -234,7 +240,7 @@ export default function SponsorPage() {
                   <div key={sponsor.name}>
                     <dt className="text-base font-semibold leading-7 text-black">
                       <div className={`flex items-center ${
-                        sponsor.name === 'EKHO Infrastructure Solutions' || sponsor.name === 'Gateway Rail' ? 'h-28 mb-2' : 'h-24'
+                        sponsor.name === 'EKHO Infrastructure Solutions' || sponsor.name === 'Gateway Rail' || sponsor.name === 'Redstone Technologies' ? 'h-28 mb-2' : 'h-24'
                       }`}>
                         <img
                           src={sponsor.imagePath}
@@ -244,6 +250,7 @@ export default function SponsorPage() {
                             sponsor.name === 'Getzner' ? 'max-h-[68px]' :
                             sponsor.name === 'Gateway Rail' ? 'w-[240px]' :
                             sponsor.name === 'EKHO Infrastructure Solutions' ? 'max-h-28' :
+                            sponsor.name === 'Redstone Technologies' ? 'w-[280px]' :
                             'max-h-14'
                           }`}
                         />
