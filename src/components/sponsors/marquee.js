@@ -105,6 +105,11 @@ const LogoRow = () => {
           alt="Silver Sponsor EKHO Infrastructure Solutions"
           className="h-[60px] w-auto max-w-none"
         />
+        <img
+          src="/redstone-technologies.png"
+          alt="Silver Sponsor Redstone Technologies"
+          className="h-[60px] w-auto max-w-none"
+        />
         {/* Bronze */}
         <img
           src="/cloud-steel-dynamics.png"
@@ -220,6 +225,11 @@ const LogoRow = () => {
         <img
           src="/ekho-logo.png"
           alt="Silver Sponsor EKHO Infrastructure Solutions"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
+          src="/redstone-technologies.png"
+          alt="Silver Sponsor Redstone Technologies"
           className="h-[60px] w-auto max-w-none"
         />
         {/* Bronze */}
