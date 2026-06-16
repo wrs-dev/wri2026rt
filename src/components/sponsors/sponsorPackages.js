@@ -6,7 +6,6 @@ import Image from 'next/image';
 import SponsorRegisterButtonSilver from '@/components/buttons/sponsor-register-button-silver';
 import SponsorRegisterButtonGold from '@/components/buttons/sponsor-register-button-gold';
 import SponsorRegisterButtonPlatinum from '@/components/buttons/sponsor-register-button-platinum';
-import SponsorRegisterButtonInfoZone from '@/components/buttons/sponsor-register-button-infozone';
 import SponsorRegisterButtonSoldOut from '@/components/buttons/sponsor-register-button-soldout';
 import SponsorCtaPdf from '@/components/sponsors/sponsor-cta-pdf';
 
@@ -231,7 +230,7 @@ export default function SponsorPackages() {
                 <li>Social media recognition</li>
               </ul>
               <div className="mt-4">
-                <SponsorRegisterButtonInfoZone />
+                <p className="text-xl font-bold text-red-600">SOLD OUT</p>
               </div>
             </div>
           </div>

@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import InfoZonePhotos from '@/components/infozone/infoZonePhotos';
-import SponsorRegisterButtonInfoZone from '@/components/buttons/sponsor-register-button-infozone';
 
 const infoZoneSponsors = [
   {
@@ -9,14 +8,24 @@ const infoZoneSponsors = [
     url: 'https://www.railroadsoftware.com/',
   },
   {
-    name: 'Plasser American',
-    imagePath: '/platinum-plasser-american.svg',
-    url: 'https://www.plasseramerican.com/en/home/start',
-  },
-  {
     name: 'Loram',
     imagePath: '/platinum-loram.png',
     url: 'https://loram.com/',
+  },
+  {
+    name: 'ENSCO',
+    imagePath: '/platinum-ensco-nospace.jpg',
+    url: 'https://www.ensco.com/rail',
+  },
+  {
+    name: 'Holland',
+    imagePath: '/holland-logo-full.png',
+    url: 'https://www.hollandco.com/',
+  },
+  {
+    name: 'Plasser American',
+    imagePath: '/platinum-plasser-american.svg',
+    url: 'https://www.plasseramerican.com/en/home/start',
   },
 ];
 
@@ -79,7 +88,17 @@ export default function InfoZonePageSponsorships() {
             </a>
           </div>
 
-          {/* Row 2 - Plasser American */}
+          {/* Row 2 - ENSCO, Holland */}
+          <div className="flex flex-wrap items-end justify-center gap-x-24 gap-y-8">
+            <a href="https://www.ensco.com/rail" target="_blank" rel="noopener noreferrer" className="flex items-end justify-center h-24">
+              <img src="/platinum-ensco-nospace.jpg" alt="ENSCO logo" className="object-contain h-24" />
+            </a>
+            <a href="https://www.hollandco.com/" target="_blank" rel="noopener noreferrer" className="flex items-end justify-center h-24">
+              <img src="/holland-logo-full.png" alt="Holland logo" className="object-contain h-16" />
+            </a>
+          </div>
+
+          {/* Row 3 - Plasser American */}
           <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
             <a href="https://www.plasseramerican.com/en/home/start" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
               <img src="/platinum-plasser-american.svg" alt="Plasser American logo" className="object-contain h-14" />
@@ -125,7 +144,7 @@ export default function InfoZonePageSponsorships() {
                   InfoZone Partners alike.
                 </p>
                 <div className="mt-4">
-                  <SponsorRegisterButtonInfoZone />
+                  <p className="text-xl font-bold text-red-600">SOLD OUT</p>
                 </div>
               </div>
             </div>
