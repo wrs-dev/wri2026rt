@@ -126,11 +126,11 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-railroad-software.png"
-          alt="Silver Sponsor Railroad Software"
+          src="/Waynova-600px.png"
+          alt="Silver Sponsor Waynova"
           className="h-12 max-w-none"
           loading="lazy"
-          width={215}
+          width={270}
           height={50}
         />
         <Image
@@ -336,11 +336,11 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-railroad-software.png"
-          alt="Silver Sponsor Railroad Software"
+          src="/Waynova-600px.png"
+          alt="Silver Sponsor Waynova"
           className="h-12 max-w-none"
           loading="lazy"
-          width={215}
+          width={270}
           height={50}
         />
         <Image
@@ -546,11 +546,11 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-railroad-software.png"
-          alt="Silver Sponsor Railroad Software"
+          src="/Waynova-600px.png"
+          alt="Silver Sponsor Waynova"
           className="h-12 max-w-none"
           loading="lazy"
-          width={215}
+          width={270}
           height={50}
         />
         <Image
@@ -756,11 +756,11 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-railroad-software.png"
-          alt="Silver Sponsor Railroad Software"
+          src="/Waynova-600px.png"
+          alt="Silver Sponsor Waynova"
           className="h-12 max-w-none"
           loading="lazy"
-          width={215}
+          width={270}
           height={50}
         />
         <Image
@@ -966,11 +966,11 @@ const LogoRow = () => {
           height={50}
         />
         <Image
-          src="/cloud-railroad-software.png"
-          alt="Silver Sponsor Railroad Software"
+          src="/Waynova-600px.png"
+          alt="Silver Sponsor Waynova"
           className="h-12 max-w-none"
           loading="lazy"
-          width={215}
+          width={270}
           height={50}
         />
         <Image

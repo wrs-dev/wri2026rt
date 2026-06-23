@@ -10,9 +10,9 @@ const infoZoneSponsors = [
     url: 'https://www.linsinger.com/',
     },
     {
-    name: 'Railroad Software',
+    name: 'Waynova',
     description: '',
-    imagePath: '/silver-railroad-software.png',
+    imagePath: '/Waynova-600px.png',
     url: 'https://www.railroadsoftware.com/',
     },
     {

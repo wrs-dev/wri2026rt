@@ -16,9 +16,9 @@ const infoZoneSponsors = [
     url: 'https://www.calipri.net/en/',
     },
     {
-    name: 'Railroad Software',
+    name: 'Waynova',
     description: '',
-    imagePath: '/silver-railroad-software.png',
+    imagePath: '/Waynova-600px.png',
     url: 'https://www.railroadsoftware.com/',
   },
   {

@@ -3,8 +3,8 @@ import InfoZonePhotos from '@/components/infozone/infoZonePhotos';
 
 const infoZoneSponsors = [
   {
-    name: 'Railroad Software',
-    imagePath: '/silver-railroad-software.png',
+    name: 'Waynova',
+    imagePath: '/Waynova-600px.png',
     url: 'https://www.railroadsoftware.com/',
   },
   {
@@ -81,7 +81,7 @@ export default function InfoZonePageSponsorships() {
           {/* Row 1 - Railroad Software, Loram */}
           <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
             <a href="https://www.railroadsoftware.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
-              <img src="/silver-railroad-software.png" alt="Railroad Software logo" className="object-contain h-20" />
+              <img src="/Waynova-600px.png" alt="Waynova logo" className="object-contain h-16" />
             </a>
             <a href="https://loram.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
               <img src="/platinum-loram.png" alt="Loram logo" className="object-contain h-16" />
