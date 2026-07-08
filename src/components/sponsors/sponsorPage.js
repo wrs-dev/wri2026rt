@@ -93,6 +93,11 @@ const goldSponsors = [
     imagePath: '/gold-wvco.png',
     url: 'https://wvcorailroad.com/',
   },
+  {
+    name: 'Vossloh',
+    imagePath: '/gold-vossloh.jpg',
+    url: 'https://www.vossloh.com/',
+  },
 ];
 
 const silverSponsors = [
