@@ -74,6 +74,11 @@ const LogoRow = () => {
           className="h-[60px] w-auto max-w-none"
         />
         <img
+          src="/cloud-vossloh.jpg"
+          alt="Gold Sponsor Vossloh"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
           src="/cloud-rhomberg-sersa.png"
           alt="Gold Sponsor Rhomberg Sersa"
           className="h-[60px] w-auto max-w-none"
@@ -193,6 +198,11 @@ const LogoRow = () => {
         <img
           src="/gold-wvco.png"
           alt="Gold Sponsor WVCO Railroad Solutions"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
+          src="/cloud-vossloh.jpg"
+          alt="Gold Sponsor Vossloh"
           className="h-[60px] w-auto max-w-none"
         />
         <img
