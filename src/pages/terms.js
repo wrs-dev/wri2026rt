@@ -5,9 +5,6 @@ import Navigation from '@/components/navigation'
 import Banner25RT from '@/components/banner/wri26RT';
 import Registration from '@/components/registration';
 import SponsorsCloud from '@/components/sponsors';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export async function getStaticProps() {
   return {
