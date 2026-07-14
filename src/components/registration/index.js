@@ -171,9 +171,14 @@ const RegistrationComp = () => {
             </div>
           </div>
 
-          {/* Student Registration Button only */}
-          <div className="mt-12 mb-12 text-center">
-            <StudentRegisterButton />
+          {/* Virtual & Student Registration Buttons */}
+          <div className="grid grid-cols-1 gap-4 mt-12 mb-12 md:grid-cols-1 xl:grid-cols-2">
+            <div className="text-center">
+              <RegisterButton />
+            </div>
+            <div className="mt-12 text-center xl:mt-0">
+              <StudentRegisterButton />
+            </div>
           </div>
         </div>
       </div>
