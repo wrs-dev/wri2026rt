@@ -129,10 +129,10 @@ const RegistrationComp = () => {
             <RegisterButton />
           </div>
 
-          {/* Student Column - Centered */}
-          <div className="grid grid-cols-1 gap-4 mt-20 md:grid-cols-1 xl:grid-cols-1">
-            {/* Virtual Column - Hidden */}
-            {/* <div className="flex flex-col justify-between h-full px-4 mb-4">
+          {/* Virtual & Student Columns */}
+          <div className="grid grid-cols-1 gap-4 mt-20 md:grid-cols-1 xl:grid-cols-2">
+            {/* Virtual Column */}
+            <div className="flex flex-col justify-between h-full px-4 mb-4">
               <div className="px-0 lg:px-12">
                 <h3 className="mb-8 text-4xl font-bold text-center text-white">
                   Virtual Option
@@ -150,10 +150,10 @@ const RegistrationComp = () => {
                 </div>
                 <PricingVirtualMulti />
               </div>
-            </div> */}
+            </div>
 
             {/* Student Column */}
-            <div className="flex flex-col justify-between h-full px-4 mb-4 xl:w-1/2 xl:mx-auto">
+            <div className="flex flex-col justify-between h-full px-4 mb-4">
               <div className="px-0 lg:px-12">
                 <h3 className="mb-8 text-4xl font-bold text-center text-white">
                   Student Registration
