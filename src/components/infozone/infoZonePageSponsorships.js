@@ -90,7 +90,7 @@ export default function InfoZonePageSponsorships() {
 
           {/* Row 2 - ENSCO, Holland */}
           <div className="flex flex-wrap items-end justify-center gap-x-24 gap-y-8">
-            <a href="https://www.ensco.com/rail" target="_blank" rel="noopener noreferrer" className="flex items-end justify-center h-24">
+            <a href="#ensco" className="flex items-end justify-center h-24">
               <img src="/platinum-ensco-nospace.jpg" alt="ENSCO logo" className="object-contain h-24" />
             </a>
             <a href="https://www.hollandco.com/" target="_blank" rel="noopener noreferrer" className="flex items-end justify-center h-24">
@@ -156,6 +156,59 @@ export default function InfoZonePageSponsorships() {
       <section>
         <div className="flex items-center justify-center px-6 mx-auto mb-48 max-w-7xl lg:px-8">
           <InfoZonePhotos />
+        </div>
+      </section>
+
+      {/* Abstracts Section */}
+      <section className="px-6 mx-auto mb-24 max-w-7xl lg:px-8">
+        <div className="px-12 mx-auto">
+          <h3 className="mb-8 text-4xl font-normal leading-normal text-center pt-11">
+            Review the InfoZone Abstracts
+          </h3>
+        </div>
+        {/* ENSCO Abstract Section */}
+        <div id="ensco" className="grid grid-cols-1 gap-4 p-4 mb-12 md:grid-cols-5 bg-wri-yellow/20 rounded-xl">
+          {/* Left block: logo spanning both rows */}
+          <div className="hidden md:flex md:col-span-1 md:row-span-2 items-center justify-center ml-4">
+            <a
+              href="https://www.ensco.com/rail"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center"
+            >
+              <Image
+                src="/platinum-ensco-nospace.jpg"
+                alt="ENSCO Logo"
+                width={200}
+                height={100}
+              />
+            </a>
+          </div>
+          {/* Top-right block: heading */}
+          <div className="md:col-span-4">
+            <h3 className="mt-4 text-2xl font-bold">ENSCO</h3>
+          </div>
+          {/* Bottom-right block: paragraphs */}
+          <div className="pb-4 pr-4 md:col-span-4">
+            <p className="text-lg">
+              Transit agencies today are being asked to do more with less while facing workforce
+              shortages, limited track access, aging infrastructure, and increasing pressure to
+              maintain assets in a State of Good Repair. Traditional inspection and maintenance
+              practices built around manual inspections and periodic measurements can no longer
+              fully meet the demands of modern rail transit systems. As a result, the industry has
+              steadily evolved toward automated inspection, machine vision, wayside monitoring,
+              and advanced analytics to improve safety, reliability, and maintenance effectiveness.
+            </p>
+            <p className="mt-4 text-lg">
+              This session will explore how integrating track inspection, vehicle dynamics, wheel
+              condition, and wayside monitoring data can provide a more complete understanding of
+              wheel-rail interaction and asset condition. Attendees will learn how modern
+              inspection technologies, automation, and emerging decision-support capabilities are
+              helping agencies identify issues earlier, prioritize maintenance activities, reduce
+              the need for field inspections, and move toward more intelligent, condition-based
+              asset management.
+            </p>
+          </div>
         </div>
       </section>
     </div>
