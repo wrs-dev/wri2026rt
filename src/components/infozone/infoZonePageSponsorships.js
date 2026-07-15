@@ -107,19 +107,18 @@ export default function InfoZonePageSponsorships() {
         </div>
       </section>
 
-      {/* InfoZone Partnership Opportunities Section - KEEP FOR RT */}
-      <div className="seminar-about-text" id="infozone-sponsorship">
+      {/* InfoZone Partnership Opportunities Section - Hidden */}
+      {/* <div className="seminar-about-text" id="infozone-sponsorship">
         <div className="px-12 mx-auto">
           <h2 className="mb-16 text-6xl font-normal leading-normal text-center pt-11">
             InfoZone Partnership Opportunities
           </h2>
         </div>
-      </div>
+      </div> */}
 
-      {/* Sponsorship Packages Section */}
-      <section className="pb-24 bg-white">
+      {/* Sponsorship Packages Section - Hidden */}
+      {/* <section className="pb-24 bg-white">
         <div className="px-6 mx-auto max-w-7xl lg:px-8">
-          {/* Rail Transit InfoZone Sponsorship */}
           <section className="mb-16">
             <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
               <div>
@@ -150,7 +149,7 @@ export default function InfoZonePageSponsorships() {
             </div>
           </section>
         </div>
-      </section>
+      </section> */}
 
       {/* InfoZone Photos Section */}
       <section>
