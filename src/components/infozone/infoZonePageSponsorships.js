@@ -153,7 +153,7 @@ export default function InfoZonePageSponsorships() {
 
       {/* InfoZone Photos Section */}
       <section>
-        <div className="flex items-center justify-center px-6 mx-auto mb-48 max-w-7xl lg:px-8">
+        <div className="flex items-center justify-center px-6 mx-auto mb-12 max-w-7xl lg:px-8">
           <InfoZonePhotos />
         </div>
       </section>
