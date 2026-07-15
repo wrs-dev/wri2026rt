@@ -176,10 +176,10 @@ export default function InfoZonePageSponsorships() {
               className="flex items-center justify-center"
             >
               <Image
-                src="/platinum-ensco-nospace.jpg"
+                src="/ensco-trans.png"
                 alt="ENSCO Logo"
                 width={200}
-                height={100}
+                height={53}
               />
             </a>
           </div>
