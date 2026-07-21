@@ -47,7 +47,7 @@ const speakers = [
     imageSrc: '/kevin-oldknow.jpg',
     topic: 'Wheel-Rail Contact: An Introduction',
     title: 'Associate Professor, Simon Fraser University',
-    bio1: 'Dr. Kevin Oldknow is an Associate Professor at Simon Fraser University, and Principal Investigator in the Vehicle Track Interaction Research Group. Kevin has researched and published in the areas of dynamics and controls, wheel-rail and vehicle-track interaction, tribology and friction control, and engineering education. He also has more than 20 years of industrial experience, primarily in railway systems.',
+    bio1: 'Dr. Kevin Oldknow is an Associate Professor and acting Dean for the Faculty of Applied Sciences at Simon Fraser University, where he leads the Vehicle Track Interaction Research Group. Kevin has researched and published in the areas of dynamics and controls, wheel-rail and vehicle-track interaction, tribology and friction control, and engineering education. He also has more than 20 years of industrial experience, primarily in railway systems.',
     bio2: 'Kevin first attended WRI in 2005, and has enjoyed being involved in the conference in a variety of capacities since then.',
   },
   {
