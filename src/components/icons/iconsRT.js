@@ -30,8 +30,12 @@ const IconLinksRT = () => {
   return (
     <div className="btn_wrapper" data-aos="fade-up" id="icons">
       <div className="container">
-        <ul className="flex flex-wrap">
-          {icons.map(icon => {
+        <ul className="grid grid-cols-1 sm:grid-cols-2">
+          {icons.map((icon, idx) => {
+            const justify =
+              idx === 0
+                ? 'justify-self-center sm:justify-self-end'
+                : 'justify-self-center sm:justify-self-start';
             const content = (
               <li
                 className={`border-2 border-white shadow-lg ${icon.restingBgColor} ${
@@ -56,11 +60,13 @@ const IconLinksRT = () => {
             );
 
             return icon.href ? (
-              <Link href={icon.href} key={icon.title}>
+              <Link href={icon.href} key={icon.title} className={justify}>
                 {content}
               </Link>
             ) : (
-              <div key={icon.title}>{content}</div>
+              <div key={icon.title} className={justify}>
+                {content}
+              </div>
             );
           })}
         </ul>

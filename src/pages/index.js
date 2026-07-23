@@ -2,6 +2,7 @@ import Navigation from '@/components/navigation';
 import Banner26RT from '@/components/banner/wri26RT';
 import IconLinksRT from '@/components/icons/iconsRT';
 import SponsorCTAButton from '@/components/buttons/sponsor-cta-button';
+import AgendaDownloadButton from '@/components/buttons/agenda-download-button';
 import Intro from '@/components/intro';
 import CallForPapers from '@/components/call-for-papers';
 import Registration from '@/components/registration';
@@ -35,8 +36,13 @@ export default function Home() {
       </p>
 
       <IconLinksRT />
-      <div className="flex justify-center mb-12">
-        <SponsorCTAButton />
+      <div className="grid grid-cols-1 gap-y-4 mx-auto mb-12 max-w-[1300px] px-5 sm:grid-cols-2 sm:gap-x-[60px]">
+        <div className="flex justify-center sm:justify-end">
+          <AgendaDownloadButton />
+        </div>
+        <div className="flex justify-center sm:justify-start">
+          <SponsorCTAButton />
+        </div>
       </div>
       {/* About Section (keeps your existing RT text) */}
       <div className="pb-40 about-container font-wri" id="about">
