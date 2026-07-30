@@ -13,6 +13,12 @@ const Banner2026RT = () => {
         quality={100}
       />
 
+      {/* 2a. Venue info - left side, opposite MBTA logo */}
+      <div className="absolute top-4 left-4 sm:top-6 sm:left-8 text-black text-xs sm:text-sm md:text-base">
+        <p className="font-bold">Renaissance Boston Seaport District</p>
+        <p>606 Congress Street, Boston, MA 02210</p>
+      </div>
+
       {/* 2. MBTA Logo - 2250x600 px */}
       <div className="absolute top-4 right-4 sm:top-6 sm:right-8">
         <Image
