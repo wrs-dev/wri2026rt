@@ -98,6 +98,11 @@ const goldSponsors = [
     imagePath: '/gold-vossloh.jpg',
     url: 'https://www.vossloh.com/',
   },
+  {
+    name: 'LB Foster',
+    imagePath: '/silver-lbfoster.png',
+    url: 'https://www.lbfoster.com/',
+  },
 ];
 
 const silverSponsors = [
@@ -199,7 +204,7 @@ export default function SponsorPage() {
               {goldSponsors.map((sponsor) => (
                 <div key={sponsor.name} className="flex flex-col">
                   <dt className={`text-base font-semibold leading-7 text-black ${
-                    sponsor.name === 'Sunrise Systems' ? 'mt-auto' : ''
+                    sponsor.name === 'Sunrise Systems' || sponsor.name === 'LB Foster' ? 'mt-auto' : ''
                   }`}>
                     <div className="flex items-center h-22">
                       <img
@@ -210,6 +215,7 @@ export default function SponsorPage() {
                           sponsor.name === 'WVCO Railroad Solutions' ? 'h-28' :
                           sponsor.name === 'Rhomberg Sersa' ? 'h-28' :
                           sponsor.name === 'Sunrise Systems' ? 'w-[340px]' :
+                          sponsor.name === 'LB Foster' ? 'w-[300px]' :
                           'max-h-20'
                         }`}
                       />

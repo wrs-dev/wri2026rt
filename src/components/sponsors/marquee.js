@@ -83,6 +83,11 @@ const LogoRow = () => {
           alt="Gold Sponsor Rhomberg Sersa"
           className="h-[60px] w-auto max-w-none"
         />
+        <img
+          src="/cloud-lbfoster.png"
+          alt="Gold Sponsor LB Foster"
+          className="h-[60px] w-auto max-w-none"
+        />
         {/* Gold */}
         <img
           src="/Sunrise-Systems-Logo.png"
@@ -208,6 +213,11 @@ const LogoRow = () => {
         <img
           src="/cloud-rhomberg-sersa.png"
           alt="Gold Sponsor Rhomberg Sersa"
+          className="h-[60px] w-auto max-w-none"
+        />
+        <img
+          src="/cloud-lbfoster.png"
+          alt="Gold Sponsor LB Foster"
           className="h-[60px] w-auto max-w-none"
         />
         {/* Gold */}
