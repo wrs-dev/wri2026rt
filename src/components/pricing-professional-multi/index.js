@@ -29,7 +29,7 @@ export default function PricingProfessionalMulti() {
               Rail Transit Seminar <em>Plus</em> Principles Course (3 Days)
             </h2>
             <h2 className="text-md text-wri-blue">
-              Cost: <span className="text-gray-500 line-through">$1,600</span> $1,440 Early Bird
+              Cost: $1,600 (Save $200)
             </h2>
             <p className="text-gray-500 text-md">
               September 1-3, 2026

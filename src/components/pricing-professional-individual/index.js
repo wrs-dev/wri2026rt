@@ -30,7 +30,7 @@ export default function PricingProfessionalIndividual() {
               Principles Course (1 Day)
             </h2>
             <h2 className="text-md text-wri-blue">
-              Cost: <span className="text-gray-500 line-through">$600</span> $540 Early Bird
+              Cost: $600
             </h2>
             <p className="text-gray-500 text-md">
               September 1, 2026
@@ -43,7 +43,7 @@ export default function PricingProfessionalIndividual() {
               Rail Transit Seminar (2 Days)
             </h2>
             <h2 className="text-md text-wri-blue">
-              Cost: <span className="text-gray-500 line-through">$1,200</span> $1,080 Early Bird
+              Cost: $1,200
             </h2>
             <p className="text-gray-500 text-md">
               September 2-3, 2026
