@@ -5,7 +5,7 @@ const infoZoneSponsors = [
   {
     name: 'Waynova',
     imagePath: '/Waynova-600px.png',
-    url: 'https://www.railroadsoftware.com/',
+    url: 'https://www.waynovagroup.com/',
   },
   {
     name: 'Loram',
@@ -170,7 +170,7 @@ export default function InfoZonePageSponsorships() {
           {/* Left block: logo spanning both rows */}
           <div className="hidden md:flex md:col-span-1 md:row-span-2 items-center justify-center ml-4">
             <a
-              href="https://www.railroadsoftware.com/"
+              href="https://www.waynovagroup.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center"

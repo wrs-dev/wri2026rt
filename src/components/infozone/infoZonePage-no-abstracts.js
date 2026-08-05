@@ -13,7 +13,7 @@ const infoZoneSponsors = [
     name: 'Waynova',
     description: '',
     imagePath: '/Waynova-600px.png',
-    url: 'https://www.railroadsoftware.com/',
+    url: 'https://www.waynovagroup.com/',
     },
     {
     name: 'Hexagon | NEXTSENSE',
