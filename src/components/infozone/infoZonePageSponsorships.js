@@ -185,7 +185,7 @@ export default function InfoZonePageSponsorships() {
           </div>
           {/* Top-right block: heading */}
           <div className="md:col-span-4">
-            <h3 className="mt-4 text-2xl font-bold">Waynova - Beyond Compliance: Turning SGR, TAM & NTD Data into Better Maintenance Decisions</h3>
+            <h3 className="mt-4 text-2xl font-bold">Beyond Compliance: Turning SGR, TAM & NTD Data into Better Maintenance Decisions</h3>
           </div>
           {/* Bottom-right block: paragraphs */}
           <div className="pb-4 pr-4 md:col-span-4">
