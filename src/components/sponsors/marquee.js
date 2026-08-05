@@ -106,11 +106,6 @@ const LogoRow = () => {
           className="h-[60px] w-auto max-w-none"
         />
         <img
-          src="/gateway-rail-services.png"
-          alt="Silver Sponsor Gateway Rail"
-          className="h-[60px] w-auto max-w-none"
-        />
-        <img
           src="/ekho-logo.png"
           alt="Silver Sponsor EKHO Infrastructure Solutions"
           className="h-[60px] w-auto max-w-none"
@@ -235,11 +230,6 @@ const LogoRow = () => {
         <img
           src="/ij-logo.png"
           alt="Silver Sponsor Interface Journal"
-          className="h-[60px] w-auto max-w-none"
-        />
-        <img
-          src="/gateway-rail-services.png"
-          alt="Silver Sponsor Gateway Rail"
           className="h-[60px] w-auto max-w-none"
         />
         <img
