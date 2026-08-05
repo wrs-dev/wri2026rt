@@ -80,7 +80,7 @@ export default function InfoZonePageSponsorships() {
         <div className="px-6 mx-auto mb-24 space-y-12 max-w-7xl lg:px-8">
           {/* Row 1 - Railroad Software, Loram */}
           <div className="flex flex-wrap items-center justify-center gap-x-24 gap-y-8">
-            <a href="https://www.railroadsoftware.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+            <a href="#waynova" className="flex items-center justify-center h-36">
               <img src="/Waynova-600px.png" alt="Waynova logo" className="object-contain h-16" />
             </a>
             <a href="https://loram.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
@@ -164,6 +164,45 @@ export default function InfoZonePageSponsorships() {
           <h3 className="mb-8 text-4xl font-normal leading-normal text-center pt-11">
             Review the InfoZone Abstracts
           </h3>
+        </div>
+        {/* Waynova Abstract Section */}
+        <div id="waynova" className="grid grid-cols-1 gap-4 p-4 mb-12 md:grid-cols-5 bg-wri-yellow/20 rounded-xl">
+          {/* Left block: logo spanning both rows */}
+          <div className="hidden md:flex md:col-span-1 md:row-span-2 items-center justify-center ml-4">
+            <a
+              href="https://www.railroadsoftware.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center"
+            >
+              <Image
+                src="/Waynova-600px.png"
+                alt="Waynova Logo"
+                width={200}
+                height={100}
+              />
+            </a>
+          </div>
+          {/* Top-right block: heading */}
+          <div className="md:col-span-4">
+            <h3 className="mt-4 text-2xl font-bold">Waynova - Beyond Compliance: Turning SGR, TAM & NTD Data into Better Maintenance Decisions</h3>
+          </div>
+          {/* Bottom-right block: paragraphs */}
+          <div className="pb-4 pr-4 md:col-span-4">
+            <p className="text-lg">
+              Transit agencies are under increasing pressure to meet State of Good Repair (SGR),
+              Transit Asset Management (TAM), and National Transit Database (NTD) requirements
+              while managing aging infrastructure, limited budgets, and workforce shortages.
+            </p>
+            <p className="mt-4 text-lg">
+              This session explores how agencies can move beyond compliance by using SGR, TAM,
+              and NTD data to make better maintenance decisions. We'll review FTA requirements,
+              discuss practical approaches to Transit Asset Management, examine NTD reporting
+              considerations, and demonstrate how connecting inspections, condition assessments,
+              work orders, and Enterprise Asset Management (EAM) systems helps agencies improve
+              asset visibility, prioritize maintenance, and support regulatory compliance.
+            </p>
+          </div>
         </div>
         {/* ENSCO Abstract Section */}
         <div id="ensco" className="grid grid-cols-1 gap-4 p-4 mb-12 md:grid-cols-5 bg-wri-yellow/20 rounded-xl">
