@@ -236,7 +236,217 @@ export default function SponsorPackages() {
           </div>
         </section>
 
-        {/* InfoZone Partner 
+        {/* Grand Buffet Reception Sponsor */}
+        <section className="mb-16">
+          <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
+            <div>
+              <h3 className="text-2xl font-bold leading-tight text-rose-600 sm:text-3xl">
+                Grand Buffet
+                <br />
+                Reception Sponsor
+              </h3>
+              <p className="mt-1 text-base font-semibold text-gray-500">
+                (2 Available)
+              </p>
+              <p className="mt-2 text-xl font-semibold text-wri-dark-blue">
+                $8,000
+              </p>
+            </div>
+            <div className="col-span-2">
+              <p className="mb-4">
+                This premier sponsorship level offers unparalleled visibility,
+                connecting your brand with attendees during the primary
+                social and networking highlight of the conference.
+              </p>
+
+              <p className="mb-1 font-semibold">
+                Registration &amp; Presence
+              </p>
+              <ul className="mb-4 ml-6 list-disc">
+                <li>
+                  <strong>3 Full Conference Registrations:</strong>{' '}
+                  Comprehensive access for four members of your team to all
+                  sessions, meals, and networking events.
+                </li>
+                <li>
+                  <strong>Premier ExpoZone Placement:</strong> A dedicated
+                  exhibitor table in the ExpoZone for the full duration of the
+                  conference. This space serves as the hub for all designated
+                  breaks and meals, ensuring consistent foot traffic and
+                  engagement.
+                </li>
+              </ul>
+
+              <p className="mb-1 font-semibold">
+                Reception Branding &amp; Exclusive Visibility
+              </p>
+              <ul className="mb-4 ml-6 list-disc">
+                <li>
+                  <strong>Signature Cocktail:</strong> A custom-crafted drink
+                  named after your company or a specific product, served
+                  exclusively during the reception.
+                </li>
+                <li>
+                  <strong>Branded Napkins:</strong> Your logo featured on
+                  cocktail napkins used throughout the evening.
+                </li>
+                <li>
+                  <strong>Signage:</strong> Your logo featured prominently
+                  within the reception hall welcoming attendees on your
+                  behalf.
+                </li>
+              </ul>
+
+              <p className="mb-1 font-semibold">
+                Recognition &amp; VIP Experience
+              </p>
+              <ul className="ml-6 list-disc">
+                <li>
+                  <strong>Podium Announcement:</strong> A formal "thank you"
+                  and invitation issued to all attendees at the close of the
+                  day's sessions:{' '}
+                  <em>
+                    "Join us for the Grand Buffet Reception, proudly
+                    sponsored by [Sponsor Name]!"
+                  </em>
+                </li>
+                <li>
+                  <strong>Reserved VIP Table:</strong> A designated,
+                  high-visibility table within the reception space for your
+                  team and invited guests to host key clients.
+                </li>
+                <li>
+                  <strong>Dedicated Social Media Shout-out:</strong> A
+                  standalone "Reception Sponsor" thank you post across
+                  official conference social media channels, highlighting
+                  your support of the event.
+                </li>
+              </ul>
+
+              <div className="mt-4">
+                Contact{' '}
+                <a
+                  href="mailto:erica@wheel-rail-seminars.com"
+                  className="underline hover:text-blue-600"
+                >
+                  erica@wheel-rail-seminars.com
+                </a>{' '}
+                to sign up to be the Grand Buffet Reception Sponsor.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Breakfast Sponsor */}
+        <section className="mb-16">
+          <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
+            <div>
+              <h3 className="text-2xl font-bold leading-tight text-orange-600 sm:text-3xl">
+                Breakfast
+                <br />
+                Sponsor
+              </h3>
+              <p className="mt-2 text-xl font-semibold text-wri-dark-blue">
+                $2,500/day or $5,000 for the entirety of conference (all 3
+                days)
+              </p>
+            </div>
+            <div className="col-span-2">
+              <p className="mb-4">
+                As an exclusive Breakfast Sponsor, your company will receive
+                high-visibility logo signage in the ExpoZone throughout the
+                morning meal and a dedicated verbal acknowledgment from the
+                podium during the opening meeting room remarks.
+              </p>
+              <div className="mt-4">
+                Contact{' '}
+                <a
+                  href="mailto:erica@wheel-rail-seminars.com"
+                  className="underline hover:text-blue-600"
+                >
+                  erica@wheel-rail-seminars.com
+                </a>{' '}
+                to sign up to be a Breakfast Sponsor.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Luncheon Sponsor */}
+        <section className="mb-16">
+          <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
+            <div>
+              <h3 className="text-2xl font-bold leading-tight text-emerald-600 sm:text-3xl">
+                Luncheon
+                <br />
+                Sponsor
+              </h3>
+              <p className="mt-2 text-xl font-semibold text-wri-dark-blue">
+                $5,000/day or $10,000 for all three luncheons
+              </p>
+            </div>
+            <div className="col-span-2">
+              <p className="mb-4">
+                Sponsoring a lunch entitles your organization to prominent
+                physical board signage in the ExpoZone and a featured verbal
+                mention in the main meeting room prior to the lunch break.
+              </p>
+              <div className="mt-4">
+                Contact{' '}
+                <a
+                  href="mailto:erica@wheel-rail-seminars.com"
+                  className="underline hover:text-blue-600"
+                >
+                  erica@wheel-rail-seminars.com
+                </a>{' '}
+                to sign up to be a Luncheon Sponsor.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Wi-Fi Sponsor */}
+        <section className="mb-16">
+          <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
+            <div>
+              <h3 className="text-2xl font-bold leading-tight text-cyan-600 sm:text-3xl">
+                Wi-Fi
+                <br />
+                Sponsor
+              </h3>
+              <p className="mt-1 text-base font-semibold text-gray-500">
+                (1 Available)
+              </p>
+              <p className="mt-2 text-xl font-semibold text-wri-dark-blue">
+                $2,500
+              </p>
+            </div>
+            <div className="col-span-2">
+              <ul className="ml-6 list-disc">
+                <li>
+                  The number one most asked question — what's the WiFi?
+                  Provide the WiFi for the entire conference and be the hero.
+                </li>
+                <li>
+                  Digital and physical signage with the WiFi username and
+                  password that states "WiFi sponsored by [Sponsor Name]"
+                </li>
+              </ul>
+              <div className="mt-4">
+                Contact{' '}
+                <a
+                  href="mailto:erica@wheel-rail-seminars.com"
+                  className="underline hover:text-blue-600"
+                >
+                  erica@wheel-rail-seminars.com
+                </a>{' '}
+                to sign up to be the Wi-Fi Sponsor.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* InfoZone Partner
         <section className="mb-16">
           <div className="grid grid-cols-1 gap-y-4 lg:grid-cols-3 lg:gap-8">
             <div>
