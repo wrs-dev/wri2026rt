@@ -264,8 +264,8 @@ export default function SponsorPackages() {
               </p>
               <ul className="mb-4 ml-6 list-disc">
                 <li>
-                  <strong>3 Full Conference Registrations:</strong>{' '}
-                  Comprehensive access for three members of your team to all
+                  <strong>2 Full Conference Registrations:</strong>{' '}
+                  Comprehensive access for two members of your team to all
                   sessions, meals, and networking events.
                 </li>
                 <li>
