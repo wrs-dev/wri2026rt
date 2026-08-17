@@ -41,7 +41,7 @@ const speakers = [
     name: 'Derek Watry',
     company: 'Wilson Ihrig / RWDI',
     imageSrc: '/derek-watry.jpg',
-    topic: 'Noise and Vibration',
+    topic: 'Rail Transit Noise and Vibration',
   },
   {
     name: 'Richard Stock',

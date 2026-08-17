@@ -64,9 +64,9 @@ const speakers = [
     name: 'Derek Watry',
     company: 'Wilson Ihrig / RWDI',
     imageSrc: '/derek-watry.jpg',
-    topic: 'Noise and Vibration',
-    title: 'Principal & President, Wilson Ihrig',
-    bio1: 'Derek Watry is Principal & President of Wilson Ihrig. Since joining Wilson Ihrig in 1992, Derek has gained experience in many areas of practice including rail/transit, environmental, construction, forensic, architectural, and industrial. He has conducted extensive field measurements, established acceptability criteria, and calculated future noise and vibration levels. He has also prepared CEQA and NEPA noise technical studies, Environmental Impact Statements, and Environmental Impact Reports. He has worked with rail transit systems around the United States, as well as São Paulo, Hong Kong, and Tel Aviv.',
+    topic: 'Rail Transit Noise and Vibration',
+    title: 'Technical Director, Wilson Ihrig / RWDI',
+    bio1: 'Derek Watry is a Technical Director at Wilson Ihrig / RWDI. Since 1992, Derek has gained experience in many areas of practice including rail/transit, environmental, construction, forensic, architectural, and industrial. He has conducted extensive field measurements, established acceptability criteria, and calculated future noise and vibration levels. He has also prepared CEQA and NEPA noise technical studies, Environmental Impact Statements, and Environmental Impact Reports. He has worked with rail transit systems around the United States, as well as São Paulo, Hong Kong, and Tel Aviv.',
     bio2: 'A thorough understanding of the technical, public relations, and political aspects of environmental noise and vibration compliance work has helped Derek resolve complex community noise issues. He has also served as an expert witness in legal matters.',
   },
   {
