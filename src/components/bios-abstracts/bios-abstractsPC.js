@@ -19,9 +19,9 @@ const speakers = [
     imageSrc: '/bryan-sooter.jpg',
     topic: 'The Lay of the Land: Introduction to Rail Transit',
     title:
-      'Director of Standards, Rail Transit, and Commuter Rail Programs, American Public Transportation Association',
-    bio1: '',
-    bio2: '',
+      'Senior Director of Standards and Rail Engineering, American Public Transportation Association',
+    bio1: 'Bryan Sooter serves as APTA’s Senior Director of Standards and Rail Engineering and manages the standards-generation process and prioritization of the standards projects at APTA. He serves as the primary engineering resource within APTA and leads APTA’s rail and bus engineering initiatives. Bryan has over 20 years of experience in the transportation industry.',
+    bio2: 'Prior to joining APTA, he worked as a consultant, where his responsibilities included train operation assessments, train derailment and crossing accident investigations, and evaluation of train-handling issues. Prior to working as a consultant, he worked for the Alaska Railroad as a train dispatcher, certified conductor and certified locomotive engineer. Sooter is a licensed professional engineer in Georgia. He holds an M.S. degree in civil engineering from the University of Illinois at Urbana-Champaign and a B.S. in civil engineering from the University of Alaska Anchorage.',
   },
   {
     name: 'Hugh Fuller',
