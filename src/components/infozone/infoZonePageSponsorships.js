@@ -93,7 +93,7 @@ export default function InfoZonePageSponsorships() {
             <a href="#ensco" className="flex items-end justify-center h-24">
               <img src="/platinum-ensco-nospace.jpg" alt="ENSCO logo" className="object-contain h-24" />
             </a>
-            <a href="https://www.hollandco.com/" target="_blank" rel="noopener noreferrer" className="flex items-end justify-center h-24">
+            <a href="#holland" className="flex items-end justify-center h-24">
               <img src="/holland-logo-full.png" alt="Holland logo" className="object-contain h-16" />
             </a>
           </div>
@@ -285,6 +285,58 @@ export default function InfoZonePageSponsorships() {
               helping agencies identify issues earlier, prioritize maintenance activities, reduce
               the need for field inspections, and move toward more intelligent, condition-based
               asset management.
+            </p>
+          </div>
+        </div>
+        {/* Holland Abstract Section */}
+        <div id="holland" className="grid grid-cols-1 gap-4 p-4 mb-12 md:grid-cols-5 bg-wri-yellow/20 rounded-xl">
+          {/* Left block: logo spanning both rows */}
+          <div className="hidden md:flex md:col-span-1 md:row-span-2 items-center justify-center ml-4">
+            <a
+              href="https://www.hollandco.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center"
+            >
+              <Image
+                src="/holland-logo-full.png"
+                alt="Holland Logo"
+                width={200}
+                height={35}
+              />
+            </a>
+          </div>
+          {/* Top-right block: heading */}
+          <div className="md:col-span-4">
+            <h3 className="mt-4 text-2xl font-bold">The ARGUS Portable Track Inspector</h3>
+          </div>
+          {/* Bottom-right block: paragraphs */}
+          <div className="pb-4 pr-4 md:col-span-4">
+            <p className="text-lg">
+              The ARGUS Portable Track Inspector is a plug-and-play track geometry and rail profile
+              measurement system that deploys from any hitch-equipped hi-rail — including
+              hi-rail-equipped ATVs, UTVs, and small pickups. A dual non-contact encoder and fully
+              embedded processing eliminate wheel-mounted hardware and external computing: the pod
+              mounts to a standard hitch receiver, draws power from the hitch outlet with no vehicle
+              modification, and installs or removes in about a minute. At under 50 lb it can be
+              carried, mounted, and operated by one person, and moved in a travel case between
+              vehicles, territories, or properties.
+            </p>
+            <p className="mt-4 text-lg">
+              Because it occupies only the hitch and one power connection, it leaves the rest of a
+              small vehicle free for other inspection technologies — rail flaw detection,
+              right-of-way and rail surface cameras, LiDAR scanning, ground penetrating radar —
+              so a single low-cost platform can carry several inspection layers in one pass instead
+              of requiring a separate vehicle and crew for each.
+            </p>
+            <p className="mt-4 text-lg">
+              ARGUS measures more than 50 chord-based and space-curve geometry channels alongside
+              rail profile data, with parameters and defect classification configurable to FRA 49
+              CFR Part 213, Transport Canada Rules Respecting Track Safety, and EN 13848-1
+              definitions, and supports attended, heads-up alerting, and unattended autonomous
+              operation. The session covers the measurement approach, multilayer deployment on small
+              vehicles, and applications in yards, industrial track, and constrained transit
+              environments.
             </p>
           </div>
         </div>
