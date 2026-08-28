@@ -83,7 +83,7 @@ export default function InfoZonePageSponsorships() {
             <a href="#waynova" className="flex items-center justify-center h-36">
               <img src="/Waynova-600px.png" alt="Waynova logo" className="object-contain h-16" />
             </a>
-            <a href="https://loram.com/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center h-36">
+            <a href="#loram" className="flex items-center justify-center h-36">
               <img src="/platinum-loram.png" alt="Loram logo" className="object-contain h-16" />
             </a>
           </div>
@@ -201,6 +201,46 @@ export default function InfoZonePageSponsorships() {
               considerations, and demonstrate how connecting inspections, condition assessments,
               work orders, and Enterprise Asset Management (EAM) systems helps agencies improve
               asset visibility, prioritize maintenance, and support regulatory compliance.
+            </p>
+          </div>
+        </div>
+        {/* Loram Abstract Section */}
+        <div id="loram" className="grid grid-cols-1 gap-4 p-4 mb-12 md:grid-cols-5 bg-wri-yellow/20 rounded-xl">
+          {/* Left block: logo spanning both rows */}
+          <div className="hidden md:flex md:col-span-1 md:row-span-2 items-center justify-center ml-4">
+            <a
+              href="https://loram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center"
+            >
+              <Image
+                src="/platinum-loram.png"
+                alt="Loram Logo"
+                width={200}
+                height={32}
+              />
+            </a>
+          </div>
+          {/* Top-right block: heading */}
+          <div className="md:col-span-4">
+            <h3 className="mt-4 text-2xl font-bold">Choosing the Correct Rail Treatment for Your Transit System</h3>
+          </div>
+          {/* Bottom-right block: paragraphs */}
+          <div className="pb-4 pr-4 md:col-span-4">
+            <p className="text-lg">
+              Passenger Railroads today face ever increasing pressure to balance infrastructure
+              performance, maintenance costs, asset life, and safety. Let's explore how rail
+              milling complements preventative grinding and rail replacement strategies, providing
+              infrastructure owners with another option for addressing severe rail defects and
+              restoring rail profiles.
+            </p>
+            <p className="mt-4 text-lg">
+              Using real-world examples, operational experience, and economic modeling, attendees
+              will learn where milling delivers the greatest value and how it can help extend rail
+              life while reducing overall maintenance expenditures. The session will provide
+              practical guidance for selecting the right maintenance approach based on your
+              situation.
             </p>
           </div>
         </div>
