@@ -2,60 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 import { ChevronDoubleRightIcon } from '@heroicons/react/16/solid';
 import { motion } from 'framer-motion';
+import { speakers } from '@/data/speakers-pc-2026';
 
 const MotionBox = motion.div;
-
-const speakers = [
-  {
-    name: 'Bryan Sooter',
-    company:
-      'American Public Transportation Association',
-    imageSrc: '/bryan-sooter.jpg',
-    topic: 'The Lay of the Land: Introduction to Rail Transit',
-  },
-  {
-    name: 'Hugh Fuller',
-    company: 'O’Bunco Engineering',
-    imageSrc: '/hugh-fuller.jpg',
-    topic: 'Track Structures and Components',
-  },
-  {
-    name: 'Elton Toma',
-    company: 'National Research Council Canada',
-    imageSrc: '/elton-toma.jpg',
-    topic: 'Vehicle Types, Suspension Systems and Components',
-  },
-  {
-    name: 'Kevin Oldknow',
-    company: 'Simon Fraser University',
-    imageSrc: '/kevin-oldknow.jpg',
-    topic: 'Wheel-Rail Contact: An Introduction',
-  },
-  {
-    name: 'Andrew Little',
-    company: 'L.B. Foster Rail Technologies',
-    imageSrc: '/andrew-little.jpg',
-    topic: 'Friction Management',
-  },
-  {
-    name: 'Derek Watry',
-    company: 'Wilson Ihrig / RWDI',
-    imageSrc: '/derek-watry.jpg',
-    topic: 'Rail Transit Noise and Vibration',
-  },
-  {
-    name: 'Richard Stock',
-    company: 'Plasser American / Plasser & Theurer',
-    imageSrc: '/richard-stock.jpg',
-    topic: 'Wheel/Rail Damage Mechanisms and Remediation Techniques',
-  },
-  {
-    name: 'Matthew Dick',
-    company: 'Engineering Systems Inc.',
-    imageSrc: '/matthew-dick.jpg',
-    topic: 'Vehicle/Track Measurement Technologies',
-  },
-];
 
 const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
   return (

@@ -7,9 +7,10 @@ import IconLinks from '@/components/icons/iconsRT';
 import Navigation from '@/components/navigation';
 // import FeatureSpeaker from '@/components/speakers/featureSpeaker';
 // import FocusTopicRT from '@/components/speakers/focusTopicRT';
-import SpeakersRTPreview from '@/components/speakers/speakersRT-final';
+import SpeakersRTFinal from '@/components/speakers/speakersRT-final';
 // import Registration from '@/components/registration';
 import SponsorsCloud from '@/components/sponsors';
+import { attendeeNotes } from '@/data/presentation-downloads-2026';
 
 export async function getStaticProps() {
   return {
@@ -24,6 +25,9 @@ export async function getStaticProps() {
 const RailTransitSeminarPage = () => {
   return (
     <main className="bg-white">
+      <Head>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
       <Navigation />
       <Banner26RT31st />
       <IconLinks />
@@ -107,13 +111,14 @@ const RailTransitSeminarPage = () => {
           <h2 className="text-5xl font-normal text-center pb-11">
             Meet the{' '}
             <span className="text-wri-blue">
-              <b>2025 Rail Transit Seminar</b>
+              <b>2026 Rail Transit Seminar</b>
             </span>{' '}
             Speakers
           </h2>
-          {/* <FeatureSpeaker /> */}
-          {/* <FocusTopicRT /> */}
-          <SpeakersRTPreview />
+          <p className="max-w-3xl px-4 mx-auto mb-12 text-xl text-center">
+            {attendeeNotes.rt}
+          </p>
+          <SpeakersRTFinal />
         </div>
       </div>
 

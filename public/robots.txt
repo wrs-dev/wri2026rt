@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /rail-transit-seminar-final
+Disallow: /principles-course-final

@@ -1,20 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { ChevronDoubleRightIcon } from '@heroicons/react/16/solid';
-import StoryblokClient from 'storyblok-js-client';
-import { motion } from 'framer-motion';
+import { speakers } from '@/data/speakers-rt-2026';
 
-// Initialize Storyblok client
-const Storyblok = new StoryblokClient({
-  accessToken: process.env.NEXT_PUBLIC_STORYBLOK_PREVIEW_TOKEN,
-  region: 'us',
-});
+const buttonClass =
+  'px-8 py-4 text-lg font-semibold text-center text-white rounded-lg bg-wri-blue hover:bg-blue-700';
 
-const MotionBox = motion.div;
-
-const SpeakerCard = ({ name, company, imageSrc, topic, bioLink, pdfFileName }) => {
-  // Ensure imageUrl in Storyblok matches the name of the photo (firstname-lastname.jpg)
-
+const SpeakerCard = ({ name, company, imageSrc, topic, bioLink, pdfFile }) => {
   return (
     <div className="group">
       <div className="relative">
@@ -38,34 +30,30 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink, pdfFileName }) =
       </div>
       <div className="flex justify-center w-full p-4 mt-12 lg:mt-16 h-18 sm:h-36">
         <Link href={bioLink}>
-          <div className="inline-flex items-center justify-between w-full h-full">
+          <div className="inline-flex h-12 text-sm cursor-pointer text-wri-mid-blue md:text-xl lg:text-2xl lg:h-24">
             <div className="text-sm text-wri-mid-blue md:text-xl lg:text-2xl">
               {topic}
             </div>
             <div className="flex-shrink-0">
-              <MotionBox
-                whileHover={{
-                  x: [0, 10, 0],
-                  transition: { ease: 'linear', duration: 1, repeat: Infinity },
-                }}
-              >
-                <ChevronDoubleRightIcon className="w-8 h-full text-wri-blue lg:w-16" />
-              </MotionBox>{' '}
+              <ChevronDoubleRightIcon className="w-8 h-full text-wri-blue lg:w-16" />{' '}
             </div>
           </div>
         </Link>
       </div>
-      <div className="flex justify-center gap-4 mx-6 mt-6 mb-10">
+      <div className="flex flex-wrap justify-center gap-4 mx-6 mt-6 mb-10">
         <Link href={bioLink}>
-          <div className="px-8 py-4 text-lg font-semibold text-center text-white rounded-lg bg-wri-blue hover:bg-blue-700">
-            Bio & Abstract
-          </div>
+          <div className={buttonClass}>Bio & Abstract</div>
         </Link>
-        <Link href={`/pdfs/2025/${pdfFileName}`} target="_blank">
-          <div className="px-8 py-4 text-lg font-semibold text-center text-white rounded-lg bg-wri-blue hover:bg-blue-700">
+        {pdfFile && (
+          <a
+            href={`/pdfs/2026/${pdfFile}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={buttonClass}
+          >
             Presentation PDF
-          </div>
-        </Link>
+          </a>
+        )}
       </div>
     </div>
   );
@@ -73,42 +61,15 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink, pdfFileName }) =
 
 const generateSlug = fullName => {
   if (typeof fullName !== 'string' || fullName.trim().length === 0) {
-    console.warn('generateSlug was called without a valid name');
     return '';
   }
-
-  // Split the name into parts and then take the first letter of the first name
-  const parts = fullName.trim().split(/\s+/); // Split on any whitespace
-  const firstNameInitial = parts[0][0]; // Get the first character of the first name
-  const lastName = parts.length > 1 ? parts[parts.length - 1] : ''; // Safely get the last name
-
-  // Combine the first name initial with the last name, both in lowercase
-  const slug = `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
-
-  return slug;
+  const parts = fullName.trim().split(/\s+/);
+  const firstNameInitial = parts[0][0];
+  const lastName = parts.length > 1 ? parts[parts.length - 1] : '';
+  return `${firstNameInitial.toLowerCase()}-${lastName.toLowerCase()}`;
 };
 
-const SpeakersRT = () => {
-  const [speakers, setSpeakers] = useState([]);
-
-  useEffect(() => {
-    const fetchSpeakerCards = async () => {
-      try {
-        const version = process.env.NEXT_PUBLIC_CONTENT_VERSION || 'published'; // Fallback to 'published' if the variable is not set
-        const response = await Storyblok.get('cdn/stories', {
-          starts_with: 'wri-2025-rt/speaker-cards-rt/',
-          version: version,
-        });
-
-        setSpeakers(response.data.stories.map(story => story.content));
-      } catch (error) {
-        console.error('Error fetching speaker cards:', error);
-      }
-    };
-
-    fetchSpeakerCards();
-  }, []);
-
+const SpeakersRTFinal = () => {
   return (
     <section className="mb-20 bg-white">
       <div className="container">
@@ -116,12 +77,11 @@ const SpeakersRT = () => {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
             {speakers.map(speaker => (
               <SpeakerCard
-                key={speaker.name}
+                key={speaker.slug || speaker.name}
                 {...speaker}
-                bioLink={`/rail-transit-seminar-bios-abstracts#bio-${generateSlug(
-                  speaker.name,
-                )}`}
-                pdfFileName={speaker.pdfFileName}
+                bioLink={`/rail-transit-seminar-bios-abstracts#bio-${
+                  speaker.slug || generateSlug(speaker.name)
+                }`}
               />
             ))}
           </div>
@@ -131,4 +91,4 @@ const SpeakersRT = () => {
   );
 };
 
-export default SpeakersRT;
+export default SpeakersRTFinal;

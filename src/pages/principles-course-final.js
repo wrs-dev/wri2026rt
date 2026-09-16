@@ -2,10 +2,11 @@ import { useState } from 'react';
 import Navigation from '@/components/navigation';
 import Banner26RT31st from '@/components/banner/wri26RT-31st';
 import IconLinks from '@/components/icons/iconsRT';
-import SpeakersPCPreview from '@/components/speakers/speakersPC-final';
+import SpeakersPCFinal from '@/components/speakers/speakersPC-final';
 // import Registration from '@/components/registration';
 import SponsorsCloud from '@/components/sponsors';
 import Head from 'next/head';
+import { attendeeNotes } from '@/data/presentation-downloads-2026';
 
 export async function getStaticProps() {
   return {
@@ -21,6 +22,9 @@ export async function getStaticProps() {
 const PrinciplesCoursePage = () => {
   return (
     <main className="bg-white">
+      <Head>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
       <Navigation />
       <Banner26RT31st />
       <IconLinks />
@@ -107,7 +111,10 @@ const PrinciplesCoursePage = () => {
             </span>{' '}
             Speakers
           </h2>
-          <SpeakersPCPreview />
+          <p className="max-w-3xl px-4 mx-auto mb-12 text-xl text-center">
+            {attendeeNotes.pc}
+          </p>
+          <SpeakersPCFinal />
         </div>
       </div>
 
