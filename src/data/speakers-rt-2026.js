@@ -52,6 +52,7 @@ export const speakers = [
     name: 'Aishwary Vardhan Pandey',
     company: 'Vandhana International Pvt Ltd',
     imageSrc: '/aishwary-vardhan-pandey.jpg',
+    pdfFile: 'WRI2026RT-RT-Session14-Singhal-Khare.pdf',
     topic:
       'Safety Through Stability: A Conicity-Driven Analysis of Rail Grinding and L/V Force Reduction – Field Evidence from the Delhi Metro Network',
   },
