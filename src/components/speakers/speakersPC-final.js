@@ -7,7 +7,7 @@ import { speakers } from '@/data/speakers-pc-2026';
 const MotionBox = motion.div;
 
 const buttonClass =
-  'px-8 py-4 text-lg font-semibold text-center text-white rounded-lg bg-wri-green hover:bg-green-700';
+  'px-5 py-4 text-lg font-semibold text-center text-white whitespace-nowrap rounded-lg bg-wri-green hover:bg-green-700';
 
 const SpeakerCard = ({ name, company, imageSrc, topic, bioLink, pdfFile }) => {
   return (
@@ -50,7 +50,7 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink, pdfFile }) => {
           </div>
         </Link>
       </div>
-      <div className="flex flex-wrap justify-center gap-4 mx-6 mt-6 mb-10">
+      <div className="flex flex-wrap justify-center gap-3 mx-2 mt-6 mb-10">
         <Link href={bioLink}>
           <div className={buttonClass}>Biography</div>
         </Link>

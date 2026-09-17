@@ -4,11 +4,11 @@ import { ChevronDoubleRightIcon } from '@heroicons/react/16/solid';
 import { speakers } from '@/data/speakers-rt-2026';
 
 const buttonClass =
-  'px-8 py-4 text-lg font-semibold text-center text-white rounded-lg bg-wri-blue hover:bg-blue-700';
+  'px-5 py-4 text-lg font-semibold text-center text-white whitespace-nowrap rounded-lg bg-wri-blue hover:bg-blue-700';
 
 const SpeakerCard = ({ name, company, imageSrc, topic, bioLink, pdfFile }) => {
   return (
-    <div className="group">
+    <div className="flex flex-col group">
       <div className="relative">
         <div className="w-full overflow-hidden border-t-4 aspect-w-2 aspect-h-1 border-wri-blue">
           <img
@@ -28,9 +28,9 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink, pdfFile }) => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center w-full p-4 mt-12 lg:mt-16 h-18 sm:h-36">
+      <div className="flex justify-center flex-grow w-full p-4 mt-12 lg:mt-16 sm:min-h-36">
         <Link href={bioLink}>
-          <div className="inline-flex h-12 text-sm cursor-pointer text-wri-mid-blue md:text-xl lg:text-2xl lg:h-24">
+          <div className="inline-flex text-sm cursor-pointer min-h-12 text-wri-mid-blue md:text-xl lg:text-2xl lg:min-h-24">
             <div className="text-sm text-wri-mid-blue md:text-xl lg:text-2xl">
               {topic}
             </div>
@@ -40,7 +40,7 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink, pdfFile }) => {
           </div>
         </Link>
       </div>
-      <div className="flex flex-wrap justify-center gap-4 mx-6 mt-6 mb-10">
+      <div className="flex flex-wrap justify-center gap-3 mx-2 mt-6 mb-10">
         <Link href={bioLink}>
           <div className={buttonClass}>Bio & Abstract</div>
         </Link>

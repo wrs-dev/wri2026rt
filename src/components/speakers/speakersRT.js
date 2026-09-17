@@ -5,7 +5,7 @@ import { speakers } from '@/data/speakers-rt-2026';
 
 const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
   return (
-    <div className="group">
+    <div className="flex flex-col group">
       <div className="relative">
         <div className="w-full overflow-hidden border-t-4 aspect-w-2 aspect-h-1 border-wri-blue">
           <img
@@ -25,9 +25,9 @@ const SpeakerCard = ({ name, company, imageSrc, topic, bioLink }) => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center w-full p-4 mt-12 lg:mt-16 h-18 sm:h-36">
+      <div className="flex justify-center flex-grow w-full p-4 mt-12 lg:mt-16 sm:min-h-36">
         <Link href={bioLink}>
-          <div className="inline-flex h-12 text-sm cursor-pointer text-wri-mid-blue md:text-xl lg:text-2xl lg:h-24">
+          <div className="inline-flex text-sm cursor-pointer min-h-12 text-wri-mid-blue md:text-xl lg:text-2xl lg:min-h-24">
             <div className="text-sm text-wri-mid-blue md:text-xl lg:text-2xl">
               {topic}
             </div>
