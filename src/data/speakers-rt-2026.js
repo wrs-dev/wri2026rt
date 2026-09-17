@@ -33,14 +33,6 @@ export const speakers = [
       'Experiences with Grinding and Milling in North America – A Supplier’s View',
   },
   {
-    name: 'Manuj Singhal',
-    company: 'Delhi Metro Rail Corporation',
-    imageSrc: '/manuj-singhal.jpg',
-    pdfFile: 'WRI2026RT-RT-Session14-Singhal-Khare.pdf',
-    topic:
-      'Safety Through Stability: A Conicity-Driven Analysis of Rail Grinding and L/V Force Reduction – Field Evidence from the Delhi Metro Network',
-  },
-  {
     name: 'Atul Bhoosan Khare',
     company: 'Delhi Metro Rail Corporation',
     imageSrc: '/atul-khare.jpg',

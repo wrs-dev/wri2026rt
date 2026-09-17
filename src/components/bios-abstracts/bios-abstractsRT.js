@@ -105,7 +105,7 @@ const topics = [
     topic:
       'Safety Through Stability: A Conicity-Driven Analysis of Rail Grinding and L/V Force Reduction – Field Evidence from the Delhi Metro Network',
     abstract: [
-      'Co-presenters: Manuj Singhal, Director (Infrastructure), and Atul Bhoosan Khare — Delhi Metro Rail Corporation; and Aishwary Vardhan Pandey, Research and Development Manager — Vandhana International Pvt Ltd',
+      'Co-presenters: Atul Bhoosan Khare — Delhi Metro Rail Corporation; and Aishwary Vardhan Pandey, Research and Development Manager — Vandhana International Pvt Ltd',
       'Delhi Metro Rail Corporation (DMRC), India’s largest and most intensively used rapid transit network, carries over 2.6 billion passengers annually and depends on highly stable wheel-rail interaction to maintain stringent safety margins under dense traffic operations. Among the parameters governing safety critical vehicle behaviour, equivalent conicity, rolling radius difference (RRD) and the associated nonlinearity parameter (NP) play central roles in determining steering stability, hunting susceptibility and the overall dynamic response of metro rolling stock. Yet field-validated assessments of how these parameters evolve under real operating conditions remain limited in the context of urban rail systems.',
       'This study presents a field-driven evaluation of how changes in wheel-rail contact geometry influence equivalent conicity and nonlinearity behaviour in DMRC. Rail profiles from twenty plus track sections were measured using a twin-head MiniProf device under worn and restored (post-reprofiling using rail grinding) conditions. These profiles were analysed to quantify contact patch evolution, RRD trends, conicity variation with lateral displacement and the resulting nonlinearity parameter, a recognised indicator of steering sensitivity and nonlinear stability boundaries.',
       'Results show that progressive rail wear leads to increased conicity, amplified RRD gradients, and elevated nonlinearity parameter values, conditions that reduce stability margins and increase the likelihood of nonlinear steering and hunting onset on tangent track. Restored profiles, by contrast, reduce conicity, regulate RRD behaviour and stabilise nonlinearity parameter variation, thereby suppressing nonlinear tendencies and improving vehicle dynamic stability.',
@@ -117,18 +117,6 @@ const topics = [
       'By demonstrating how rail geometry correction directly governs lateral force behaviour, this study underscores the critical importance of conicity control for DMRC’s high-frequency operations. Sharing these findings is equally important: the evidence and framework developed here offer metro operators around the world a practical method to evaluate grinding effectiveness, extend asset life and enhance vehicle-track stability using transparent, data-driven metrics derived from real-world field conditions.',
     ],
     speakers: [
-      {
-        name: 'Manuj Singhal',
-        company: 'Delhi Metro Rail Corporation',
-        imageSrc: '/manuj-singhal.jpg',
-        title: 'Director (Infrastructure), Delhi Metro Rail Corporation',
-        bio: [
-          'Manuj Singhal is Director (Infrastructure) of DMRC, where he is responsible for maintenance of infrastructure including Civil, Rolling Stock, Track, Traction, Electrical, Signaling, power tie-ups, and environmental initiatives across the 400-kilometer metro network across Delhi and the NCR region (which is the 4th largest network globally excluding China).',
-          'Mr. Singhal began his career with National Thermal Power Corporation (NTPC) and thereafter joined the Department of Telecom through the Indian Engineering Service (IES). He has multidisciplinary experience of over three decades in the field of engineering in numerous key positions in the Department of Telecommunications and Delhi Metro Rail Corporation.',
-          'He has been spearheading DMRC’s initiative to go Green for meeting the electrical energy requirements. He was involved in strategic planning, planning & co-ordination of Electrical Works for Delhi Metro Phase 3 and 4 projects, and other Metro projects in India.',
-          'Mr. Singhal is an Electrical Engineering graduate of the 1993 batch from Delhi College of Engineering (DCE), and has also done his Post Graduation from DCE. He is a Fellow of The Institution of Engineers (India) since 2017 and received the prestigious ‘Eminent Engineers’ Award from The Institution of Engineers (India) in 2024. He has published many technical papers in national and international journals and conferences.',
-        ],
-      },
       {
         name: 'Atul Bhoosan Khare',
         company: 'Delhi Metro Rail Corporation',
