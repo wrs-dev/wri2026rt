@@ -28,7 +28,6 @@ export const speakers = [
     name: 'Richard Stock',
     company: 'Plasser',
     imageSrc: '/richard-stock.jpg',
-    pdfFile: 'WRI2026RT-RT-Session13-Stock.pdf',
     topic:
       'Experiences with Grinding and Milling in North America – A Supplier’s View',
   },
