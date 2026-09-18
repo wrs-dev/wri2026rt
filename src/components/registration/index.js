@@ -25,7 +25,7 @@ const useCountdown = targetDate => {
     // Update the countdown immediately on mount and then set interval
     const updateCountdown = () => {
       const now = new Date().getTime();
-      const distance = countDownDate - now;
+      const distance = Math.max(countDownDate - now, 0);
 
       // Update state with calculated time values
       setCountDown({
